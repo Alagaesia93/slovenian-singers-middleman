@@ -8,6 +8,7 @@ activate :autoprefixer do |prefix|
 end
 activate :livereload
 activate :relative_assets
+activate :i18n, langs: %i[en sl], mount_at_root: :sl
 set :relative_links, true
 
 # Layouts
@@ -23,9 +24,9 @@ page '/*.txt', layout: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
-data.singers.singers.each do |singer|
-  proxy "/#{singer.name}.html", '/singer.html', locals: { singer: singer }, ignore: true
-end
+# data.singers.singers.each do |singer|
+#   proxy "/#{singer.name}.html", '/singer.html', locals: { singer: singer }, ignore: true
+# end
 
 # proxy(
 #   '/this-page-has-no-template.html',
