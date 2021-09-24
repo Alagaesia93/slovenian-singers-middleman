@@ -1,18 +1,94 @@
 <!doctype html>
-<html>
+<html lang="<%= I18n.locale %>">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "Slovenian singers" %></title>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+    <%= stylesheet_link_tag "fontawesome-all.min" %>
+    <%= javascript_include_tag "breakpoints.min" %>
+    <%= javascript_include_tag "browser.min" %>
+    <%= javascript_include_tag "isotope.min" %>
+    <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "main" %>
+    <%= javascript_include_tag "util" %>
 
-    <%= favicon_tag 'favicon.ico' %>
+    <% if build? %>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-R9RPEDHDX8"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R9RPEDHDX8');
+      </script>
+    <% end %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<%= current_page.data.description || "slovenski pevci opera ljudske pesmi posnetki glasba 19. stoletje kultura" %>">
+    <link rel="apple-touch-icon" sizes="57x57" href="<%= url_for('images/favicons/apple-icon-57x57.png') %>">
+    <link rel="apple-touch-icon" sizes="60x60" href="<%= url_for('images/favicons/apple-icon-60x60.png') %>">
+    <link rel="apple-touch-icon" sizes="72x72" href="<%= url_for('images/favicons/apple-icon-72x72.png') %>">
+    <link rel="apple-touch-icon" sizes="76x76" href="<%= url_for('images/favicons/apple-icon-76x76.png') %>">
+    <link rel="apple-touch-icon" sizes="114x114" href="<%= url_for('images/favicons/apple-icon-114x114.png') %>">
+    <link rel="apple-touch-icon" sizes="120x120" href="<%= url_for('images/favicons/apple-icon-120x120.png') %>">
+    <link rel="apple-touch-icon" sizes="144x144" href="<%= url_for('images/favicons/apple-icon-144x144.png') %>">
+    <link rel="apple-touch-icon" sizes="152x152" href="<%= url_for('images/favicons/apple-icon-152x152.png') %>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= url_for('images/favicons/apple-icon-180x180.png') %>">
+    <link rel="icon" type="image/png" sizes="192x192" href="<%= url_for('images/favicons/android-icon-192x192.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= url_for('images/favicons/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="96x96" href="<%= url_for('images/favicons/favicon-96x96.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= url_for('images/favicons/favicon-16x16.png') %>">
+    <link rel="manifest" href="<%= url_for('images/favicons/manifest.json') %>">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="<%= url_for('images/favicons/ms-icon-144x144.png') %>">
+    <meta name="theme-color" content="#ffffff">
   </head>
-  <body>
+
+  <body class="is-preload">
+    <header id="header" style="background-position: left 0px;">
+      <div class="inner">
+        <h1>Slovenian singers</h1>
+      </div>
+      <footer id="footer">
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            <ul class="icons">
+              <% localized_paths_for(current_page).each do |text, path| %>
+                <li><%= link_to localized_text_for(text), path %></li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <ul class="icons">
+              <li><a href="mailto:sloveniansingers@gmail.com" class="icon solid fa-envelope">
+                <span class="label">Email</span></a>
+              </li>
+              <li>
+                <a href="https://github.com/masusing/slovenian-singers-website" target="_blank" rel="noopener"
+                  class="icon brands fa-github">
+                  <span class="label">Github</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-8">
+            <ul class="copyright">
+              <li>&copy; Mateja Sustersic - 2021</li>
+              <li>Design: <a href="http://html5up.net" target="_blank" rel="noopener">HTML5 UP</a></li>
+              <li>Code: <a href="https://alagaesia93.github.io/" target="_blank" rel="noopener">AM</a></li>
+              <li><a href="privacy.html" target="_blank" rel="noopener">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </header>
     <%= yield %>
   </body>
 </html>

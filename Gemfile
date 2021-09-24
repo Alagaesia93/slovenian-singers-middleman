@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
+gem 'erb_lint'
 gem 'middleman'
 gem 'middleman-autoprefixer'
 gem 'middleman-livereload'

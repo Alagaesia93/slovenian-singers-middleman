@@ -1,7 +1,7 @@
----
-title: Welcome to Middleman
----
-
-<%= I18n.locale %> <br>
-<%= I18n.t(:hello) %> <br>
-<%= I18n.t(:bye) %> <br>
+<script type="text/javascript">
+  user_locale = navigator.language.split(/-|_/)[0]
+  if (!["en", "sl"].includes(user_locale)) {
+    user_locale = 'en'
+  }
+  window.location.replace(user_locale + '/index.html')
+</script>

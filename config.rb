@@ -8,8 +8,14 @@ activate :autoprefixer do |prefix|
 end
 activate :livereload
 activate :relative_assets
-activate :i18n, langs: %i[en sl], mount_at_root: :sl
+activate :i18n, langs: %i[en sl], mount_at_root: false
 set :relative_links, true
+# activate :asset_hash
+
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -53,3 +59,31 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+helpers do
+  def localized_paths_for(page)
+    localized_paths = {}
+
+    (langs - [I18n.locale]).each do |locale|
+      locale_version_of_page = sitemap.resources.select do |resource|
+        resource.path == page.path.gsub(I18n.locale.to_s, locale.to_s)
+      end.first
+
+      # If it exists, populate the localized_paths hash.
+      localized_paths[locale] = locale_version_of_page.url if locale_version_of_page
+    end
+
+    localized_paths
+  end
+
+  def localized_text_for(text)
+    case text.to_s
+    when 'sl'
+      '🇸🇮 Sloveniji'
+    when 'it'
+      '🇮🇹 Italiano'
+    else
+      '🇬🇧 English'
+    end
+  end
+end
