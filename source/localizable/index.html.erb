@@ -1,3 +1,5 @@
+<%= I18n.locale %>
+<%= t(:hello) %>
 <!-- One -->
 <section id="one">
   <header class="major">
@@ -40,19 +42,24 @@
 
 <!-- Songs -->
 <section id="songs">
-  <h2>Stari posnetki slovenskih pesmi</h2>
+  <h2><%= t(:songs_title) %></h2>
   <br>
-  <p style="text-align: justify">V vednost: na več posnetkih si v originalu sledita dve pesmi, vendar pa je
-    tukajšnji izbor urejen tako, da se vsaka pod posnetkom navedena pesem predvaja neposredno (tudi če na
-    originalnem linku le-ta ni na začetku). Nekaterim pesmim, tistim, ki
-    so v originalu na začetku, tako sledi še naslednja.</p>
+  <p style="text-align: justify">
+    <%= t(:songs_description) %>
+  </p>
   <br>
   <div class="button-group filters-button-group">
-    <button class="button is-checked" data-filter="*">vse pesmi</button>
-    <button class="button" data-filter=".folk">ljudske pesmi</button>
-    <button class="button" data-filter=".samospev">samospevi</button>
+    <button class="button is-checked" data-filter="*">
+      <%= t(:all_songs) %>
+    </button>
+    <button class="button" data-filter=".folk">
+      <%= t(:folk_songs) %>
+    </button>
+    <button class="button" data-filter=".samospev">
+      <%= t(:artsongs) %>
+    </button>
     <br>
-    <br>pevci
+    <br><%= t(:singers) %>
     <br>
     <button class="button" data-filter=".betetto">Betetto</button>
     <button class="button" data-filter=".buksek">Bukšek</button>
@@ -63,7 +70,7 @@
     <button class="button" data-filter=".lupsa">Lupša</button>
     <button class="button" data-filter=".ostali">ostali</button>
     <br>
-    <br>skladatelji
+    <br><%= t(:composers) %>
     <br>
     <button class="button" data-filter=".parma">V.Parma</button>
     <button class="button" data-filter=".nedved">A.Nedvĕd</button>
@@ -79,392 +86,25 @@
   </div>
   <div class="partially-collapsible-content">
     <div class="row align-center isotope-grid">
-      <div class="col-4 col-6-small isotope-grid-item folk rijavec">
-        <iframe width="100%" src="https://www.youtube.com/embed/Tkqo1uK--8Q?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="n starček je živel"></iframe>
-        <h4>En starček je živel</h4>
-        <h5>Josip Rijavec (1890 - 1959)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk rijavec">
-        <iframe width="100%" src="https://www.youtube.com/embed/Tkqo1uK--8Q?start=106" frameborder="0"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Voda je šumela"></iframe>
-        <h4>Voda je šumela</h4>
-        <h5>Josip Rijavec (1890 - 1959)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk rijavec">
-        <iframe width="100%" src="https://www.youtube.com/embed/95t5pjhvC8M?start=86" frameborder="0"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Po jezeru bliz' Triglava"></iframe>
-        <h4>Po jezeru bliz' Triglava</h4>
-        <h5>Josip Rijavec (1890 - 1959)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk rijavec">
-        <iframe width="100%" src="https://www.youtube.com/embed/95t5pjhvC8M?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Otok blejski, kinč nebeški"></iframe>
-        <h4>Otok blejski, kinč nebeški</h4>
-        <h5>Josip Rijavec (1890 - 1959)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk buksek">
-        <iframe width="100%" src="https://www.youtube.com/embed/sM1WiOGYvGA?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Zagorski zvonovi"></iframe>
-        <h4>Zagorski zvonovi</h4>
-        <h5>Rudolf Bukšek (1882-1933)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk buksek vicar">
-        <iframe width="100%" src="https://www.youtube.com/embed/8J8zWwKjsqs?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Glej, glej kak mimo gre"></iframe>
-        <h4>Glej, glej kak mimo gre</h4>
-        <h5>Rudolf Bukšek in Božo Vičar</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk buksek vicar">
-        <iframe width="100%" src="https://www.youtube.com/embed/l4AXjDo-VRM?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Moj fantič je na T'rolsko vandral"></iframe>
-        <h5>Moj fantič je na T'rolsko vandral</h5>
-        <h5>Rudolf Bukšek in Božo Vičar</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk vicar">
-        <iframe width="100%" src="https://www.youtube.com/embed/tgKiwOYjh6U?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Poj, poj ptiček moj"></iframe>
-        <h4>Poj, poj ptiček moj</h4>
-        <h5>Božo Vičar (1894 - 1972)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk vicar">
-        <iframe width="100%" src="https://www.youtube.com/embed/mMifSveP8S4?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Iz slovenskih planin"></iframe>
-        <h4>Iz slovenskih planin</h4>
-        <h5>Božo Vičar (1894 - 1972)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lovse">
-        <iframe width="100%" src="https://www.youtube.com/embed/5E9mpUrbkUI?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Škrjanček poje"></iframe>
-        <h4>Škrjanček poje</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lovse">
-        <iframe width="100%" src="https://www.youtube.com/embed/5E9mpUrbkUI?start=118" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Ptičke po zraku letajo"></iframe>
-        <h4>Ptičke po zraku letajo</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lovse">
-        <iframe width="100%" src="https://www.youtube.com/embed/KJQppt42pAo?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Zvezda"></iframe>
-        <h4>Zvezda</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lovse">
-        <iframe width="100%" src="https://www.youtube.com/embed/KJQppt42pAo?start=98" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Premenba"></iframe>
-        <h4>Premenba</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lovse">
-        <iframe width="100%" src="https://www.youtube.com/embed/bf1-TAVcUVo?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Gor čez jezero"></iframe>
-        <h4>Gor čez jezero</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lovse">
-        <iframe width="100%" src="https://www.youtube.com/embed/bf1-TAVcUVo?start=121" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Tam kjer beli so snežniki"></iframe>
-        <h4>Tam kjer beli so snežniki</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lovse">
-        <iframe width="100%" src="https://www.youtube.com/embed/Om2uogwcy_A?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="V dolinci prijetni"></iframe>
-        <h4>V dolinci prijetni</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk sekula ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/xZwQvNR00vw?start=76" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Jaz mam pa konjča belega"></iframe>
-        <h4>Jaz mam pa konjča belega</h4>
-        <h5>Lojze Sekula</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk sekula ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/xZwQvNR00vw?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Pijmo ga, pijmo"></iframe>
-        <h4>Pijmo ga, pijmo</h4>
-        <h5>Lojze Sekula</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk polak">
-        <iframe width="100%" src="https://www.youtube.com/embed/cL3KBs8QRTo?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Prišla bo pomlad"></iframe>
-        <h4>Prišla bo pomlad</h4>
-        <h5>Irma Polak (1875-1931)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk banovec pecenko zavrsan zupan ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/RLLklyQZgk0?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Gor’ čez izaro"></iframe>
-        <h4>Gor’ čez izaro</h4>
-        <h5>Banovec, Pečenko, Završan, Zupan</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item betetto parma samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/KC7XZF8CAI0?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Sezidal sem si vinski hram"></iframe>
-        <h5>Viktor Parma / narodna</h5>
-        <h4>Sezidal sem si vinski hram</h4>
-        <h5>Julij Betetto (1885 - 1963)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item betetto gerbic zupancic samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/hHKQ622iA9o?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Pojdem na prejo"></iframe>
-        <h5>Fran Gerbič / Oton Župančič</h5>
-        <h4>Pojdem na prejo</h4>
-        <h5>Julij Betetto (1885 - 1963)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item betetto adamic samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/hHKQ622iA9o?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Nocoj je pa svetla noč"></iframe>
-        <h5>Emil Adamič / narodna</h5>
-        <h4>Nocoj je pa svetla noč</h4>
-        <h5>Julij Betetto (1885 - 1963)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item betetto zupancic pavcic samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/yNW6KHxQwr8?start=93" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Dedek samonog"></iframe>
-        <h5>Josip Pavčič / Oton Župančič</h5>
-        <h4>Dedek samonog</h4>
-        <h5>Julij Betetto (1885 - 1963)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item lovse pavcic robida samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/eRAt3GBjBHE?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Pastirica"></iframe>
-        <h5>Josip Pavčič / Dr. Ivan Robida</h5>
-        <h4>Pastirica</h4>
-        <h5>Pavla Lovše (1891 - 1964)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item lupsa adamic bunin petruska ceh ostali samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/ROSkY4RcwWc?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Noč je tožna"></iframe>
-        <h5>Emil Adamič / Bunin / P.-Petruška</h5>
-        <h4>Noč je tožna</h4>
-        <h5>Friderik Lupša (1908 - 1986)</h5>
-        <h5>Za klavirjem Jože Čeh.</h5>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item polak nedved funtek samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/2aUNyZzfy34?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Na tujih tleh"></iframe>
-        <h5>(najbrž) Anton Nedvĕd / A. Funtek</h5>
-        <h4>Na tujih tleh</h4>
-        <h5>Irma Polak (1875-1931)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item polak volaric gregorcic samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/ibpn06hv2pA?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Pogled v nedolžno oko"></iframe>
-        <h5>Hrabroslav Volarič / S. Gregorčič</h5>
-        <h4>Pogled v nedolžno oko</h4>
-        <h5>Irma Polak (1875-1931)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item ribic foerster pesjak ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/s-yiRwiTcLQ?controls=0" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Arija Minke"></iframe>
-        <h5>Anton Foerster / Luiza Pesjak</h5>
-        <h4>Arija Minke</h4>
-        <h5>iz opere Gorenjski slavček</h5>
-        <h5>Ivanka Ribič (1895 - 1980)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lesic ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/LjDGFKLmIYw" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Pridi Gorenj'c"></iframe>
-        <h4>Pridi Gorenj'c</h4>
-        <h5>Tošo Lesić (1866 - 1949)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lesic ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/__B54sZSwzc" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Bom šel na planine"></iframe>
-        <h4>Bom šel na planine</h4>
-        <h5>Tošo Lesić (1866 - 1949)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lesic ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/KqpeVHSVyLg" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="To me veseli"></iframe>
-        <h4>To me veseli</h4>
-        <h5>Tošo Lesić (1866 - 1949)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lesic ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/e_XDaZxNi2M" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Mraku"></iframe>
-        <h4>Mraku</h4>
-        <h5>Tošo Lesić (1866 - 1949)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lesic strmac ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/aAOXlZtz2bU" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Po jezeru bilz’ Triglava"></iframe>
-        <h5>Miroslav Vilhar, ponarodela</h5>
-        <h4>Po jezeru bilz’ Triglava</h4>
-        <h5>Tošo Lesić in Zvonko Strmac</h5>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lesic strmac ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/DD168TbJCNM" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="e pa davi slanca padla"></iframe>
-        <h4>Je pa davi slanca padla</h4>
-        <h5>Tošo Lesić in Zvonko Strmac</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk lesic strmac ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/npoB8KbRqGo" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Med planinam"></iframe>
-        <h4>Med planinam</h4>
-        <h5>Tošo Lesić in Zvonko Strmac</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item rogoz ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/WzsB-8-OVss" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Miške"></iframe>
-        <h4>Miške</h4>
-        <h5>Zvonimir Rogoz (1887 - 1988)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item rogoz ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/enMNzp7c5pE" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Tri ljubezni"></iframe>
-        <h4>Tri ljubezni</h4>
-        <h5>Zvonimir Rogoz (1887 - 1988)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item milanov kunc ostali pavcic robida samospev">
-        <iframe width="100%" src="https://www.youtube.com/embed/esFyHqKiJqo" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Pastirica"></iframe>
-        <h5>Josip Pavčič / Dr. Ivan Robida</h5>
-        <h4>Pastirica</h4>
-        <h5>Zinka Milanov (1906 - 1989)</h5>
-        <h5>Za klavirjem Božidar Kunc.</h5>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk milanov ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/4f1BPekQXsw" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Gor’ čez jezero"></iframe>
-        <h4>Gor’ čez jezero</h4>
-        <h5>Zinka Milanov (1906 - 1989)</h5>
-        <br>
-        <br>
-      </div>
-      <div class="col-4 col-6-small isotope-grid-item folk milanov ostali">
-        <iframe width="100%" src="https://www.youtube.com/embed/i5RwHxaN1EE" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy" title="Ko lani sem tam mimo šel"></iframe>
-        <h4>Ko lani sem tam mimo šel</h4>
-        <h5>Zinka Milanov (1906 - 1989)</h5>
-        <br>
-        <br>
-      </div>
+      <% data.recordings.recordings.each do |recording| %>
+        <div class="col-4 col-6-small isotope-grid-item <%= recording.tags %>">
+          <iframe width="100%" src="<%= recording.youtube_url %>" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy" title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
+          <% if recording.composer %>
+            <h5><%= recording.send("composer_#{I18n.locale}") || recording.composer %></h5>
+          <% end %>
+          <h4><%= recording.send("title_#{I18n.locale}") %></h4>
+          <h5><%= recording.send("author_#{I18n.locale}") || recording.author %></h5>
+        </div>
+      <% end %>
     </div>
   </div>
   <button class="partially-collapsible-button button" style="display: block; margin: 10px auto;">▼</button>
 </section>
 
 <section id="blog">
+  TO TRANSLATE
   <h2>blog zanimivosti</h2>
   <div class="row collapsible-row">
     <div class="col-4">
@@ -637,28 +277,15 @@
 <!-- about me -->
 
 <section id="thanks">
-  <h4>O meni</h4>
-  <p style="text-align: justify; font-size: 10pt; line-height: 1.5;">Za glasbo me je navdušila babica, ki je
-    zborovodkinja. Naučila me je ogromno pesmi,
-    predvsem pa, da je glasbo potrebno ceniti, ter ji s pripravo in izvedbo izkazati spoštovanje. Obiskovala sem
-    Konservatorij za glasbo v Ljubljani in v Celovcu, petje
-    sem študirala na Universität der Künste v Berlinu. Študij sta mi s štipendijama omogočili tudi Mestna občina
-    Kranj
-    in Ministrstvo za kulturo Republike Slovenije. <br> O sebi ne maram preveč razpravljati. . .
-    <br>Način petja v t.i. zlati dobi opere, ob prelomu stoletja, mi je zelo pri srcu, občudujem mojstrsko
-    obvladovanje glasov in dramsko smiselne in prepričljive interpretacije. Tako vadim, poslušam, berem in
-    raziskujem
-    vse v tej smeri. Odkrila sem
-    veliko zanimivih stvari, in če jih lahko delim še s kom, toliko bolje! <br> V času pandemije sem izgubila
-    dve
-    zaposlitvi, zato sem se namenila uresničiti to spletno stran - upam, da bo mnogim v veselje.
-  </p>
+  <h4><%= t(:about_me) %></h4>
+  <p style="text-align: justify; font-size: 10pt; line-height: 1.5;">
+    <%= t(:about_me_description) %>
   </p>
 </section>
 
 <!-- Three -->
 <section id="three ">
-  <h5>Vesela bom vaših predlogov, popravkov in dodatnih informacij.</h5>
+  <h5><%= t(:contact) %></h5>
   <div class="row ">
     <div class="col-4 col-12-small ">
       <ul class="labeled-icons ">
@@ -667,7 +294,7 @@
           <a href="mailto:sloveniansingers@gmail.com">sloveniansingers@gmail.com</a>
         </li>
       </ul>
-      <p style="text-align: center">Hvala Vam za obisk strani!</p>
+      <p style="text-align: center"><%= t(:thank) %></p>
     </div>
   </div>
 </section>

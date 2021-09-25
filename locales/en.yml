@@ -1,4 +1,22 @@
 ---
 en:
-  hello: "Hello"
-  bye: 'Bye'
+  hello: 'Hello'
+  title_first_row: 'In the footsteps of Slovenian operatic voices . . .'
+  title_second_row: '. . . at the beginning of the 20th century'
+  first_paragraph: 'On this page you can discover the beautiful voices of great, but sadly forgotten, Slovenian singers who have their time, and find out more about them. Their work is a testimony to the rich musical culture and the quality of the music institutions and music education in Slovenia. <br /> You will also find an extensive selection of recordings of Slovenian of Slovenian folk songs and samosongs from the beginning of the 20th century, performed by both Slovenian and Croatian singers.'
+  second_paragraph: "The recordings are Slovenia's cultural heritage, important from both a historical and artistic point of view. Among They include several lesser-known folk songs (also previously unknown to me), which are a valuable part of the folk tradition."
+  third_paragraph: 'At first, the shots will seem strange to many people. The recording techniques weremore simple/basic, and the conditions for performers more difficult. The full range of sound cannot be heard, aliquots of tones are lost, the sound is sometimes distorted. What we hear is only the essence, one could say "extract"; but it is possible to get used to listening to old recordings - then see we can imagine what the recorded music really sounded like and appreciate the beauty and quality of the voices and performances. The ages of the recordings despite the age of the recordings, these full and brilliant voices, trained in the bel canto tradition, enchant with their natural colour and depth, uniformity of registers throughout the vocal range, apparent simplicity and musical performance.'
+  songs_title: 'Old recordings of Slovenian songs'
+  songs_description: 'Note: on several recordings, two songs follow each other in the original, but the selection here is arranged so that each song listed below the clip is played directly (even if it is not at the beginning of the original link). Some of the songs, the ones in the original at the beginning, are followed by the following.'
+  all_songs: 'All songs'
+  folk_songs: 'Folk songs'
+  artsongs: 'Artsongs'
+  singers: 'Singers'
+  composers: 'Composers'
+  about_me: 'About me'
+  about_me_description: "I was inspired to take up music by my grandmother, who is a choir director. She taught me a lot of songs, but most of all that music should be appreciated, and that the preparation and performance should show respect for it. I attended Conservatory of Music in Ljubljana and Klagenfurt, singing I studied at the Universität der Künste in Berlin. My studies were also made possible by scholarships from the Municipality of Kranj and the Ministry of Culture of the Republic of Slovenia. <br /> I don't like to talk about myself too much...<br />The way of singing in the so-called golden age of opera, at the turn of the century, is very dear to my heart, I admire the masterly command of voices and dramatically meaningful and convincing interpretations. So I rehearse, listen, read and research everything in this direction. I have discovered a lot of interesting things, and if I can share them with someone else, so much the better! <br /> During the pandemic I lost two. I hope it will be a pleasure for many people."
+  contact: 'I would welcome your suggestions, corrections and additional information.'
+  thank: 'Thank you for visiting the site!'
+  roles: 'Some of the most important roles:'
+  recordings: 'Recordings'
+  more: 'Resources / Links for further reading:'

@@ -1,0 +1,309 @@
+recordings: [
+  {
+    tags: "folk rijavec",
+    youtube_url: 'https://www.youtube.com/embed/Tkqo1uK--8Q?controls=0',
+    title_sl: 'En starček je živel',
+    title_en: 'En starček je živel - <i>One old man lived</i>',
+    author: 'Josip Rijavec (1890 - 1959)'
+  },
+  {
+    tags: "folk rijavec",
+    youtube_url: 'https://www.youtube.com/embed/Tkqo1uK--8Q?start=106',
+    title_sl: 'Voda je šumela',
+    title_en: 'Voda je šumela - <i>The water murmured</i>',
+    author: 'Josip Rijavec (1890 - 1959)'
+  },
+  {
+    tags: "folk rijavec",
+    youtube_url: 'https://www.youtube.com/embed/95t5pjhvC8M?start=86',
+    title_sl: "Po jezeru bliz' Triglava",
+    title_en: "Po jezeru bliz' Triglava - <i>On the lake near Triglav</i>",
+    author: 'Josip Rijavec (1890 - 1959)'
+  },
+  {
+    tags: "folk rijavec",
+    youtube_url: 'https://www.youtube.com/embed/95t5pjhvC8M?controls=0',
+    title_sl: "Otok blejski, kinč nebeški",
+    title_en: "Otok blejski, kinč nebeški - <i>The island of Bled, the heavenly island</i>",
+    author: 'Josip Rijavec (1890 - 1959)'
+  },
+  {
+    tags: "folk buksek",
+    youtube_url: 'https://www.youtube.com/embed/sM1WiOGYvGA?controls=0',
+    title_sl: "Zagorski zvonovi",
+    title_en: "Zagorski zvonovi - <i>Zagorje Bells</i>",
+    author: 'Rudolf Bukšek (1882-1933)'
+  },
+  {
+    tags: 'folk buksek vicar',
+    youtube_url: 'https://www.youtube.com/embed/8J8zWwKjsqs?controls=0',
+    title_sl: "Glej, glej kak mimo gre",
+    title_en: "Glej, glej kak mimo gre - <i>Look, look how it goes by</i>",
+    author: 'Rudolf Bukšek in Božo Vičar',
+    author_en: 'Rudolf Bukšek and Božo Vičar'
+  },
+  {
+    tags: 'folk buksek vicar',
+    youtube_url: 'https://www.youtube.com/embed/l4AXjDo-VRM?controls=0',
+    title_sl: "Moj fantič je na T'rolsko vandral",
+    title_en: "Moj fantič je na T'rolsko vandral - <i>My boyfriend wandered off to T'rol</i>",
+    author: 'Rudolf Bukšek in Božo Vičar',
+    author_en: 'Rudolf Bukšek and Božo Vičar'
+  },
+  {
+    tags: 'folk vicar',
+    youtube_url: 'https://www.youtube.com/embed/tgKiwOYjh6U?controls=0',
+    title_sl: "Poj, poj ptiček moj",
+    title_en: "Poj, poj ptiček moj - <i>Sing, sing my little bird</i>",
+    author: 'Božo Vičar (1894 - 1972)',
+  },
+  {
+    tags: 'folk vicar',
+    youtube_url: 'https://www.youtube.com/embed/mMifSveP8S4?controls=0',
+    title_sl: "Iz slovenskih planin",
+    title_en: "Iz slovenskih planin - <i>From the Slovenian mountains</i>",
+    author: 'Božo Vičar (1894 - 1972)',
+  },
+  {
+    tags: 'folk lovse',
+    youtube_url: 'https://www.youtube.com/embed/5E9mpUrbkUI?controls=0',
+    title_sl: "Škrjanček poje",
+    title_en: "Škrjanček poje - <i>The lark sings</i>",
+    author: 'Pavla Lovše (1891 - 1964)',
+  },
+  {
+    tags: 'folk lovse',
+    youtube_url: 'https://www.youtube.com/embed/5E9mpUrbkUI?start=118',
+    title_sl: "Ptičke po zraku letajo",
+    title_en: "Ptičke po zraku letajo - <i>Birds fly in the air</i>",
+    author: 'Pavla Lovše (1891 - 1964)',
+  },
+  {
+    tags: 'folk lovse',
+    youtube_url: 'https://www.youtube.com/embed/KJQppt42pAo?controls=0',
+    title_sl: "Zvezda",
+    title_en: "Zvezda",
+    author: 'Pavla Lovše (1891 - 1964)',
+  },
+  {
+    tags: 'folk lovse',
+    youtube_url: "https://www.youtube.com/embed/KJQppt42pAo?start=98",
+    title_sl: "Premenba",
+    title_en: "Premenba - <i>Redesign</i>",
+    author: 'Pavla Lovše (1891 - 1964)',
+  },
+  {
+    tags: 'folk lovse',
+    youtube_url: "https://www.youtube.com/embed/bf1-TAVcUVo?controls=0",
+    title_sl: "Gor čez jezero",
+    title_en: "Gor čez jezero - <i>Up across the lake</i>",
+    author: 'Pavla Lovše (1891 - 1964)',
+  },
+  {
+    tags: 'folk lovse',
+    youtube_url: "https://www.youtube.com/embed/bf1-TAVcUVo?start=121",
+    title_sl: "Tam kjer beli so snežniki",
+    title_en: "Tam kjer beli so snežniki - <i>Where the snowmen are white</i>",
+    author: 'Pavla Lovše (1891 - 1964)',
+  },
+  {
+    tags: 'folk lovse',
+    youtube_url: "https://www.youtube.com/embed/Om2uogwcy_A?controls=0",
+    title_sl: "V dolinci prijetni",
+    title_en: "V dolinci prijetni - <i>Pleasant in the valley</i>",
+    author: 'Pavla Lovše (1891 - 1964)',
+  },
+  {
+    tags: 'folk sekula ostali',
+    youtube_url: "https://www.youtube.com/embed/xZwQvNR00vw?start=76",
+    title_sl: "Jaz mam pa konjča belega",
+    title_en: "Jaz mam pa konjča belega - <i>I have a white seahorse</i>",
+    author: 'Lojze Sekula',
+  },
+  {
+    tags: 'folk sekula ostali',
+    youtube_url: "https://www.youtube.com/embed/xZwQvNR00vw?controls=0",
+    title_sl: "Pijmo ga, pijmo",
+    title_en: "Pijmo ga, pijmo - <i>Let's drink it, let's drink it</i>",
+    author: 'Lojze Sekula',
+  },
+  {
+    tags: 'folk polak',
+    youtube_url: "https://www.youtube.com/embed/cL3KBs8QRTo?controls=0",
+    title_sl: "Prišla bo pomlad",
+    title_en: "Prišla bo pomlad - <i>Spring will come</i>",
+    author: 'Irma Polak (1875-1931)',
+  },
+  {
+    tags: 'folk banovec pecenko zavrsan zupan ostali',
+    youtube_url: "https://www.youtube.com/embed/RLLklyQZgk0?controls=0",
+    title_sl: "Gor’ čez izaro",
+    title_en: "Gor’ čez izaro - <i>Up' over the isar</i>",
+    author: 'Banovec, Pečenko, Završan, Zupan',
+  },
+  {
+    tags: 'betetto parma samospev',
+    youtube_url: "https://www.youtube.com/embed/KC7XZF8CAI0?controls=0",
+    title_sl: "Sezidal sem si vinski hram",
+    title_en: "Sezidal sem si vinski hram - <i>I built myself a wine cellar</i>",
+    author: 'Julij Betetto (1885 - 1963)',
+    composer: 'Viktor Parma / National',
+    composer_en: 'Viktor Parma / National',
+  },
+  {
+    tags: 'betetto gerbic zupancic samospev',
+    youtube_url: "https://www.youtube.com/embed/hHKQ622iA9o?controls=0", # ERROR 1
+    title_sl: "Pojdem na prejo",
+    title_en: "Pojdem na prejo - <i>I'll go to the yarn</i>",
+    author: 'Julij Betetto (1885 - 1963)',
+    composer: 'Fran Gerbič / Oton Župančič'
+  },
+  {
+    tags: 'betetto adamic samospev',
+    youtube_url: "https://www.youtube.com/embed/hHKQ622iA9o?controls=0", # ERROR 1
+    title_sl: "Nocoj je pa svetla noč",
+    title_en: "Nocoj je pa svetla noč - <i>But tonight is a bright night</i>",
+    author: 'Julij Betetto (1885 - 1963)',
+    composer: 'Emil Adamič / narodna',
+    composer_en: 'Emil Adamič / folk',
+  },
+  {
+    tags: 'betetto zupancic pavcic samospev',
+    youtube_url: "https://www.youtube.com/embed/yNW6KHxQwr8?start=93",
+    title_sl: "Dedek samonog",
+    title_en: "Dedek samonog - <i>Dedek samonog</i>",
+    author: 'Julij Betetto (1885 - 1963)',
+    composer: 'Josip Pavčič / Oton Župančič'
+  },
+  {
+    tags: 'lovse pavcic robida samospev',
+    youtube_url: "https://www.youtube.com/embed/eRAt3GBjBHE?controls=0",
+    title_sl: "Dedek samonog",
+    title_en: "Pastirica - <i>Pastirica</i>",
+    author: 'Pavla Lovše (1891 - 1964)',
+    composer: 'Josip Pavčič / Dr. Ivan Robida'
+  },
+  {
+    tags: 'lupsa adamic bunin petruska ceh ostali samospev',
+    youtube_url: "https://www.youtube.com/embed/ROSkY4RcwWc?controls=0",
+    title_sl: "Noč je tožna",
+    title_en: "Noč je tožna - <i>The night is suable</i>",
+    author: 'Friderik Lupša (1908 - 1986)',
+    composer: 'Emil Adamič / Bunin / P.-Petruška'
+  },
+  {
+    tags: 'polak nedved funtek samospev',
+    youtube_url: "https://www.youtube.com/embed/2aUNyZzfy34?controls=0",
+    title_sl: "Na tujih tleh",
+    title_en: "Na tujih tleh - <i>On foreign soil</i>",
+    author: 'Irma Polak (1875-1931)',
+    composer: '(probaly) Anton Nedvĕd / A. Funtek',
+    composer_en: '(probaly) Anton Nedvĕd / A. Funtek'
+  },
+  {
+    tags: 'polak volaric gregorcic samospev',
+    youtube_url: "https://www.youtube.com/embed/ibpn06hv2pA?controls=0",
+    title_sl: "Pogled v nedolžno oko",
+    title_en: "Pogled v nedolžno oko - <i>A look into the innocent eye</i>",
+    author: 'Irma Polak (1875-1931)',
+    composer: 'Hrabroslav Volarič / S. Gregorčič'
+  },
+  {
+    tags: 'ribic foerster pesjak ostali',
+    youtube_url: "https://www.youtube.com/embed/s-yiRwiTcLQ?controls=0",
+    title_sl: "Arija Minke <br> iz opere Gorenjski slavček",
+    title_en: "Arija Minke - <i>Aria Minke</i> <br> from the opera The Nightingale of Gorenjska",
+    author: 'Ivanka Ribič (1895 - 1980)',
+    composer: 'Anton Foerster / Luiza Pesjak'
+  },
+  {
+    tags: 'folk lesic ostali',
+    youtube_url: "https://www.youtube.com/embed/LjDGFKLmIYw",
+    title_sl: "Pridi Gorenj'c",
+    title_en: "Pridi Gorenj'c - <i>Come Gorenj'c</i>",
+    author: 'Tošo Lesić (1866 - 1949)'
+  },
+  {
+    tags: 'folk lesic ostali',
+    youtube_url: "https://www.youtube.com/embed/__B54sZSwzc",
+    title_sl: "Bom šel na planine",
+    title_en: "Bom šel na planine - <i>I'm going to the mountains</i>",
+    author: 'Tošo Lesić (1866 - 1949)'
+  },
+  {
+    tags: 'folk lesic ostali',
+    youtube_url: "https://www.youtube.com/embed/KqpeVHSVyLg",
+    title_sl: "To me veseli",
+    title_en: "To me veseli - <i>I'm glad to hear that</i>",
+    author: 'Tošo Lesić (1866 - 1949)'
+  },
+  {
+    tags: 'folk lesic ostali',
+    youtube_url: "https://www.youtube.com/embed/e_XDaZxNi2M",
+    title_sl: "Mraku",
+    title_en: "Mraku - <i>Cloud</i>",
+    author: 'Tošo Lesić (1866 - 1949)'
+  },
+  {
+    tags: 'folk lesic strmac ostali',
+    youtube_url: "https://www.youtube.com/embed/aAOXlZtz2bU?controls=0",
+    title_sl: "Po jezeru bilz’ Triglava",
+    title_en: "Po jezeru bilz’ Triglava - <i>On Lake Triglav</i>",
+    author: 'Tošo Lesić in Zvonko Strmac',
+    author_en: 'Tošo Lesić and Zvonko Strmac',
+    composer: 'Miroslav Vilhar, repeat'
+  },
+  {
+    tags: 'folk lesic strmac ostali',
+    youtube_url: "https://www.youtube.com/embed/DD168TbJCNM",
+    title_sl: "Je pa davi slanca padla",
+    title_en: "Je pa davi slanca padla - <i>But the brine has fallen this morning</i>",
+    author: 'Tošo Lesić in Zvonko Strmac',
+    author_en: 'Tošo Lesić and Zvonko Strmac'
+  },
+  {
+    tags: 'folk lesic strmac ostali',
+    youtube_url: "https://www.youtube.com/embed/npoB8KbRqGo",
+    title_sl: "Med planinam",
+    title_en: "Med planinam - <i>Among the mountains</i>",
+    author: 'Tošo Lesić in Zvonko Strmac',
+    author_en: 'Tošo Lesić and Zvonko Strmac'
+  },
+  {
+    tags: 'rogoz ostali',
+    youtube_url: "https://www.youtube.com/embed/WzsB-8-OVss",
+    title_sl: "Miške",
+    title_en: "Miške - <i>Mice</i>",
+    author: 'Zvonimir Rogoz (1887 - 1988)'
+  },
+  {
+    tags: 'rogoz ostali',
+    youtube_url: "https://www.youtube.com/embed/enMNzp7c5pE",
+    title_sl: "Tri ljubezni",
+    title_en: "Tri ljubezni - <i>Three loves</i>",
+    author: 'Zvonimir Rogoz (1887 - 1988)'
+  },
+  {
+    tags: 'milanov kunc ostali pavcic robida samospev',
+    youtube_url: "https://www.youtube.com/embed/esFyHqKiJqo",
+    title_sl: "Pastirica",
+    title_en: "Pastirica",
+    author: 'Zinka Milanov (1906 - 1989) <br> Za klavirjem Božidar Kunc.',
+    author_en: 'Zinka Milanov (1906 - 1989) <br> Božidar Kunc at the piano',
+    composer: 'Josip Pavčič / Dr. Ivan Robida'
+  },
+  {
+    tags: 'folk milanov ostali',
+    youtube_url: "https://www.youtube.com/embed/4f1BPekQXsw",
+    title_sl: "Gor’ čez jezero",
+    title_en: "Gor’ čez jezero - <i>Up across the lake</i>",
+    author: 'Zinka Milanov (1906 - 1989)'
+  },
+  {
+    tags: 'folk milanov ostali',
+    youtube_url: "https://www.youtube.com/embed/i5RwHxaN1EE",
+    title_sl: "Ko lani sem tam mimo šel",
+    title_en: "Ko lani sem tam mimo šel - <i>When I passed by there last year</i>",
+    author: 'Zinka Milanov (1906 - 1989)'
+  }
+]

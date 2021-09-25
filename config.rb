@@ -3,7 +3,7 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-available_langs = %i[en sl]
+available_langs = %i[sl en]
 activate :autoprefixer do |prefix|
   prefix.browsers = 'last 2 versions'
 end
@@ -26,6 +26,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page '/index.html', layout: false
+page '/privacy.html', layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

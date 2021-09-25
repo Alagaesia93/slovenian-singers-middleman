@@ -2,32 +2,408 @@ singers: [
   {
     first_name: 'Josip',
     last_name: 'Rijavec',
-    full_name: 'josip_rijavec'
+    full_name: 'josip_rijavec',
+    biography_sl: "Tenorist Josip Rijavec (tudi José Riavez) se je rodil 10. februarja 1890 v Gradišču ob Soči (Gradisca
+      d'Isonzo). Gimnazijo je zaključil v Gorici, obiskoval je Po maturi se je vpisal v šolo Glasbene Matice v
+      Ljubljani, kjer ga je učil solističnega petja
+      Matej Hubad. Zatem je študiral na dunajskem konservatoriju pri Filipu Forsténu. Diplomiral je tudi iz
+      prava. Leta 1916 je v Zagrebu debitiral v operi Kavalir z rožo Richarda Straussa. Pel je na Dunaju, v
+      Berlinu, Dresdnu, Ljubljani, Zagrebu,
+      Beogradu, Pragi in Buenos Airesu. Pod taktirko skladatelja Mascagnija je leta 1927 v Berlinu posnel del
+      opere Cavalleria Rusticana. Bil je tudi profesor na beograjski glasbeni akademiji, njegova učenka je
+      bila mezzosopranistka Biserka Cvejić. Umrl je 30. decembra 1959 v Beogradu.",
+    biography_en: "Tenor Josip Rijavec (also José Riavez) was born on 10 February 1890 in Gradisca (Gradisca) near Soča After
+      graduating from high school in Gorizia, he attended the Music Matica School in Ljubljana, where he was taught
+      solo singing Matej Hubad. He then studied with Filip Forstén at the Vienna Conservatory. He also graduated
+      from Law. In 1916 he made his debut in Zagreb in Richard Strauss's opera Cavalier with a Rose. He sang in
+      Vienna, in Berlin, Dresden, Ljubljana and Zagreb, Belgrade, Prague and Buenos Aires. In 1927, under the baton
+      of the composer Mascagni, he recorded a work in Berlin of the opera Cavalleria Rusticana. He was also a
+      professor at the Belgrade Academy of Music, his pupil was was the mezzo-soprano Biserka Cvejić. He died on
+      30th December 1959 in Belgrade.",
+    roles: "<li>Grieux (Puccini: Manon Lescaut)</li>
+      <li>Rodolfo (Puccini: La Bohème)</li>
+      <li>Turiddu (Mascagni: Cavaleria Rusticana)</li>
+      <li>Alfredo (Verdi: Traviata)</li>
+      <li>Edgardo (Donizetti - Lucia di Lammermoor)</li>
+      <li>Pinkerton (Puccini: Madama Butterfly)</li>
+      <li>Lenski (Čajkovski: Jevgenij Onjegin)</li>
+      <li>Cavaradossi (Puccini: Tosca)</li>",
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/H5yhJRNAku0",
+        title_sl: "Giacomo Puccini: Mimi è una civetta iz opere La Bohème - Rodolfo",
+        title_en: "Giacomo Puccini: Mimi is an owl in the opera La Bohème - Rodolfo",
+      },{
+        youtube_url: "https://www.youtube.com/embed/95t5pjhvC8M",
+        title_sl: "Po jezeru bliz' Triglava <br> Otok blejski, kinč nebeški",
+        title_en: "Po jezeru bliz' Triglava - <i>On the lake near Triglav</i> <br> Otok blejski, kinč nebeški - <i>The island of Bled, the heavenly island</i>",
+      },{
+        youtube_url: "https://www.youtube.com/embed/sDhOTYtfsTo",
+        title_sl: "Pietro Mascagni: Uvertura in Siciliana iz opere Cavalleria Rusticana <br> (dirigira P.Mascagni)",
+        title_en: "Pietro Mascagni: Uvertura in Siciliana in opera Cavalleria Rusticana <br> (directed by P.Mascagni)",
+      }
+    ],
+    links: [
+      {
+        url: 'https://www.slovenska-biografija.si/oseba/sbi508410/',
+        title: '🇸🇮 Slovenian Biographical Lexicon'
+      },
+      {
+        url: 'https://opera.hr/index.php?p=article&id=66',
+        title: '🇭🇷 Opera.hr'
+      },
+      {
+        url: 'https://forgottenoperasingers.blogspot.com/search/label/Riavez%20Jos%C3%A9',
+        title: '🇬🇧 forgottenoperasingers'
+      },
+      {
+        url: 'https://web.operissimo.com/triboni/exec?method=com.operissimo.artist.webDisplay&xsl=webDisplay&searchString=&id=ffcyoieagxaaaaabfdfr',
+        title: '🇩🇪 operissimo'
+      },
+      {
+        url: 'https://www.slogi.si/publikacije/josip-rijavec/',
+        title: '🇸🇮 Slovenian Theatre Institute'
+      }
+    ]
   },
   {
     first_name: 'Julij',
     last_name: 'Betetto',
-    full_name: 'julij_betetto'
+    full_name: 'julij_betetto',
+    biography_sl: "Basist Julij Betetto (tudi Julius Betetto) se je rodil 27. avgusta 1885 v Ljubljani. Pel je v zboru pri
+      Sv. Jakobu v Ljubljani pod vodstvom Frana Gerbiča, ki je prepoznal njegov talent in ga vpisal v šolo
+      Glasbene matice. V ljubljanski operi je kot solist
+      debitiral z vlogo Mihe v Smetanovi operi Prodana nevesta. Po štirih letih v Ljubljani je odšel na Dunaj,
+      kjer je nadaljeval študij pri Augustu Iffertu. V Dunajski dvorni operi je do leta 1922 nastopal v vseh
+      pomembnih basovskih vlogah.
+      Njegovi pevski kolegi so bili med drugimi Mattia Battistini, Maria Jeritza, Enrico Caruso, Tita Ruffo.
+      Vrnil se je v Ljubljano, kjer je bil ravnatelj ljubljanske opere, vodja glasbene šole Glasbene matice,
+      ter rektor Akademije za glasbo.
+      Kot pevski pedagog je vzgojil vrsto uspešnih pevcev. Umrl je 14. januarja 1963 v Ljubljani.",
+    biography_en: "Bassist Julij Betetto (also Julius Betetto) was born on 27 August 1885 in Ljubljana. He sang in the choir at
+      St. James in Ljubljana under the direction of Fran Gerbič, who recognised his talent and enrolled him in the
+      school of Music Matrix. He appeared as a soloist at the Ljubljana Opera debuted as a soloist in the role of
+      Mihe in Smetana's opera The Bartered Bride. After four years in Ljubljana, he went to Vienna, where he
+      continued his studies with August Iffert. At the Vienna Court Opera, he performed in all the important bass
+      roles. His singing colleagues included Mattia Battistini, Maria Jeritza, Enrico Caruso and Tita Ruffo. He
+      returned to Ljubljana, where he was director of the Ljubljana Opera and head of the music school of the
+      Musical Matrix, and rector of the Academy of Music. As a singing teacher, he trained a number of successful
+      singers. He died on 14 January 1963 in Ljubljana.",
+    roles: '<li>Kecal (Smetana: Prodana nevesta)</li>
+      <li>Puščavnik (Weber: Čarostrelec)</li>
+      <li>Sparafucile (Verdi: Rigoletto)</li>
+      <li>Nočni čuvaj (Meyerbeer: Hugenoti)</li>
+      <li>De Fisque (Donizetti: Maria di Rohan)</li>
+      <li>Ramfis (Verdi: Aida)</li>
+      <li>Don Basilio (Rossini: Seviljski brivec)</li>
+      <li>Christoforo (Kogoj: Črne maske)</li>',
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/KC7XZF8CAI0",
+        title_sl: "Viktor Parma: Sezidal sem si vinski hram (narodna)",
+        title_en: "Viktor Parma: Sezidal sem si vinski hram (narodna) - <i>Viktor Parma: I have built myself a wine cellar (national)</i>",
+      },{
+        youtube_url: "https://www.youtube.com/embed/hHKQ622iA9o",
+        title_sl: "Fran Gerbič: Pojdem na prejo (besedilo Oton Župančič)",
+        title_en: "Fran Gerbič: Pojdem na prejo (text by Oton Župančič)",
+      },{
+        youtube_url: "https://www.youtube.com/embed/yNW6KHxQwr8",
+        title_sl: "Emil Adamič: Nocoj je pa svetla noč (narodna) <br> Josip Pavčič: Dedek samonog (besedilo Oton Župančič)",
+        title_en: "Emil Adamič: Nocoj je pa svetla noč (national) . <i>Tonight is a bright night</i> <br> Josip Pavčič: Dedek samonog <i>Grandfather Alone-legged (text by Oton Župančič)</i>",
+      }
+    ],
+    links: [
+      {
+        url: 'https://sl.wikipedia.org/wiki/Julij_Betetto',
+        title: '🇸🇮 Wikipedia'
+      },
+      {
+        url: 'https://archiv.wiener-staatsoper.at/search/person/5804',
+        title: '🇩🇪 Wiener Staatsoper'
+      },
+      {
+        url: 'https://www.momus.si/spomenik-julija-betetta',
+        title: '🇸🇮 Momus'
+      },
+      {
+        url: 'https://www.rtvslo.si/mmc-priporoca/slovenci-in-nesrecni-oce-prodane-neveste-2-del/355520',
+        title: '🇸🇮 MMC-rtvslo'
+      }
+    ]
   },
   {
     first_name: 'Franz',
     last_name: 'Naval',
-    full_name: 'franz_naval'
+    full_name: 'franz_naval',
+    biography_sl: "Franz Naval, s pravim imenom Franc Pogačnik, se je rodil 20. Oktobra 1865 v Ljubljani. Deloval je med letoma
+      1888-1913 in bil v tem času nedvomno eden najslavnejših pevcev. Petja se je začel učiti pri Antonu Nedvědu in
+      študij nadaljeval na Dunaju pri
+      profesorju Josephu Gänsbacherju. Debitiral je v Frankfurtu na Majni v vlogi Lyonela v operi Martha skladatelja
+      Flotowa. Pel je v največjih svetovnih opernih hišah - v Berlinu, Parizu, Londonu, New Yorku in na Dunaju. Leta
+      1897 je z vlogo Rodolfa
+      nastopil v berlinski premieri Puccinijeve opere La Bohème. Veliko je nastopal z Geraldine Farrar. Prve plošče
+      je
+      posnel že leta 1901. Med drugim je posnel tudi celotni Schubertov ciklus samospevov Schöne Müllerin (Lepa
+      mlinarica). Leta 1909 je
+      sodeloval pri prvem posnetku celotne Mascagnijeve opere 
+      <a target='_blank' rel='noopener' href='http://mediathek.slub-dresden.de/db/apsisa.dll/ete?action=displayResult/1&sstate=eJyVVd9zGjcQ9oE74MPUjmw3hNadhiSdpJN6OPHrsB_6w3Zn3HFjT0je6DDHnQCFu9NV0tlO_vrs6oAJAR7KA7P6vm93pdWurmiRgU1YkJz8lzL58URpLw48GeznKls1WwmpA-HHafTSoq_s8j0bDgIxTSMWa0Z2tYh_6tS7DqVuq5r_481FLa_D6S9brvW79XdxHqp6bB9gglCAZ7LIQLaqWy8t97Bm2_lLp04sp2LVHqHtkOJEROzkIQoB2keIkoIfqRlygkiDvNBpkKTDkPu_JlIEqa-5iCE8G0deDMZHMCMFepOgSSwKdgntFsnFYk60iVUH-zu0O6T8lqk01LeSKTjj3MElOac-316XFKEmpgYA7di5S5pt_gBYWidfVA3AXQQdkveUD6syrlpkOxYxmwWnbZIL2Gw31M1CYdRGtrE9MJukMBLyHqpmdLlLOAFF8hjsLjkaev701HntnHlQhDt2Zn5A1wxdVSzxpKeFXKd5ajRP5kdaJ3llJE9ZyFCxFO30K-kzI_1-EY2-pmcKHH3Ngv-1rZlmdmyj4PFXGqhEz5lV78jO96CLdrFFR5JxzR50Vv4eNFRejEbZJfegl1Yu2ajac1UFVy7ZG_FQM3kV33HFhyEmIch0yQ6POYAZdgwY3PphT3s6VddizGP4G7PgJsXQT5B2yL6eMDNhA2lyq1lWSkneN11q4jQ2xjlEukVKQ09NmR7ccXY_d2pvdNpHukMKPL4T3F_s1t3ogFWkXbKreDwOWVamrG17jTrZDrlaLB2y_UmIaObUoCtOjxFukG9xHC7MOAyyISgh0ZyNlHFur8_YWc7oLjLiDTW6ZE9NxP25iLDT_hISmR-gJZobj4enb26-KwzbdNaFNY50o-MjpJukyGM_TAMWzKHWKtRehTqrkLsKdZcgeBV6LVII2MjLClYBwF3bZmVguuQbLbSHr-dzuxSMBv7ES6C5FTnAgRHDD4GnOZNpPB58Qqcfl1Xm5Z-KKBFxdiHreA4fBZlIhnx1md9BXrIxxx78eZk7Qi4BC97EGJJADFhsiBF6Qxaa4y5xBXMKqU0HLDElZFQ6_ABPkBnHJbaIrCeZZyasDFTkPWRzr4jVAvRfuwTTDhA8VnpCrvv93_rnp30vUf1g2P-HBRxgNqV1hw5u3_95fXU-uH17c_H-_N3VzRuQgS76UtSHjFIIjd4V6zM-cP6a&medium='>Cavalleria Rusticana</a>.
+      Umrl je 9. avgusta (ali
+      novembra) 1939.",
+    biography_en: "Franz Naval, real name Franc Pogačnik, was born on 20 October 1865 in Ljubljana. He was active between
+      1888-1913 and was undoubtedly one of the most famous singers of that time. He began his singing studies with
+      Anton Nedvěd and continued his studies in Vienna with Professor Joseph Gänsbacher in Vienna. He made his debut
+      in Frankfurt am Main in the role of Lionel in the opera Martha by the composer Flotow. He has sung in the
+      world's greatest opera houses - in Berlin, Paris, London, New York and Vienna. Years 1897, with the role of
+      Rodolfo He appeared extensively with Geraldine Farrar. First recordings is as early as 1901. Among other
+      things, he recorded Schubert's complete cycle of autosongs Schöne Müllerin (Beautiful Müllerin). In 1909 he he
+      participated in the first recording of Mascagni's complete opera 
+      <a target='_blank' rel='noopener' href='http://mediathek.slub-dresden.de/db/apsisa.dll/ete?action=displayResult/1&sstate=eJyVVd9zGjcQ9oE74MPUjmw3hNadhiSdpJN6OPHrsB_6w3Zn3HFjT0je6DDHnQCFu9NV0tlO_vrs6oAJAR7KA7P6vm93pdWurmiRgU1YkJz8lzL58URpLw48GeznKls1WwmpA-HHafTSoq_s8j0bDgIxTSMWa0Z2tYh_6tS7DqVuq5r_481FLa_D6S9brvW79XdxHqp6bB9gglCAZ7LIQLaqWy8t97Bm2_lLp04sp2LVHqHtkOJEROzkIQoB2keIkoIfqRlygkiDvNBpkKTDkPu_JlIEqa-5iCE8G0deDMZHMCMFepOgSSwKdgntFsnFYk60iVUH-zu0O6T8lqk01LeSKTjj3MElOac-316XFKEmpgYA7di5S5pt_gBYWidfVA3AXQQdkveUD6syrlpkOxYxmwWnbZIL2Gw31M1CYdRGtrE9MJukMBLyHqpmdLlLOAFF8hjsLjkaev701HntnHlQhDt2Zn5A1wxdVSzxpKeFXKd5ajRP5kdaJ3llJE9ZyFCxFO30K-kzI_1-EY2-pmcKHH3Ngv-1rZlmdmyj4PFXGqhEz5lV78jO96CLdrFFR5JxzR50Vv4eNFRejEbZJfegl1Yu2ajac1UFVy7ZG_FQM3kV33HFhyEmIch0yQ6POYAZdgwY3PphT3s6VddizGP4G7PgJsXQT5B2yL6eMDNhA2lyq1lWSkneN11q4jQ2xjlEukVKQ09NmR7ccXY_d2pvdNpHukMKPL4T3F_s1t3ogFWkXbKreDwOWVamrG17jTrZDrlaLB2y_UmIaObUoCtOjxFukG9xHC7MOAyyISgh0ZyNlHFur8_YWc7oLjLiDTW6ZE9NxP25iLDT_hISmR-gJZobj4enb26-KwzbdNaFNY50o-MjpJukyGM_TAMWzKHWKtRehTqrkLsKdZcgeBV6LVII2MjLClYBwF3bZmVguuQbLbSHr-dzuxSMBv7ES6C5FTnAgRHDD4GnOZNpPB58Qqcfl1Xm5Z-KKBFxdiHreA4fBZlIhnx1md9BXrIxxx78eZk7Qi4BC97EGJJADFhsiBF6Qxaa4y5xBXMKqU0HLDElZFQ6_ABPkBnHJbaIrCeZZyasDFTkPWRzr4jVAvRfuwTTDhA8VnpCrvv93_rnp30vUf1g2P-HBRxgNqV1hw5u3_95fXU-uH17c_H-_N3VzRuQgS76UtSHjFIIjd4V6zM-cP6a&medium='>Cavalleria Rusticana</a>.
+      He died on 9th August (or November) 1939.",
+    roles: '<li>Viljem (Thomas: Mignon)</li>
+      <li>Rodolfo (Puccini: La Bohème)</li>
+      <li>Lyonel (Flotow: Marta)</li>
+      <li>Grieux (Massenet: Manon)</li>
+      <li>Werther (Massenet: Werther)</li>
+      <li>Hoffmann (Offenbach: Hoffmannove pripovedke)</li>
+      <li>Don Ottavio (Mozart: Don Giovanni)</li>
+      <li>Faust (Gounod: Faust)</li>',
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/LBUNmdd-JQ0",
+        title_sl: "Ambroise Thomas: Arija Viljema iz opere Mignon (v nemškem jeziku)",
+        title_en: "Ambroise Thomas: Aria of William from Mignon (in german)",
+      },{
+        youtube_url: "https://www.youtube.com/embed/rden1HJcPOw",
+        title_sl: "Franz Schubert: Die Nebensonnen<br>iz cikulsa Zimsko popotovanje (D.911 št.23)</h5><br>Za klavirjem August Pilz.",
+        title_en: "Franz Schubert: Die Nebensonnen <br> from the Winter Journey cycle (D.911 no.23) <br> August Pilz at the piano.",
+      },{
+        youtube_url: "https://www.youtube.com/embed/EFLOBko_VlM",
+        title_sl: "Franz Schubert: Halt! <br> iz ciklusa Lepa mlinarica (D.795 št.15) <br>Za klavirjem August Pilz.",
+        title_en: "Franz Schubert: Halt! <br>from the cycle The Beautiful Miller (D.795 no.15) <br>August Pilz at the piano.",
+      }
+    ],
+    links: [
+      {
+        url: 'https://sl.wikipedia.org/wiki/Franc_Poga%C4%8Dnik_-_Naval',
+        title: '🇸🇮 Wikipedia'
+      },
+      {
+        url: 'http://greatestoperasingers.blogspot.com/2014/02/franz-naval-tenor-laibach-slovenia-1865_11.html',
+        title: '🇬🇧 greatestoperasingers'
+      },
+      {
+        url: 'https://historyofthetenor.com/franz-naval',
+        title: '🇬🇧 historyofthetenor'
+      },
+      {
+        url: 'https://mahlerfoundation.org/mahler/contemporaries/franz-naval/',
+        title: '🇬🇧 mahlerfoundation'
+      },
+      {
+        url: 'https://www.operadis-opera-discography.org.uk/CLMCCAVA.HTM#2',
+        title: '🇬🇧 operadis-opera-discography'
+      }
+    ]
   },
   {
     first_name: 'Irma',
     last_name: 'Polak',
-    full_name: 'irma_polak'
+    full_name: 'irma_polak',
+    biography_sl: "Sopranistka in igralka Irma Polak (Marija Fabiani, ponekod tudi Bohinec) se je rodila 11. junija 1875 v
+      Ljubljani. Petja se je učila pri Franu Gerbiču in Mateju Hubadu. Sprva je pela v ljubljanskem opernem
+      zboru in v nekaj manjših vlogah. Leta 1895 je
+      odšla na Dunaj, kjer je nastopala predvsem v operetah. Tam je ostala štiri leta, nato pa se za kratek
+      čas vrnila v Ljubljano. Leta 1901 je bila angažirana v zagrebškemu gledališču, kjer je delovala do svoje
+      smrti. V opernih delih je z
+      velikim uspehom poustvarjala tako komiče, kot tudi tragične vloge. Zanjo je bilo napisanih tudi več
+      operetnih vlog. V zadnjih letih je nastopala kot dramska igralka, med drugim v Cankarjevem Pohujšanju v
+      dolini šentflorjanski. Igrala je
+      tudi v dveh filmih Brcko u Zagrebu (1917) in Mokra pustolovina (1918). Umrla je 30. novembra 1931 v
+      Zagrebu.",
+    biography_en: "Soprano and actress Irma Polak (Marija Fabiani, sometimes also Bohinec) was born on 11 June 1875 in Ljubljana.
+      She studied singing with Fran Gerbič and Mate Hubad. At first she sang in the Ljubljana Opera choir and in a
+      few smaller roles. In 1895 she in 1895, she went to Vienna, where she performed mainly in operettas. She
+      stayed there for four years, then briefly For a short time she returned to Ljubljana. In 1901 she was engaged
+      by the Zagreb theatre, where she worked until her death. In her operatic works, with She performed both comic
+      and tragic roles with great success. Several works were also written for her operetta roles. In recent years,
+      she has appeared as a dramatic actress, among others in Cankarjev's Pohujšanas v Dolina šentflorjanski. She
+      has played also starred in two films, Brcko u Zagrebu (1917) and Mokra pustolovina (1918). She died on 30
+      November 1931 in Zagreb.",
+    roles: '<li>Helena (Offenbach: Lepa Helena)</li>
+      <li>Hanna Glawari (Lehár: Vesela vdova)</li>
+      <li>Rozalinda (Strauss: Netopir)</li>
+      <li>Nedda (Leoncavallo: Klovni)</li>
+      <li>Zorka (Lisinski: Porin)</li>
+      <li>Čo-čo-san (Puccini: Madama Butterfly)</li>
+      <li>Marinka (Smetana: Prodana nevesta)</li>
+      <li>Djamileh (Bizet: Djamileh)</li>',
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/b61q-KzMxFM",
+        title_sl: "Georges Bizet: Arija Micaele iz opere Carmen (v hrvaškem jeziku)",
+        title_en: "Georges Bizet: Aria Micaela from Carmen (in croatian)",
+      },{
+        youtube_url: "https://www.youtube.com/embed/tgn_VQ4DNVo",
+        title_sl: "Richard Heuberger: Arija Angele iz operete Operni ples (v hrvaškem jeziku)",
+        title_en: "Richard Heuberger: Aria Angela from the operetta Opera Dance (in Croatian)",
+      },{
+        youtube_url: "https://www.youtube.com/embed/2aUNyZzfy34",
+        title_sl: "(najbrž) Anton Nedvĕd: Na tujih tleh (besedilo Anton Funtek)",
+        title_en: "(probably) Anton Nedvĕd: On Foreign Soil (text by Anton Funtek)",
+      }
+    ],
+    links: [
+      {
+        url: 'https://www.slovenska-biografija.si/oseba/sbi445474/',
+        title: '🇸🇮 Slovenski biografski leksikon'
+      },
+      {
+        url: "http://opera.hr/index.php?p=article&id=49",
+        title: '🇭🇷 Opera.hr'
+      },
+      {
+        url: 'https://sl.wikipedia.org/wiki/Irma_Polak',
+        title: '🇸🇮 Wikipedia'
+      },
+      {
+        url: 'https://hr.wikipedia.org/wiki/Irma_Polak',
+        title: '🇭🇷 Wikipedia'
+      },
+      {
+        url: 'https://www.imdb.com/name/nm1280841/',
+        title: '🇬🇧 IMDb'
+      }
+    ]
   },
   {
     first_name: 'Pavla',
     last_name: 'Lovse',
-    full_name: 'pavla_lovse'
+    full_name: 'pavla_lovse',
+    biography_sl: "Sopranistka Pavla Lovše Bole se je rodila 13. januarja 1891 v Ljubljani. Solopetje je študirala na
+      Konservatoriju v Ljubljani pri Mateju Hubadu, izpopolnjevala pa se je na Reki, Dunaju in v Milanu. Bila
+      je solistka na številnih koncertih Glasbene Matice,
+      in tudi sicer zelo cenjena koncertna pevka. V svoj program je vključevala zlasti slovenske pesmi in
+      samospeve. Več samospevov slovenskih skladateljev je tudi krstno izvedla. S pianistko Dano Kobler Golia
+      sta koncertirali po Sloveniji,
+      Hrvaškem in Srbiji. Bila je solistka Ljubljanske opere, kjer je v letih V letih 1921-27 nastopila v več
+      kot dvajsetih lirskih in koloraturnih vlogah. Leta 1928 je odšla na turnejo v Združene države Amerike,
+      kjer je pela slovenske pesmi.
+      Kot pedagoginja je vzgojila vrsto pozneje uveljavljenih koncertnih in opernih pevcev. Umrla je 22.
+      Junija 1964 v Ljubljani.",
+    biography_en: "Soprano Pavla Lovše Bole was born on 13 January 1891 in Ljubljana. She studied solo singing at the
+      Conservatory in Ljubljana under Matej Hubad, and studied in Rijeka, Vienna and Milan. She was She was a
+      soloist at numerous concerts of the Musical Matica, and otherwise a highly respected concert singer. Her
+      programme included mainly Slovenian songs and samosongs. She also gave several first performances of Slovenian
+      composers' autosongs. With pianist Dana Kobler Golia and Kobler Kobler Golia, gave concerts throughout
+      Slovenia, Croatia and Serbia. She was a soloist at the Ljubljana Opera, where in 1921-27 she performed in
+      several more than twenty lyric and coloratura roles. In 1928 she went on tour to the United States, where she
+      sang Slovenian songs. As a teacher, she trained a number of later renowned concert and opera singers. She died
+      on 22. June 1964 in Ljubljana.",
+    roles: '<li>Rozalinda (Strauss: Netopir)</li>
+      <li>Minka (Foerster: Gorenjski slavček)</li>
+      <li>Gilda (Verdi: Rigoletto)</li>
+      <li>Musetta (Puccini: La Bohème)</li>
+      <li>Micaela (Bizet: Carmen)</li>
+      <li>Norina (Donizetti: Don Pasquale)</li>
+      <li>Tajda (Sattner: Tajda)</li>
+      <li>Zerlina (Mozart: Don Giovanni)</li>',
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/eRAt3GBjBHE",
+        title_sl: "Josip Pavčič: Pastirica (besedilo Dr. Ivan Robida)",
+        title_en: "Josip Pavčič: Pastirica (directed by Dr. Ivan Robida)",
+      },{
+        youtube_url: "https://www.youtube.com/embed/KJQppt42pAo",
+        title_sl: "Zvezda <br> Premenba",
+        title_en: "Zvezda - <i>Star</i><br>Premenba - <i>Redesign</i>",
+      },{
+        youtube_url: "https://www.youtube.com/embed/5E9mpUrbkUI",
+        title_sl: "Škrjanček poje <br> Ptičke po zraku letajo",
+        title_en: "Škrjanček poje - <i>The lark sings</i> <br> Ptičke po zraku letajo - <i>Birds fly in the air</i>",
+      }
+    ],
+    links: [
+      {
+        url: 'https://www.slovenska-biografija.si/oseba/sbi335242/',
+        title: '🇸🇮 Slovenski biografski leksikon'
+      },
+      {
+        url: "https://sl.wikipedia.org/wiki/Pavla_Lov%C5%A1e_Bole",
+        title: '🇸🇮 wikipedia'
+      },
+      {
+        url: 'https://commons.wikimedia.org/wiki/Category:Pavla_Lov%C5%A1e',
+        title: '🇸🇮 Wikimedia'
+      },
+      {
+        url: 'https://www.starerazglednice.si/post/168638106396/pavla-lov%C5%A1e-bole-1891-1964-pavla-lov%C5%A1e-je-bila',
+        title: '🇸🇮 old postcards'
+      },
+      {
+        url: 'https://books.google.si/books?id=oFYdZ8JA5z4C&pg=PA254&lpg=PA254&dq=pavla+lov%C5%A1e+bole&source=bl&ots=Pawp19n-oD&sig=ACfU3U0sGssz8iSy0vxr4oE80Ip3qDGv4A&hl=sl&sa=X&ved=2ahUKEwipiqS00ariAhVOa1AKHQ19CR8Q6AEwC3oECAcQAQ#v=onepage&q=pavla%20lov%C5%A1e&f=false',
+        title: '🇸🇮 The forgotten half'
+      }
+    ]
   },
   {
     first_name: 'Vida',
     last_name: 'Ferluga',
-    full_name: 'vida_ferluga'
+    full_name: 'vida_ferluga',
+    biography_sl: "Mezzosopranistka Vida Ferluga, italijanska pevka slovenskega rodu, se je rodila 17. marca 1895 na
+      Opčinah, kjer je obiskovala tudi osnovno šolo. Prve glasbene nauke je dobila pri očetu Štefanu Ferlugi,
+      ki je bil zborovodja in skladatelj. Petje je študirala
+      na glasbenem konservatoriju v Pesaru. Nastopala je po vsej Italiji, tudi skupaj z Benjaminom Giglijem,
+      Ester Mazzoleni, Eugenio Burzio. Najbolj je uspela v vlogi Carmen skladatelja Bizeta. V Milanu je
+      uspešno opravila avdicijo pri Arturu
+      Toscaniniju in bila sprejeta v milansko operno hišo La Scala, toda žal je 1924 umrla za tifusom, preden
+      bi lahko tam nastopila. Njen glas lahko poslušamo le na posnetkih Verdijevega Rigoletta, kjer je pela
+      vlogo Maddalene. Posnetki so nastali med letoma 1915 in 1918.",
+    biography_en: "Mezzo-soprano Vida Ferluga, an Italian singer of Slovenian origin, was born on 17 March 1895 in
+      Opčina, where she also attended primary school. She received her first musical lessons from her
+      father Štefan Ferluga, who was a choirmaster and composer. She studied singing at the Music
+      Conservatoire in Pesaro. She performed throughout Italy, including with Benjamin Gigli, Ester
+      Mazzoleni, Eugenio Burzio. She was most successful in the role of Carmen by Bizet. In Milan
+      successfully auditioned with Arturo Toscanini and was accepted by the Milanese opera house La Scala,
+      but unfortunately died of typhoid fever in 1924, before before she could perform there. Her voice
+      can only be heard on the recordings of Verdi's Rigoletto, where she sang the role of Maddalena. The
+      recordings are were recorded between 1915 and 1918.",
+    roles: '<li>Carmen (Bizet: Carmen)</li>
+      <li>Azucena (Verdi: Trubadur)</li>
+      <li>Ulrika (Verdi: Ples v maskah)</li>
+      <li>Adalgisa (Bellini: Norma)</li>
+      <li>Amneris (Verdi: Aida)</li>
+      <li>Laura (Ponchielli: La Gioconda)</li>
+      <li>Maddalena (Verdi: Rigoletto)</li>
+      <li>Leonora (Donizetti: Favoritinja)</li>',
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/ckkyOMSxBks",
+        title_sl: "Vida Ferluga poje vlogo Maddalene - nižji ženski glas.",
+        title_en: "Vida Ferluga sings Maddalene - lower female voice.",
+      }
+    ],
+    links: [
+      {
+        url: 'https://www.slovenska-biografija.si/oseba/sbi1008740/',
+        title: '🇸🇮 Slovenian Biographical Lexicon'
+      },
+      {
+        url: "https://sl.wikipedia.org/wiki/Vida_Ferluga",
+        title: '🇸🇮 wikipedia'
+      },
+      {
+        url: 'http://www.lavoceantica.it/Mezzosoprano/Ferluga%20Vida.htm',
+        title: 'the ancient voice'
+      },
+      {
+        url: 'https://www.operadis-opera-discography.org.uk/CLVERIGO.HTM#3',
+        title: 'operadis-opera-discography'
+      },
+      {
+        url: 'https://archive.org/details/RIGOLETTOTheFernandoDeLuciaEditionCompleteOperaPhonotype191518',
+        title: 'Internet Archive'
+      }
+    ]
   },
   {
     first_name: 'Franja',
