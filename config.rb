@@ -3,12 +3,13 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+available_langs = %i[en sl]
 activate :autoprefixer do |prefix|
   prefix.browsers = 'last 2 versions'
 end
 activate :livereload
 activate :relative_assets
-activate :i18n, langs: %i[en sl], mount_at_root: false
+activate :i18n, langs: available_langs, mount_at_root: false
 set :relative_links, true
 # activate :asset_hash
 
@@ -29,11 +30,11 @@ page '/index.html', layout: false
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
-# Proxy pages
-# https://middlemanapp.com/advanced/dynamic-pages/
-# data.singers.singers.each do |singer|
-#   proxy "/#{singer.name}.html", '/singer.html', locals: { singer: singer }, ignore: true
-# end
+data.singers.singers.each do |singer|
+  available_langs.each do |lang|
+    proxy "#{lang}/#{singer.full_name}.html", '/localizable/singer.html', locals: { singer: singer }, ignore: true
+  end
+end
 
 # proxy(
 #   '/this-page-has-no-template.html',

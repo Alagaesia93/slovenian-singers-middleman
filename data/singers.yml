@@ -1,0 +1,37 @@
+singers: [
+  {
+    first_name: 'Josip',
+    last_name: 'Rijavec',
+    full_name: 'josip_rijavec'
+  },
+  {
+    first_name: 'Julij',
+    last_name: 'Betetto',
+    full_name: 'julij_betetto'
+  },
+  {
+    first_name: 'Franz',
+    last_name: 'Naval',
+    full_name: 'franz_naval'
+  },
+  {
+    first_name: 'Irma',
+    last_name: 'Polak',
+    full_name: 'irma_polak'
+  },
+  {
+    first_name: 'Pavla',
+    last_name: 'Lovse',
+    full_name: 'pavla_lovse'
+  },
+  {
+    first_name: 'Vida',
+    last_name: 'Ferluga',
+    full_name: 'vida_ferluga'
+  },
+  {
+    first_name: 'Franja',
+    last_name: 'Verhunc',
+    full_name: 'franja_verhunc'
+  }
+]

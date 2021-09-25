@@ -5,16 +5,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Slovenian singers" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= stylesheet_link_tag "fontawesome-all.min" %>
-    <%= javascript_include_tag "breakpoints.min" %>
-    <%= javascript_include_tag "browser.min" %>
-    <%= javascript_include_tag "isotope.min" %>
-    <%= javascript_include_tag "jquery.min" %>
-    <%= javascript_include_tag "main" %>
-    <%= javascript_include_tag "util" %>
 
     <% if build? %>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-R9RPEDHDX8"></script>
@@ -51,24 +44,18 @@
   <body class="is-preload">
     <header id="header" style="background-position: left 0px;">
       <div class="inner">
-        <h1>Slovenian singers</h1>
       </div>
+    </header>
+    <div id="main">
+      <%= yield %>
+
       <footer id="footer">
         <hr>
         <div class="row">
-          <div class="col-12">
-            <ul class="icons">
-              <% localized_paths_for(current_page).each do |text, path| %>
-                <li><%= link_to localized_text_for(text), path %></li>
-              <% end %>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-4">
             <ul class="icons">
-              <li><a href="mailto:sloveniansingers@gmail.com" class="icon solid fa-envelope">
-                <span class="label">Email</span></a>
+              <li><a href="mailto:sloveniansingers@gmail.com" class="icon solid fa-envelope"><span
+                    class="label">Email</span></a>
               </li>
               <li>
                 <a href="https://github.com/masusing/slovenian-singers-website" target="_blank" rel="noopener"
@@ -88,7 +75,27 @@
           </div>
         </div>
       </footer>
-    </header>
-    <%= yield %>
+    </div>
+
+    <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "breakpoints.min", async: build? %>
+    <%= javascript_include_tag "browser.min", async: build? %>
+    <%= javascript_include_tag "isotope.min", async: build? %>
+    <%= javascript_include_tag "main", async: build? %>
+    <%= javascript_include_tag "util", async: build? %>
+    <% if build? %>
+      <script>
+        (function () {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://app.termly.io/embed.min.js';
+          s.id = '887f0c83-70ef-4c0b-abd5-344de4ebc043';
+          s.setAttribute("data-name", "termly-embed-banner");
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        })();
+      </script>
+    <% end %>
   </body>
 </html>
