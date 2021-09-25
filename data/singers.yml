@@ -404,10 +404,5 @@ singers: [
         title: 'Internet Archive'
       }
     ]
-  },
-  {
-    first_name: 'Franja',
-    last_name: 'Verhunc',
-    full_name: 'franja_verhunc'
   }
 ]

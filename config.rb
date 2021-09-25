@@ -36,6 +36,7 @@ data.singers.singers.each do |singer|
     proxy "#{lang}/#{singer.full_name}.html", '/localizable/singer.html', locals: { singer: singer }, ignore: true
   end
 end
+ignore '/localizable/singer.html'
 
 # proxy(
 #   '/this-page-has-no-template.html',
