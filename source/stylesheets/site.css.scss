@@ -2491,7 +2491,7 @@ input[type="button"]:disabled,
 		} */
 
 #footer .copyright {
-    /* color: rgba(255, 255, 255, 0.4); */
+    text-align: center;
     font-size: 0.8em;
     list-style: none;
     margin: 1em 0 0 0;
@@ -2527,8 +2527,8 @@ input[type="button"]:disabled,
 
 #main>section {
     border-top: solid 2px #efefef;
-    margin: 4em 0 0 0;
-    padding: 4em 0 0 0;
+    margin: 2em 0 0 0;
+    padding: 2em 0 0 0;
 }
 
 #main>section:first-child {

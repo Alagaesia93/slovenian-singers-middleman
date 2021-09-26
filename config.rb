@@ -83,7 +83,7 @@ helpers do
   def localized_text_for(text)
     case text.to_s
     when 'sl'
-      '🇸🇮 Sloveniji'
+      '🇸🇮 Slovensko'
     when 'it'
       '🇮🇹 Italiano'
     else

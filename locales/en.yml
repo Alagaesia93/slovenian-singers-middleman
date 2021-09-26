@@ -19,4 +19,7 @@ en:
   thank: 'Thank you for visiting the site!'
   roles: 'Some of the most important roles:'
   recordings: 'Recordings'
-  more: 'Resources / Links for further reading:'
+  number_of_recordings: 'recordings'
+  more: 'Resources / Links for further reading'
+  pictures: 'A selection of photographs'
+  names: 'Names:'

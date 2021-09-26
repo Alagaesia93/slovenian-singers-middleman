@@ -47,6 +47,17 @@
       </div>
     </header>
     <div id="main">
+      <nav style="text-align: right">
+        <a href="#" class="active">
+          <%= localized_text_for(lang) %>
+        </a>
+        <% localized_paths_for(current_page).each do |lang, url| %>
+          <a href="<%= url %>">
+            <%= localized_text_for(lang) %>
+          </a>
+        <% end %>
+      </nav>
+
       <%= yield %>
 
       <footer id="footer">
@@ -65,13 +76,23 @@
               </li>
             </ul>
           </div>
-          <div class="col-8">
+          <div class="col-4">
             <ul class="copyright">
               <li>&copy; Mateja Sustersic - 2021</li>
               <li>Design: <a href="http://html5up.net" target="_blank" rel="noopener">HTML5 UP</a></li>
               <li>Code: <a href="https://alagaesia93.github.io/" target="_blank" rel="noopener">AM</a></li>
               <li><a href="<%= url_for('privacy') %>" target="_blank" rel="noopener">Privacy</a></li>
             </ul>
+          </div>
+          <div class="col-4" style="text-align: right">
+            <a href="#" class="active">
+              <%= localized_text_for(lang) %>
+            </a>
+            <% localized_paths_for(current_page).each do |lang, url| %>
+              <a href="<%= url %>">
+                <%= localized_text_for(lang) %>
+              </a>
+            <% end %>
           </div>
         </div>
       </footer>
