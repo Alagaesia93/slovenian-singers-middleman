@@ -25,10 +25,14 @@
     <div class="row">
       <% singer.recordings.each do |recording| %>
         <article class="col-12 work-item align-center">
-          <iframe width="560" height="315" src="<%= recording.youtube_url %>" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen loading="lazy"
-            title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
+          <% if recording.youtube_url.present? %>
+            <iframe width="560" height="315" src="<%= recording.youtube_url %>" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"
+              title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
+          <% else %>
+            <audio src="<%= recording.audio_url %>" controls="true"></audio>
+          <% end %>
           <h3><%= recording.send("title_#{I18n.locale}") %></h3>
         </article>
       <% end %>

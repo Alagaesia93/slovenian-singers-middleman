@@ -744,5 +744,231 @@ singers: [
         source_link: 'http://forgottenoperasingers.blogspot.com/2016/08/vida-ferluga-mezzo-soprano-opcine.html'
       }
     ]
+  },
+  {
+    first_name: 'Franja',
+    last_name: 'Verhunk',
+    dates_sl: '(8. avgust 1875 - 11. november 1944)',
+    dates_en: '(August 8, 1875 - November 11, 1944)',
+    full_name: 'franja_verhunk',
+    biography_sl: "Franja Verhunc se je rodila 8. Avgusta 1875 v Ljubljani. Petje je študirala na Dunajskem konservatoriju pri profesorju Josefu Gänsbacherju. Njen učitelj na Dunaju je bil tudi Felice Mancio. Pred tem je obiskovala šolo Glasbene Matice v Ljubljani. V Sloveniji je nastopala le na začetku svoje umetniške poti, še kot študentka, a že tedaj dosegala lepe uspehe, med drugim kot solistka v Dvořákovem <i>Mrtvaškem ženinu</i> na koncertu Glasbene Matice leta 1895 v Ljubljani. Koncert je bil ponovljen leto kasneje na Dunaju pod vodstvom samega Dvořáka. O njenem nastopu so v tisku zapisali: <br><i>/.../ kako naraven in lahek, kako čist in gladek ji je tekel glas iz grla! Jakost pa in prirodna moč tega glasu se je mogočno razvijala na onih mesteh, kjer je trebalo pokazati ga nasproti združenim močem orkestra, zbora in nje nasprotnika, tenorista Lašeka /.../. /.../ je gospodična Verhunčeva dokazala, da nje grlo hrani še drug redki zaklad: poleg soprana divni alt. Ta alt je donel tako krepko, kot nekakov krepki moški glas.</i><br> Leta 1897 je bila angažirana v  Poznanu, naslednje leto pa postala članica opernega ansambla v Vroclavu, kjer je ostala do leta 1912. Na znamenitem festivalu Wagnerjeve opere v Bayreuthu leta 1901 je pela vlogo Freie v operi <i>Rensko zlato</i>. Z velikim uspehom je gostovala v operah na Dunaju, v Dresdnu in v Münchnu. Navdušila je še posebej z vlogo Salome skladatelja Richarda Straussa. Po predstavi v Vroclavu leta 1906 ji je čestital tudi sam skladatelj. Nastopila pa je tudi v prvi uprizoritvi te opere na Dunaju 15. maja 1907. Ko se je leta 1917 umaknila iz odra, se je posvetila poučevanju petja. Poročena je bila najprej s tenoristom Adalbertom Holzapflom, nato pa z dirigentom Juliusom Prüwerjem. Umrla je 11. Novembra 1944 na Golniku.",
+    biography_en: "Fanchette Verhunk was born Franja Vrhunc on August 8, 1875 in Ljubljana. After receiving a musical education at the Glasbena Matica school in Ljubljana, she studied singing at the Vienna Conservatory with Josef Gänsbacher and Felice Mancio. She only performed in her homeland at the beginning of her career. Although still a student, she was considered a great vocalist and artist. In 1896 she was the soprano soloist in Dvořák’s cantata Die Geisterbraut in a concert given in Vienna under the direction of Dvořák himself. A Slovenian press article reporting on the event reads as follows: <br><i>/.../ how natural and light, how clean and smooth the voice flowed from her throat! She was able to expand on the strength and the natural volume of her voice greatly in those places where it had to be present against the combined forces of the orchestra, the choir and her opponent, the tenor Lašek /.../. /.../ Miss Verhunc has demonstrated that her throat has another rare treasure in store: in addition to the soprano, a wonderful alto. The alto she has brought forth was as powerful as a strong male voice</i><br> Her first engagement was in Poznań in 1897, followed by an engagement at the Wrocław Opera, where she stayed until 1912. In Wrocław, she was highly esteemed and admired. At the 1901 Bayreuth Festival she sang the role of Freia in Wagner’s opera Das Rheingold. Guest performances led her to Vienna, Dresden, Munich, Amsterdam and Budapest.  The highlight of her career was the title role in Richard Strauss's opera Salome. The composer saw her as Salome in Wroclaw in 1906 and congratulated her on her performance. She sang Salome when the opera was given in Vienna for the first time on May 15, 1907. In 1917 she retired from the stage and devoted herself to teaching. She was married to the tenor Adalbert Holzapfel and later to the conductor Julius Prüwer. In 1944 she returned to Slovenia, where she died on November 11, 1944.",
+    names: 'Franja / Franica / Fanchette / Fandetta <br> Verhunc / Vrhunc / Verhunk / Verhunck / Holzapfel / Prüwer',
+    roles_sl: "<li>Salome (Strauss: Salome)</li>
+      <li>Mimi (Puccini: La Bohème)</li>
+      <li>Luiza (Charpentier: Luiza)</li>
+      <li>Carmen (Bizet: Carmen)</li>
+      <li>Mignon (Thomas: Mignon)</li>
+      <li>Leonora (Verdi: Trubadur)</li>
+      <li>Freia (Wagner: Rensko zlato)</li>",
+    roles_en: "<li>Salome (Strauss: Salome)</li>
+      <li>Mimì (Puccini: La Bohème)</li>
+      <li>Louise (Charpentier: Louise)</li>
+      <li>Carmen (Bizet: Carmen)</li>
+      <li>Mignon (Thomas: Mignon)</li>
+      <li>Leonora (Verdi: Il Trovatore)</li>
+      <li>Freia (Wagner: Das Rheingold)</li>",
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/Wp3HLx_4YKc",
+        title_sl: "Georges Bizet: Scena s kartami iz opere <i>Carmen</i> (v nemškem jeziku)",
+        title_en: "Georges Bizet: The card scene from <i>Carmen</i> (sung in German)"
+      },
+      {
+        audio_url: "http://media.slub-dresden.de/fon/snp/a/005182/fon_snp_a_005182_01.mp3",
+        title_sl: "Giuseppe Verdi: Arija Aide iz istoimenske opere (v nemškem jeziku)",
+        title_en: "Giuseppe Verdi: Aida's Aria O patria mia (sung in German)"
+      },
+      {
+        audio_url: 'http://media.slub-dresden.de/fon/snp/b/006560/fon_snp_b_006560_01.mp3',
+        title_sl: "Ambroise Thomas: Arija Mignon iz istoimenske opere (v nemškem jeziku)",
+        title_en: "Ambroise Thomas: Mignon's Aria Connais-tu le pays (sung in German)"
+      },
+      {
+        audio_url: 'http://media.slub-dresden.de/fon/snp/b/006560/fon_snp_b_006560_02.mp3',
+        title_sl: 'Jacques Offenbach: Barkarola iz opere Hoffmannove pripovedke (v nemškem jeziku). Duet z altistko Margo Neisch',
+        title_en: "Jacques Offenbach: Barcarolle from Hoffmann's Tales (sung in German). A duet with Marga Neisch"
+      }
+    ],
+    links: [
+      {
+        url: 'https://www.slovenska-biografija.si/oseba/sbi775405/',
+        title: '🇸🇮 Slovenski biografski leksikon'
+      },
+      {
+        url: "https://web.operissimo.com/triboni/exec?method=com.operissimo.artist.webDisplay&xsl=webDisplay&id=ffcyoieagxaaaaabdxyw",
+        title: '🇩🇪 operissimo'
+      },
+      {
+        url: 'https://en.wikipedia.org/wiki/Fanchette_Verhunc',
+        title: '🇬🇧 🇩🇪 🇸🇮 Wikipedia'
+      },
+      {
+        url: 'http://greatestoperasingers.blogspot.com/2016/06/fanchette-verhunk-soprano-1874.html',
+        title: '🇬🇧 greatest opera singers'
+      },
+      {
+        url: 'https://www.bmlo.uni-muenchen.de/v0044',
+        title: '🇩🇪 Bayerisches Musiker Lexikon Online'
+      },
+      {
+        url: 'https://www.europeana.eu/en/item/221/URN_NBN_SI_DOC_Y96GT4KG',
+        title: '🇸🇮 europeana.eu'
+      },
+      {
+        url: 'https://www.europeana.eu/en/item/92054/URN_NBN_SI_doc_R6TXSJMQ',
+        title: '🇸🇮 europeana.eu'
+      }
+    ],
+    pictures: [
+      {
+        path: 'verhunc/0_Franja_Verhunc_post_card.jpg',
+        title_sl: 'Portret Franje Verhunc na razglednici okrog leta 1920',
+        title_en: 'A portrait of Fanchette Verhunk on a postcard from the 1920s',
+        source: 'picclick.de',
+        source_link: 'https://picclick.de/Fanchette-Verhunk-Postkarte-20er-Jahre-BC-125709-273047596890.html'
+      },
+      {
+        path: 'verhunc/1_Franja_Verhunc_(slika_NUK).jpg',
+        title_sl: 'Portret Franje Verhunc na razglednici okrog leta 1920',
+        title_en: 'Fanchette Verhunk in 1896, in slovenian folk costume',
+        source: 'dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        credits: 'MLA: Franja Verhunc (1874-1944). 1896. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-LFH6PUDC>',
+        source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-LFH6PUDC/?euapi=1&query=%27keywords%3dfranja+verhunc+(1874-1944)%27&sortDir=ASC&sort=date&pageSize=25'
+      },
+      {
+        path: 'verhunc/2_Franja_Verhunc_(image_goetheuni).jpg',
+        title_sl: 'Franja Verhunc v vlogi Salome (R.Strauss: Salome) okrog leta 1906',
+        title_en: 'Fanchette Verhunk as Salome (R.Strauss: Salome) ca.1906',
+        source: 'uni-frankfurt.de (orig.source/rights: Universitaetsbibliothek Johann Christian Senckenberg Frankfurt am Main)',
+        credits: 'urn:nbn:de:hebis:30:2-120798',
+        source_link: 'https://sammlungen.ub.uni-frankfurt.de/manskopf/content/titleinfo/5494298'
+      },
+      {
+        path: 'verhunc/3_Franja_Verhunc_(image_goetheuni).jpg',
+        title_sl: 'Franja Verhunc v vlogi Salome (R.Strauss: Salome) okrog leta 1906',
+        title_en: 'Fanchette Verhunk as Salome (R.Strauss: Salome) ca.1906',
+        source: 'uni-frankfurt.de (orig.source/rights: Universitaetsbibliothek Johann Christian Senckenberg Frankfurt am Main)',
+        credits: 'urn:nbn:de:hebis:30:2-163173',
+        source_link: ' https://sammlungen.ub.uni-frankfurt.de/manskopf/content/titleinfo/5549106l'
+      },
+      {
+        path: 'verhunc/4_Franja_Verhunc_(image_awers-rewers_pl).jpg',
+        title_sl: 'Franja Verhunc v vlogi Salome (R.Strauss: Salome) okrog leta 1906',
+        title_en: 'Fanchette Verhunk as Salome (R.Strauss: Salome) ca.1906',
+        source: 'awers-rewers.pl (orig.source/rights: Jacek Dehnel)',
+        source_link: 'https://awers-rewers.pl/fanchette-verhunk-w-tytulowej-roli-w-salome-richarda-straussa/'
+      },
+      {
+        path: 'verhunc/5_Franja_Verhunc_(image_goetheuni).jpg',
+        title_sl: 'Franja Verhunc',
+        title_en: 'Fanchette Verhunk in a stage role',
+        source: 'uni-frankfurt.de  (orig.source/rights: Universitaetsbibliothek Johann Christian Senckenberg Frankfurt am Main)',
+        credits: 'urn:nbn:de:hebis:30:2-151818',
+        source_link: 'https://sammlungen.ub.uni-frankfurt.de/manskopf/content/titleinfo/5543449'
+      }
+    ]
+  },
+  {
+    first_name: 'Josip',
+    last_name: 'Križaj',
+    dates_sl: '(5. marec 1887 - 30. julij 1968)',
+    dates_en: '(March 5, 1887 - July 30,1968)',
+    full_name: 'josip_krizaj',
+    biography_sl: "Basist Josip Križaj se je rodil 5. marca 1887 v Vevčah pri Ljubljani. Obiskoval je šolo Glasbene matice, petja se je učil pri Mateju Hubadu. Bil je član gledališke skupine igralca Ignacija Borštnika. Leta 1907 je postal član Slovenskega deželnega gledališča in na odru debitiral kot igralec. Kmalu je postal še član ljubljanske Opere, potem ko je leta 1908 na predstavi opere Romeo in <i>Julija</i> Charlesa Gounoda zamenjal obolelega Rudolfa Bukška. Leta 1913 je odšel v Zagreb, kjer je nastopal do upokojitve leta 1957, vmes pa bil angažiran tudi v Osijeku in Beogradu. Gostoval je v Dresdenu, Bratislavi, Frankfurtu, Benetkah, Firencah, Trstu, Rimu in na Dunaju. Ko je Richard Strauss 11. oktobra 1916 v Zagrebu sam dirigiral izvedbi Kavalirja z rožo, je bil najbolj navdušen prav nad Križajevo upodobitvijo Barona Ochsa. Ruski igralec Konstantin Sergejevič Stanislavski je Križaja doživel v vlogi Kecala v Smetanovi operi Prodana nevesta v Zagrebu leta 1922, ter mu čestital za “grandiozno stvaritev”. Vlogo Kecala je Križaj pel okoli 250-krat, v 17 mestih, med drugimi tudi s češkima sopranistkama Emmy Destinn in Jarmilo Novotno. V Zagrebu je bil zelo priljubljen, hvalili so tako njegov bogat glas, kot tudi njegov izjemen dramski talent. Po nastopu v operi Boris Godunov skladatelja Musorgskega, ga je zagrebški tisk poimenoval „naš Šaljapin”. Na odru je zadnjič nastopil leta 1957 kot Ferrando v Verdijevem <i>Trubadurju</i>, nato pa deloval kot režiser. Umrl 30. julija 1968 v Zagrebu.",
+    biography_en: "Josip Križaj was born on March 5, 1887 in Vevče near Ljubljana. He attended the school of Glasbena Matica, where he studied singing with Matej Hubad and was a member of Ignacij Borštnik's theatre group. In 1907 he joined the ensemble of the Theatre Slovensko deželno gledališče and made his stage debut as an actor. Some months later, in 1908, after substituting for ailing Rudolf Bukšek in Gounod's opera <i>Romeo and Juliet</i>, he was offered an engagement at the Ljubljana Opera House as well. In 1913 he moved to Zagreb, where he performed until his retirement, spending a couple of seasons in-between in Osijek, Belgrade and Ljubljana. He made guest appearances in Dresden, Bratislava, Frankfurt, Venice, Florence, Trieste, Rome and Vienna. When Richard Strauss himself conducted a performance of  The Rosenkavalier on October 11, 1916,  in Zagreb, he was most of all impressed by Križaj's portrayal of Baron Ochs. The famous Russian actor Konstantin S. Stanislavski admired Križaj in the role of Kecal in Smetana’s opera The Bartered Bride when he heard him in Zagreb in 1922. Križaj sang Kecal about 250 times, in 17 cities, among others with Czech sopranos Emmy Destinn and Jarmila Novotná. Throughout his years in Zagreb, he was admired and praised for his rich voice and exceptional dramatic talent. After a very successful performance of Boris Godunov, the Zagreb press referred to him as „our Chaliapin”. He last appeared on stage in 1957 as Ferrando in Verdi’s <i>Troubadour</i>. Later he worked as a stage director. He died on July 30, 1968, in Zagreb.",
+    roles_sl: "<li>Baron Ochs (Strauss: Kavalir z rožo)</li>
+      <li>Boris Godunov (Musorgski: Boris Godunov)</li>
+      <li>Kecal (Smetana: Prodana nevesta)</li>
+      <li>Kralj Marke (Wagner: Tristan in Izolda)</li>
+      <li>Wotan (Wagner: Rensko zlato)</li>
+      <li>Kralj Filip (Verdi: Don Carlos)</li>
+      <li>Figaro (Mozart: Figarova svatba)</li>
+      <li>Sulejman (Zajc: Nikola Šubić Zrinski)</li>
+      <li>Sveslav (Lisinski: Porin)</li>
+      <li>Mefisto (Boito: Mefisto)</li>",
+    roles_en: "<li>Baron Ochs (Strauss: Der Rosenkavalier)</li>
+      <li>Boris Godunov (Mussorgsky: Boris Godunov)</li>
+      <li>Kecal (Smetana: The Bartered Bride)</li>
+      <li>King Marke (Wagner: Tristan and Isolde)</li>
+      <li>Wotan (Wagner: Das Rheingold)</li>
+      <li>King Philip (Verdi: Don Carlos)</li>
+      <li>Figaro (Mozart: The Marriage of Figaro)</li>
+      <li>Suleiman (Zajc: Nikola Šubić Zrinski)</li>
+      <li>Sveslav (Lisinski: Porin)</li>
+      <li>Mefistofele (Boito: Mefistofele)</li>",
+    recordings: [
+      {
+        youtube_url: "https://www.youtube.com/embed/gyduqe5oGw8",
+        title_sl: "Lisinski: Arija Sveslava iz opere Porin",
+        title_en: "Lisinski: Sveslav’s aria from Porin "
+      },
+      {
+        youtube_url: "https://www.youtube.com/embed/FfMLhCBeQqc",
+        title_sl: "Puccini: Collinova pesem iz opere La Boheme (v hrvaškem jeziku)",
+        title_en: "Puccini: Colline’s song from La Bohème (sung in Croatian)"
+      },
+      {
+        youtube_url: 'https://www.youtube.com/embed/JOuIimab2uI',
+        title_sl: "Peter Iljič Čajkovski: Arija princa Gremina iz opere Jevgenij Onjegin  (v hrvaškem jeziku)",
+        title_en: "Pyotr Ilyich Tchaikovsky: Prince Gremin’s aria from Eugene Onegin (sung in Croatian)"
+      }
+    ],
+    links: [
+      {
+        url: 'http://www.slovenci-zagreb.hr/wp-content/uploads/2017/02/monografija_krizaj_za_web.pdf',
+        title: '🇭🇷 Marija Barbieri: A Josip Križaj Monograph (with Summary in English - p.308-311) 💚'
+      },
+      {
+        url: "http://forgottenoperasingers.blogspot.com/2018/05/",
+        title: '🇬🇧 forgotten opera singers'
+      }
+    ],
+    pictures: [
+      {
+        path: 'krizaj/0_josip_krizaj_(image_NUK).jpg',
+        title_sl: 'Portret Josipa Križaja iz leta 1915',
+        title_en: 'A portrait of Josip Križaj in 1915',
+        source: 'dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        credits: 'MLA: Setečka, V.. Josip Križaj (1887-1968). V. Setečka, 1915. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-6MRAWA6U>',
+        source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-6MRAWA6U/?euapi=1&query=%27keywords%3djosip+kri%c5%beaj+(1887-1968)%27&sortDir=ASC&sort=date&pageSize=100'
+      },
+      {
+        path: 'krizaj/1_josip_krizaj_(image_opera.hr).jpg',
+        title_sl: 'Josip Križaj v vlogi Figara (Mozart: Figarova svatba) leta 1917',
+        title_en: 'Josip Križaj as Figaro (Mozart: The Marriage of Figaro) in 1917',
+        source: 'opera.hr (orig.source/rights: Marija Barbieri, OPERA.hr)',
+        source_link: 'http://www.opera.hr/index.php?p=article&id=60'
+      },
+      {
+        path: 'krizaj/2_josip_krizaj_(image_klasika.hr).jpg',
+        title_sl: 'Josip Križaj v vlogi Mefista (Boito: Mefisto), najbrž 1931',
+        title_en: 'Josip Križaj as Mefistofele (Boito: Mefistofele), probably in 1931',
+        source: ' klasika.hr (orig.source/rights: Marija Barbieri, KLASIKA.hr)',
+        source_link: 'http://www.klasika.hr/index.php?p=article&id=1862'
+      },
+      {
+        path: 'krizaj/3_josip_krizaj_(image_opera.hr).jpg',
+        title_sl: 'Josip Križaj v vlogi Borisa Godunova (Musorgski: Boris Godunov) leta 1930',
+        title_en: 'Josip Križaj as Boris Godunov (Mussorgsky: Boris Godunov) in 1930',
+        source: 'opera.hr (orig.source/rights: Marija Barbieri, OPERA.hr)',
+        source_link: 'http://www.klasika.hr/index.php?p=article&id=1862'
+      },
+      {
+        path: 'krizaj/4_josip_krizaj_(image_monografija).jpg',
+        title_sl: 'Josip Križaj v vlogi Kecala (Smetana: Prodana nevesta) leta 1937',
+        title_en: 'Josip Križaj as Kecala (Smetana: The Bartered Bride) in 1937',
+        source: 'Marija Barbieri:Josip Križaj, Umjetnik ispred svojega vremena, A Monograph (orig.source/rights: see monograph p.324)',
+        source_link: 'http://www.slovenci-zagreb.hr/wp-content/uploads/2017/02/monografija_krizaj_za_web.pdf'
+      },
+      {
+        path: 'krizaj/5_josip_krizaj_(image_NUK).jpg',
+        title_sl: 'Josip Križaj okrog leta 1920',
+        title_en: 'Josip Križaj ca. 1920',
+        source: ' dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        credits: 'MLA: Kunc, Viktor. Josip Križaj (1887-1968). V. Kunc, 192?. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-4LYK3K0J>',
+        source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-4LYK3K0J/?euapi=1&query=%27keywords%3djosip+kri%c5%beaj+(1887-1968)%27&sortDir=ASC&sort=date&pageSize=25'
+      }
+    ]
   }
 ]
