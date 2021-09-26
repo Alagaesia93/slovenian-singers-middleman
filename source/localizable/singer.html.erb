@@ -1,57 +1,57 @@
-<%= I18n.locale %>
-<%= t(:hello) %>
+<% if defined?(singer) %>
 
-<%= localized_paths_for(current_page) %>
-<section id="about">
-  <header class="major">
-    <a href="<%= url_for("index.html", anchor: 'singers') %>">←</a>
-    <h1><%= singer.first_name + " " + singer.last_name %></h1>
-  </header>
-  <p style="text-align: justify">
-    <%= singer.send("biography_#{I18n.locale}") %>
-  </p>
+  <%= localized_paths_for(current_page) %>
+  <section id="about">
+    <header class="major">
+      <a href="<%= url_for("index.html", anchor: 'singers') %>">←</a>
+      <h1><%= singer.first_name + " " + singer.last_name %></h1>
+    </header>
+    <p style="text-align: justify">
+      <%= singer.send("biography_#{I18n.locale}") %>
+    </p>
 
-  <%= t(:roles) %>
-  <ul>
-    <li>Grieux (Puccini: Manon Lescaut)</li>
-    <li>Rodolfo (Puccini: La Bohème)</li>
-    <li>Turiddu (Mascagni: Cavaleria Rusticana)</li>
-    <li>Alfredo (Verdi: Traviata)</li>
-    <li>Edgardo (Donizetti - Lucia di Lammermoor)</li>
-    <li>Pinkerton (Puccini: Madama Butterfly)</li>
-    <li>Lenski (Čajkovski: Jevgenij Onjegin)</li>
-    <li>Cavaradossi (Puccini: Tosca)</li>
-  </ul>
-</section>
+    <%= t(:roles) %>
+    <ul>
+      <li>Grieux (Puccini: Manon Lescaut)</li>
+      <li>Rodolfo (Puccini: La Bohème)</li>
+      <li>Turiddu (Mascagni: Cavaleria Rusticana)</li>
+      <li>Alfredo (Verdi: Traviata)</li>
+      <li>Edgardo (Donizetti - Lucia di Lammermoor)</li>
+      <li>Pinkerton (Puccini: Madama Butterfly)</li>
+      <li>Lenski (Čajkovski: Jevgenij Onjegin)</li>
+      <li>Cavaradossi (Puccini: Tosca)</li>
+    </ul>
+  </section>
 
-<!-- Two -->
-<section id="videos">
-  <h2><%= t(:recordings) %></h2>
-  <div class="row">
-    <% singer.recordings.each do |recording| %>
-      <article class="col-12 work-item align-center">
-        <iframe width="560" height="315" src="<%= recording.youtube_url %>" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen loading="lazy"
-          title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
-        <h3><%= recording.send("title_#{I18n.locale}") %></h3>
-      </article>
-    <% end %>
-  </div>
-</section>
-
-<!-- Three -->
-<section id="ref">
-  <h2><%= t(:more) %></h2>
-  <div class="row">
-    <div class="col-8 col-12-small">
-      <% singer.links.each do |link| %>
-        <div>
-          <a href="<%= link.url %>" target="_blank" rel="noopener">
-            <%= link.title %>
-          </a>
-        </div>
+  <!-- Two -->
+  <section id="videos">
+    <h2><%= t(:recordings) %></h2>
+    <div class="row">
+      <% singer.recordings.each do |recording| %>
+        <article class="col-12 work-item align-center">
+          <iframe width="560" height="315" src="<%= recording.youtube_url %>" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy"
+            title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
+          <h3><%= recording.send("title_#{I18n.locale}") %></h3>
+        </article>
       <% end %>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Three -->
+  <section id="ref">
+    <h2><%= t(:more) %></h2>
+    <div class="row">
+      <div class="col-8 col-12-small">
+        <% singer.links.each do |link| %>
+          <div>
+            <a href="<%= link.url %>" target="_blank" rel="noopener">
+              <%= link.title %>
+            </a>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </section>
+<% end %>

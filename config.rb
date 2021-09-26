@@ -33,10 +33,10 @@ page '/privacy.html', layout: false
 
 data.singers.singers.each do |singer|
   available_langs.each do |lang|
-    proxy "#{lang}/#{singer.full_name}.html", '/localizable/singer.html', locals: { singer: singer }, ignore: true
+    proxy "#{lang}/#{singer.full_name}.html", '/localizable/singer.html',
+          locals: { singer: singer }, locale: lang, ignore: true
   end
 end
-ignore '/localizable/singer.html'
 
 # proxy(
 #   '/this-page-has-no-template.html',
