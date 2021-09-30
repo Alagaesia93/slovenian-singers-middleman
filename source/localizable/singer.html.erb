@@ -51,17 +51,22 @@
 
   <section id="pictures">
     <h2><%= t(:pictures) %></h2>
-    <div class="row">
-      <% singer.pictures.each do |pic| %>
-        <div class="col-4">
-          <%= image_tag(pic.path, width: '100%') %>
-          <h2><%= pic.send("title_#{I18n.locale}") %></h2>
-          <h4>
-            <a href="<%= pic.source_link %>" target="_blank" rel="noopener"><%= pic.source %></a>
-          </h4>
-          <h5><%= pic.credit %></h5>
-        </div>
-      <% end %>
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <% singer.pictures.each do |pic| %>
+            <li class="splide__slide">
+              <%= image_tag(pic.path) %>
+
+              <h2><%= pic.send("title_#{I18n.locale}") %></h2>
+              <h4>
+                <a href="<%= pic.source_link %>" target="_blank" rel="noopener"><%= pic.source %></a>
+              </h4>
+              <h5><%= pic.credit %></h5>
+            </li>
+          <% end %>
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -82,4 +87,17 @@
       </div>
     </div>
   </section>
+
+  <%= javascript_include_tag "splide.min", async: build? %>
+  <%= stylesheet_link_tag "splide.min" %>
+  <%= stylesheet_link_tag "splide-sea-green.min" %>
+
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+      new Splide('.splide', {
+        type: 'loop',
+        perPage: 1
+      }).mount();
+    })
+  </script>
 <% end %>
