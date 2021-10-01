@@ -53,19 +53,23 @@
     <h2><%= t(:pictures) %></h2>
     <div class="splide">
       <div class="splide__track">
-        <ul class="splide__list">
+        <div class="splide__list">
           <% singer.pictures.each do |pic| %>
-            <li class="splide__slide">
-              <%= image_tag(pic.path) %>
+            <div class="splide__slide">
+              <div style="text-align: center;">
+                <a href="<%= image_path(pic.path) %>" target="_blank" rel="noopener">
+                  <%= image_tag(pic.path, style: 'height: 50vh') %>
+                </a>
 
-              <h2><%= pic.send("title_#{I18n.locale}") %></h2>
-              <h4>
-                <a href="<%= pic.source_link %>" target="_blank" rel="noopener"><%= pic.source %></a>
-              </h4>
-              <h5><%= pic.credit %></h5>
-            </li>
+                <h2><%= pic.send("title_#{I18n.locale}") %></h2>
+                <h4>
+                  <a href="<%= pic.source_link %>" target="_blank" rel="noopener"><%= pic.source %></a>
+                </h4>
+                <h5><%= pic.credit %></h5>
+              </div>
+            </div>
           <% end %>
-        </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -88,7 +92,7 @@
     </div>
   </section>
 
-  <%= javascript_include_tag "splide.min", async: build? %>
+  <%= javascript_include_tag "splide.min" %>
   <%= stylesheet_link_tag "splide.min" %>
   <%= stylesheet_link_tag "splide-sea-green.min" %>
 
