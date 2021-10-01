@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'erb_lint'
 gem 'middleman'
 gem 'middleman-autoprefixer'
+gem "middleman-blog", "~> 4.0"
 gem 'middleman-livereload'
 gem 'rubocop'
 gem 'tzinfo-data', platforms: %i[mswin mingw jruby x64_mingw]

@@ -13,10 +13,18 @@ activate :i18n, langs: available_langs, mount_at_root: false
 set :relative_links, true
 # activate :asset_hash
 
+activate :blog do |blog|
+  blog.prefix = 'blog'
+  blog.sources = '{slug}.html'
+  blog.permalink = '{slug}.html'
+end
+
 configure :build do
   activate :minify_css
   activate :minify_javascript
 end
+
+Time.zone = 'Berlin'
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
