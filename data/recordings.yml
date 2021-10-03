@@ -305,5 +305,82 @@ recordings: [
     title_sl: "Ko lani sem tam mimo šel",
     title_en: "Ko lani sem tam mimo šel - <i>When I passed by there last year</i>",
     author: 'Zinka Milanov (1906 - 1989)'
+  },
+  {
+    tags: "folk vicar",
+    youtube_url: "https://www.youtube.com/embed/mS8nOalFzzw",
+    title_sl: "Škorjanček (narodna)",
+    title_en: "Škorjanček - <i>The Lark (folk song)</i>",
+    author: "Božidar Vičar"
+  },
+  {
+    tags: "folk vicar",
+    youtube_url: "https://www.youtube.com/embed/xqvhGgx7cs",
+    title_sl: "Tam kjer lunica (narodna)",
+    title_en: "Tam kjer lunica - <i>Where The Moon Goes Down (folk song)</i>",
+    author: "Božidar Vičar"
+  },
+  {
+    tags: "folk subelj",
+    youtube_url: 'https://www.youtube.com/embed/eFL5-0_H-Sw',
+    title_sl: 'Kje je moj mili dom? (narodna)',
+    title_en: 'Kje je moj mili dom? - <i>Where is my dear home? (folk song)</i>',
+    author: 'Anton Šubelj'
+  },
+  {
+    tags: "samospev subelj pavcic",
+    youtube_url: 'https://www.youtube.com/embed/GJQB0pPOBdU',
+    title_sl: 'Pastir(ica)',
+    title_en: 'Pastir(ica) - <i>Shepherd</i>',
+    author: 'Anton Šubelj (Josip Pavčič / Dr. Ivan Robida)'
+  },
+  {
+    tags: "folk subelj",
+    youtube_url: 'https://www.youtube.com/embed/4d6L59pnYe4',
+    title_sl: 'Dekle to mi povej (narodna)',
+    title_en: 'Dekle to mi povej - <i>Girl, tell me (folk song)</i>',
+    author: 'Anton Šubelj'
+  },
+  {
+    tags: "folk subelj",
+    youtube_url: 'https://www.youtube.com/embed/m26XlYs9z-I',
+    title_sl: "Bod' moja, bod' moja (narodna)",
+    title_en: "Bod' moja, bod' moja - <i>Be Mine, Be Mine (folk song)</i>",
+    author: 'Anton Šubelj'
+  },
+  {
+    tags: "folk subelj",
+    youtube_url: 'https://www.youtube.com/embed/pF8ZHhoDVPU',
+    title_sl: 'Nebeška ženitev (narodna)',
+    title_en: 'Nebeška ženitev - <i>A Wedding in Heaven (folk song)</i>',
+    author: 'Anton Šubelj'
+  },
+  {
+    tags: "folk subelj",
+    youtube_url: 'https://www.youtube.com/embed/AdN103ebjWk',
+    title_sl: 'Ljubca, kod si hodila (narodna)',
+    title_en: 'Ljubca, kod si hodila - <i>My Beloved, Where have You Been (folk song)</i>',
+    author: 'Anton Šubelj & Aneta Mandić'
+  },
+  {
+    tags: "folk subelj",
+    youtube_url: 'https://www.youtube.com/embed/WSVfx97INUk',
+    title_sl: 'Čez tri gore (narodna)',
+    title_en: 'Čez tri gore - <i>Over Three Mountains (folk song)</i>',
+    author: 'Anton Šubelj & Aneta Mandić'
+  },
+  {
+    tags: "folk",
+    youtube_url: 'https://www.youtube.com/embed/wAY0FKqeoiY',
+    title_sl: 'Gor čez jezero (narodna)',
+    title_en: 'Gor čez jezero - <i>Above Over The Lake (folk song)</i>',
+    author: 'Dragutin Šoštarko'
+  },
+  {
+    tags: "samospev",
+    youtube_url: 'https://www.youtube.com/embed/ssX18OJhUaU',
+    title_sl: 'En starček je živel',
+    title_en: 'En starček je živel - <i>There Was An Old Man (folk song)</i>',
+    author: 'Dragutin Šoštarko (Jurij Flajšman)'
   }
 ]

@@ -1,5 +1,6 @@
 singers: [
   {
+    position: 5,
     first_name: 'Josip',
     last_name: 'Rijavec',
     dates_sl: '(10. februar 1890 - 30. december 1959)',
@@ -137,6 +138,7 @@ singers: [
     ]
   },
   {
+    position: 8,
     first_name: 'Julij',
     last_name: 'Betetto',
     dates_sl: '(27. avgust 1885 - 14. januar 1963)',
@@ -272,6 +274,7 @@ singers: [
     ]
   },
   {
+    position: 1,
     first_name: 'Franz',
     last_name: 'Naval',
     dates_sl: '(20. oktober 1865 - 9. september ali november 1939)',
@@ -417,6 +420,7 @@ singers: [
     ]
   },
   {
+    position: 6,
     first_name: 'Irma',
     last_name: 'Polak',
     dates_sl: '(11. junij 1875 - 30. november 30 1931)',
@@ -539,6 +543,7 @@ singers: [
     ]
   },
   {
+    position: 7,
     first_name: 'Pavla',
     last_name: 'Lovše',
     dates_sl: '(13. januar 1891 - 22. junij 1964)',
@@ -652,6 +657,7 @@ singers: [
     ]
   },
   {
+    position: 3,
     first_name: 'Vida',
     last_name: 'Ferluga',
     dates_sl: '(17. marec 1895 - (?) 1924)',
@@ -746,6 +752,7 @@ singers: [
     ]
   },
   {
+    position: 2,
     first_name: 'Franja',
     last_name: 'Verhunk',
     dates_sl: '(8. avgust 1875 - 11. november 1944)',
@@ -870,6 +877,7 @@ singers: [
     ]
   },
   {
+    position: 4,
     first_name: 'Josip',
     last_name: 'Križaj',
     dates_sl: '(5. marec 1887 - 30. julij 1968)',

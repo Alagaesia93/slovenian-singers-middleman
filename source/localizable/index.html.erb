@@ -19,7 +19,7 @@
 <section id="singers">
   <h2></h2>
   <div class="row">
-    <% data.singers.singers.each do |singer| %>
+    <% data.singers.singers.sort_by{|s| s.position }.each do |singer| %>
       <article class="col-6 col-12-xsmall work-item">
         <a href="<%= "#{url_for(singer.full_name)}.html" %>" class="image fit thumb">
           <picture>
@@ -66,7 +66,10 @@
     <button class="button" data-filter=".polak">Polak</button>
     <button class="button" data-filter=".rijavec">Rijavec</button>
     <button class="button" data-filter=".lupsa">Lupša</button>
-    <button class="button" data-filter=".ostali">ostali</button>
+    <button class="button" data-filter=".sekula">Sekula</button>
+    <button class="button" data-filter=".subelj">Šubelj</button>
+    <button class="button" data-filter=".folk_singers"><%= t(:folk_singers) %></button>
+    <button class="button" data-filter=".ostali"><%= t(:others) %></button>
     <br>
     <br><%= t(:composers) %>
     <br>

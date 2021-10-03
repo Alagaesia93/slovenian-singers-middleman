@@ -43,7 +43,7 @@
     // Turn on touch mode.
     $body.addClass('is-touch');
 
-    // Height fix (mostly for iOS).
+    // height fix (mostly for iOS).
     window.setTimeout(function () {
       $window.scrollTop($window.scrollTop() + 1);
     }, 0);
@@ -148,11 +148,9 @@
   })
 
   $(".partially-collapsible-button").on("click", function () {
-    if ($(".partially-collapsible-content").css("max-height") !== "none") {
-      $(".partially-collapsible-content").css("max-height", "none")
-    }
-    else {
-      $(".partially-collapsible-content").css("max-height", "400px")
+    if ($(".partially-collapsible-content").css("height") !== "100%") {
+      $(".partially-collapsible-content").css("height", "100%")
+      $(".partially-collapsible-button").hide()
     }
   })
 

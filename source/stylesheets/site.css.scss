@@ -2295,7 +2295,8 @@ input[type="button"]:hover,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
-.button:active {
+.button:active,
+.button.is-checked {
     background-color: rgba(73, 191, 157, 0.1);
     border-color: #49bf9d;
     color: #49bf9d !important;
@@ -2760,9 +2761,10 @@ body.is-touch .closer {
 
 .partially-collapsible-content {
     overflow: scroll;
-    max-height: 400px;
+    height: 60vh;
     border: 1px solid #9c9c9c;
-    border-radius: 2px;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .collapsible-row {
