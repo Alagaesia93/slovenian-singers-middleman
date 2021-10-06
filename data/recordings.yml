@@ -17,9 +17,10 @@ recordings: [
   {
     tags: "folk rijavec",
     youtube_url: 'https://www.youtube.com/embed/95t5pjhvC8M?start=86',
-    title_sl: "Po jezeru bliz' Triglava (narodna)",
-    title_en: "Po jezeru bliz' Triglava - <br><i>On The Lake Near Triglav</i> (folk song)",
-    author: 'Josip Rijavec (1890-1959)'
+    title_sl: "Po jezeru bliz' Triglava",
+    title_en: "Po jezeru bliz' Triglava - <br><i>On The Lake Near Triglav</i>",
+    author: 'Josip Rijavec (1890-1959)',
+    composer: 'Miroslav Vilhar'
   },
   {
     tags: "folk rijavec",
@@ -253,7 +254,6 @@ recordings: [
     title_sl: "Po jezeru bilz’ Triglava",
     title_en: "Po jezeru bilz’ Triglava - <br><i>On The Lake Near Triglav</i>",
     author: 'Tošo Lesić & Zvonko Strmac',
-    author_en: 'Tošo Lesić & Zvonko Strmac',
     composer: 'Miroslav Vilhar',
   },
   {
@@ -408,5 +408,230 @@ recordings: [
     title_sl: 'Ciciban (Josip Pavčič / Oton Župančič)',
     title_en: 'Ciciban (Josip Pavčič / Oton Župančič)',
     author: 'Anton Šubelj (1899-1965)'
+  },
+  {
+    tags: 'folk subelj pavcic',
+    youtube_url: 'https://archive.org/embed/78_k-oknu-pridem',
+    title_sl: 'K oknu pridem (narodna)',
+    title_en: 'K oknu pridem - <i>I Come To Your Window (folksong)</i>',
+    author: 'Anton Šubelj & Zora Ropas'
+  },
+  {
+    tags: 'parma krizaj',
+    youtube_url: 'https://archive.org/embed/78_sezidal-sem-si-vinski-hram',
+    title_sl: 'Sezidal sem si vinski hram',
+    title_en: "Sezidal sem si vinski hram - <i>I've Built Myself A Wine Cellar</i>",
+    author: 'Josip Križaj',
+    composer_sl: 'Viktor Parma / narodna',
+    composer_en: 'Viktor Parma / folk song'
+  },
+  {
+    tags: 'samospev krizaj ipavec ',
+    youtube_url: 'https://archive.org/embed/78_podoknica-iz-op-teharski-plemici',
+    title_sl: 'Podoknica iz opere Teharski plemiči',
+    title_en: 'Serenade from the opera <i>Teharski plemiči</i>',
+    author: 'Josip Križaj',
+    composer: 'Benjamin Ipavec / Anton Funtek'
+  },
+  {
+    tags: 'folk durin',
+    youtube_url: 'https://archive.org/embed/78_slepec-blind-man',
+    title_sl: 'Le enkrat bi videl (narodna)',
+    title_en: 'Le enkrat bi videl - <i>If I Could Only See Once</i> (folk song)',
+    author: 'Obrad Đurin'
+  },
+  {
+    tags: 'folk durin',
+    youtube_url: 'https://www.youtube.com/embed/j56JV2RCsgw',
+    title_sl: 'Na Vršacu (narodna)',
+    title_en: 'Na Vršacu - <i>At The Top Of Vršac</i> (folk song)',
+    author: 'Obrad Đurin'
+  },
+  {
+    tags: 'folk durin',
+    youtube_url: 'https://archive.org/embed/78_razpodite-se-meglicice-fog-go-away',
+    title_sl: 'Razpodite se megličice (narodna)',
+    title_en: 'Razpodite se megličice - <i>Fog, Go Away</i> (folk song)',
+    author: 'Obrad Đurin'
+  },
+  {
+    tags: 'folk durin', 
+    youtube_url: 'https://archive.org/embed/78_tam-kjer-lunica-there-is-the-moon',
+    title_sl: 'Tam, kjer lunica (narodna)',
+    title_en: 'Tam, kjer lunica - <i>Where The Moon Goes Down</i> (folk song)',
+    author: 'Obrad Đurin'
+  },
+  {
+    tags: 'samospev gerbic durin',
+    youtube_url: 'https://archive.org/embed/78_sladko-spavaj-ljubica-sweet-dreams-my-sweetheart',
+    title_sl: 'Sladko spavaj ljubica',
+    title_en: 'Sladko spavaj ljubica - <i>Sweet Dreams, My Sweetheart</i>',
+    author: 'Obrad Đurin',
+    composer: 'Fran Gerbič / Josip Vošnjak'
+  },
+  {
+    tags: 'samospev g.ipavec', 
+    youtube_url: 'https://archive.org/embed/78_vse-mine-kje-so-moje-rozice-all-things-pass-away',
+    title_sl: 'Vse mine / Kje so moje rožice',
+    title_en: 'Vse mine - <i>All Things Pass Away</i>',
+    author: 'Emilio Blažević (1879-1953?)',
+    composer: 'Gustav Ipavec / Valentin Orožen'
+  },
+  {
+    tags: 'folk others',
+    youtube_url: 'https://archive.org/embed/78_zapoj-mi-pticica-glasno',
+    title_sl: 'Zapoj mi ptičica glasno (narodna)',
+    title_en: 'Zapoj mi ptičica glasno - <i>Sing To Me My Bird</i> (folk song)',
+    author: 'Elizabeth Grayhack'
+  },
+  {
+    tags: 'folk others',
+    youtube_url: 'https://archive.org/embed/78_pticka',
+    title_sl: 'Ptička (narodna)',
+    title_en: 'Ptička - <i>Little Bird</i> (folk song)',
+    author: 'Elizabeth Grayhack'
+  },
+  {
+    tags: 'folk others',
+    youtube_url: 'https://archive.org/embed/78_srcu',
+    title_sl: 'Srcu (narodna)',
+    title_en: 'Srcu - <i>To The Heart</i> (folk song)',
+    author: 'Elizabeth Grayhack & Emilio Blažević'
+  },
+  {
+    tags: 'folk others',
+    youtube_url: 'https://archive.org/embed/78_rozmarin',
+    title_sl: 'Rožmarin (narodna)',
+    title_en: 'Rožmarin - <i>Rosemary</i> (folk song)',
+    author: 'Elizabeth Grayhack & Emilio Blažević'
+  },
+  {
+    tags: 'folk jelacin',
+    youtube_url: 'https://www.youtube.com/embed/7-s9XwZMAlI',
+    title_sl: 'Oh, ura že bije (narodna)',
+    title_en: 'Oh, ura že bije - <i>The Bell Is Already Ringing</i> (folk song)',
+    author: 'Mirko Jelačin (1892-1957)',
+  },
+  {
+    tags: 'folk jelacin',
+    youtube_url: 'https://www.youtube.com/embed/g7PCYNKCdP0',
+    title_sl: 'Kaj pa ti pobič (narodna)',
+    title_en: 'Kaj pa ti pobič - <i>Why Dear Boy</i> (folk song)',
+    author: 'Mirko Jelačin & Drago Žagar'
+  },
+  {
+    tags: 'folk jelacin',
+    youtube_url: 'https://www.youtube.com/embed/AJI5oWIl8ak',
+    title_sl: 'O ja, oj dekle moja (narodna)',
+    title_en: 'O ja, oj dekle moja - <i>Oh, My Girl</i> (folk song)',
+    author: 'Mirko Jelačin & Drago Žagar'
+  },
+  {
+    tags: 'folk jelacin',
+    youtube_url: 'https://www.youtube.com/embed/cZfioAYYk3U',
+    title_sl: "Po jezeru bliz' Triglava",
+    title_en: "Po jezeru bliz' Triglava - <br><i>On The Lake Near Triglav</i>",
+    author: 'Mirko Jelačin (1892-1957)',
+    composer: 'Miroslav Vilhar'
+  },
+  {
+    tags: 'folk others', 
+    youtube_url: 'https://www.youtube.com/embed/UYKpEZzPFWk',
+    title_sl: 'Jaz ‘mam pa konj’ča belega (narodna)',
+    title_en: 'Jaz ‘mam pa konj’ča belega - <i>I Have A White Horse</i> (folk song)',
+    author: 'Vilma Thierry - Kavčnik de Châteauvieux (1890-1942)'
+  },
+  {
+    tags: 'folk others',
+    youtube_url: 'https://www.youtube.com/embed/UYKpEZzPFWk?start=70',
+    title_sl: 'Rože je na vrtu plela (narodna)',
+    title_en: 'Rože je na vrtu plela - <i>She Was Weeding Flowers In The Garden</i> (folk song)',
+    author: 'Vilma Thierry - Kavčnik de Châteauvieux (1890-1942)'
+  },
+  {  
+    tags: 'folk others',
+    youtube_url: 'https://www.youtube.com/embed/UYKpEZzPFWk?start=151',
+    title_sl: 'Sva z lub’co na jarmak hodiva (narodna)',
+    title_en: 'Sva z lub’co na jarmak hodiva - <i>We Went To The Fair, My Love</i> (folk song)',
+    author: 'Vilma Thierry - Kavčnik de Châteauvieux (1890-1942)'
+  },
+  {
+    tags: 'folk subelj',
+    youtube_url: 'https://www.youtube.com/embed/0Djkf1MikRs',
+    title_sl: 'Prišla bo pomlad (narodna)',
+    title_en: 'Prišla bo pomlad - <i>Spring Will Come</i> (folk song) ',
+    author: 'Anton Šubelj (1899-1965)'
+  },
+  {  
+    tags: 'samospev nedved',
+    youtube_url: 'https://www.youtube.com/embed/fNKoabb7M9k',
+    title_sl: 'Tam, kjer beli so snežniki',
+    title_en: 'Tam, kjer beli so snežniki - <i>Where There Are White Glaciers</i>',
+    author: 'Naum Coster & Emilio Blažević',
+    composer: 'Anton Nedvĕd / Luka Jeran'
+  },
+  {
+    tags: 'samospev b.ipavec', 
+    youtube_url: 'https://www.youtube.com/embed/-SXEZNzJ140',
+    title_sl: 'Domovini',
+    title_en: 'Domovini - <i>To The Homeland</i>',
+    author: 'Naum Coster & Emilio Blažević',
+    composer: 'Benjamin Ipavec / Radoslav Razlag'
+  },
+  {
+    tags: 'samospev vilhar trost',
+    youtube_url: 'https://www.youtube.com/embed/_tvtynCiauY',
+    title_sl: 'Ružici',
+    title_en: 'Ružici - <i>To The Flower</i>',
+    author: 'Rudolf Trošt',
+    composer: 'Fran Serafin Vilhar'
+  },
+  {
+    tags: 'samospev nedved trost',
+    youtube_url: 'https://www.youtube.com/embed/l2pR2vdQly4',
+    title_sl: 'Pogled v nedolžno oko',
+    title_en: 'Pogled v nedolžno oko - <i>Looking Into Innocent Eyes</i>',
+    author: 'Rudolf Trošt',
+    composer: 'Anton Nedvĕd / Simon Gregorčič'
+  },
+  {
+    tags: 'samospev vilhar trost',
+    youtube_url: 'https://archive.org/embed/78_mornar-nezvesta-bodi-zdrava',
+    title_sl: 'Mornar / Nezvesta, bodi zdrava',
+    title_en: 'Mornar - <i>Sailor</i>',
+    author: 'Rudolf Trošt',
+    composer: 'Fran Serafin Vilhar / France Prešeren'
+  },
+  {
+    tags: 'samospev vilhar trost',
+    youtube_url: 'https://archive.org/embed/78_o-zakaj-si-se-mi-vdala',
+    title_sl: 'O zakaj si se mi vdala',
+    title_en: 'O zakaj si se mi vdala - <i>Oh, Why Did You Give In To Me</i>',
+    author: 'Rudolf Trošt',
+    composer: 'Fran Serafin Vilhar / Josip Stritar'
+  },
+  {
+    tags: 'samospev vilhar trost',
+    youtube_url: 'https://archive.org/embed/78_da-ne-smem',
+    title_sl: 'Ukazi',
+    title_en: 'Ukazi - <i>Commands</i>',
+    author: 'Rudolf Trošt',
+    composer: 'Fran Serafin Vilhar / France Prešeren'
+  },
+  {
+    tags: 'samospev volaric trost',
+    youtube_url: 'https://archive.org/embed/78_dekliska-tozba-slovenka',
+    title_sl: 'Dekliška tožba',
+    title_en: 'Dekliška tožba - <i>Girl’s Lament</i>',
+    author: 'Rudolf Trošt',
+    composer: 'Hrabroslav Volarič / Fran Gestrin'
+  },
+  {
+    tags: 'samospev nedved trost',
+    youtube_url: 'https://archive.org/embed/78_na-tujih-tleh/1450-7.wav',
+    title_sl: 'Na tujih tleh',
+    title_en: 'Na tujih tleh - <i>In The Foreign Land</i>',
+    author: 'Rudolf Trošt',
+    composer: 'Anton Nedvĕd / Anton Funtek'
   }
 ]
