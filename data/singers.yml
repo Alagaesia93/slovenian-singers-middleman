@@ -30,32 +30,53 @@ singers: [
         youtube_url: "https://www.youtube.com/embed/H5yhJRNAku0",
         title_sl: "Giacomo Puccini: Rodolfova tožba ‘Mimi è una civetta’ iz opere La Bohème",
         title_en: "Giacomo Puccini: Rodolfo's Lament ‘Mimi è una civetta’ from La Bohème",
-      },{
-        youtube_url: "https://www.youtube.com/embed/95t5pjhvC8M",
-        title_sl: "Po jezeru bliz Triglava <br> Otok Blejski, kinč nebeški <br> (dve ljudski pesmi)",
-        title_en: " Po jezeru bliz Triglava - <i>On the lake near Triglav</i> <br> Otok Blejski, kinč nebeški - <i>The island of Bled, heavenly jewel</i> <br> (two folk songs)",
-      },{
-        youtube_url: "https://www.youtube.com/embed/sDhOTYtfsTo",
-        title_sl: "Pietro Mascagni: Uvertura in ‘Siciliana’ iz opere Cavalleria Rusticana (dirigira Mascagni)",
-        title_en: "Pietro Mascagni: Overture and Turiddu’s ‘Siciliana’ from Cavalleria Rusticana (conductor P.Mascagni)",
-      }
-    ],
-    links: [ # TODO check with boss
-      {
-        url: 'https://www.slovenska-biografija.si/oseba/sbi508410/',
-        title: '🇸🇮 Slovenski biografski leksikon'
       },
       {
-        url: 'https://www.academia.edu/42912485/Josip_Rijavec_Za%C4%8Detki_na_Gori%C5%A1kem_in_Tr%C5%BEa%C5%A1kem ',
-        title: '🇸🇮 Lusia Antoni: Josip Rijavec - Začetki na Goriškem in Tržaškem:'
+        youtube_url: 'https://www.youtube.com/embed/95t5pjhvC8M',
+        title_sl: "Po jezeru bliz' Triglava",
+        title_en: "Po jezeru bliz' Triglava - <br><i>On The Lake Near Triglav</i>",
+        author: 'Josip Rijavec (1890-1959)',
+        composer: 'Miroslav Vilhar (ponarodela)',
+        composer_en: 'Miroslav Vilhar (became a folk tune)'
+      },
+      {
+        youtube_url: 'https://www.youtube.com/embed/95t5pjhvC8M?start=86',
+        title_sl: "Otok blejski, kinč nebeški",
+        title_en: "Otok blejski, kinč nebeški - <br><i>The Island Of Bled, A Heavenly Jewel</i>",
+        author: 'Josip Rijavec (1890-1959)',
+        composer: 'narodna',
+        composer_en: 'folk song'
+      },
+      {
+        youtube_url: "https://www.youtube.com/embed/sDhOTYtfsTo",
+        title_sl: "Pietro Mascagni: Uvertura in <i>Siciliana</i> iz opere Cavalleria Rusticana (dirigira Mascagni)",
+        title_en: "Pietro Mascagni: Overture and Turiddu’s <i>Siciliana</i> from Cavalleria Rusticana (conductor P.Mascagni)",
+      }
+    ],
+    links: [
+      {
+        url: 'https://www.slovenska-biografija.si/oseba/sbi508410/',
+        title: '🇸🇮 slovenski biografski leksikon'
+      },
+      {
+        url: 'https://www.knjizara.com/Josip-Rijavec-1890-1959-grupa-autora-124175',
+        title: '🇸🇮 M.Barbieri, F.Slivnik, I.Svetina,...: Josip Rijavec, slovenski tenorist mednarodnega slovesa' 
+      },
+      {
+        url: 'https://www.knjizara.com/Josip-Rijavec-1890-1959-grupa-autora-124175',
+        title: '🇭🇷 M.Barbieri, F.Slivnik, I.Svetina,...:  Josip Rijavec (1890-1959): tenor svetskog glasa'
+      },
+      {
+        url: 'https://www.academia.edu/42912485/Josip_Rijavec_Za%C4%8Detki_na_Gori%C5%A1kem_in_Tr%C5%BEa%C5%A1kem',
+        title: '🇸🇮 Lusia Antoni: Josip Rijavec - Začetki na Goriškem in Tržaškem'
       },
       {
         url: 'https://www.slogi.si/publikacije/josip-rijavec/',
-        title: '🇸🇮 Slovenski gledališki inštitut'
+        title: '🇸🇮 slovenski gledališki inštitut'
       },
       {
         url: 'https://opera.hr/index.php?p=article&id=66',
-        title: '🇭🇷 Opera.hr'
+        title: '🇭🇷 opera.hr'
       },
       {
         url: 'http://www.historicaltenors.net/balkan/rijavec.html',
@@ -63,7 +84,7 @@ singers: [
       },
       {
         url: 'https://forgottenoperasingers.blogspot.com/search/label/Riavez%20Jos%C3%A9',
-        title: '🇬🇧 forgottenoperasingers'
+        title: '🇬🇧 forgotten opera singers'
       },
       {
         url: 'https://web.operissimo.com/triboni/exec?method=com.operissimo.artist.webDisplay&xsl=webDisplay&searchString=&id=ffcyoieagxaaaaabfdfr',
@@ -151,8 +172,8 @@ singers: [
       <li>Truffaldino (Strauss: Ariadne auf Naxos)</li>
       <li>Enoroki (Strauss: Žena brez sence)</li>
       <li>Hans Schwarz (Wagner: Mojstri pevci Nürnberški)</li>
-      <li>Reinmar (Tannhäuser)</li>
-      <li>Colline (La Boheme)</li>
+      <li>Reinmar (Wagner: Tannhäuser)</li>
+      <li>Colline (Puccini: La Boheme)</li>
       <li>Sparafucile (Verdi: Rigoletto)</li>
       <li>Ramfis (Verdi: Aida)</li>
       <li>Don Basilio (Rossini: Seviljski brivec)</li>
@@ -161,7 +182,7 @@ singers: [
       <li>Truffaldino (Strauss: Ariadne auf Naxos)</li>
       <li>One-Armed Man (Strauss: Die Frau ohne Schatten)</li>
       <li>Hans Schwarz (Wagner: Die Meistersinger von Nürnberg)</li>
-      <li>Reinmar (Tannhäuser)</li>
+      <li>Reinmar (Wagner: Tannhäuser)</li>
       <li>Colline (Puccini: La Bohème)</li>
       <li>Sparafucile (Verdi: Rigoletto)</li>
       <li>Ramfis (Verdi: Aida)</li>
@@ -170,16 +191,31 @@ singers: [
     recordings: [
       {
         youtube_url: "https://www.youtube.com/embed/KC7XZF8CAI0",
-        title_sl: "Viktor Parma: Sezidal sem si vinski hram (narodna)",
-        title_en: "Viktor Parma: Sezidal sem si vinski hram - <i>I have built myself a wine cellar (Slovenian folk song)</i>",
-      },{
+        title_sl: "Sezidal sem si vinski hram",
+        title_en: "Sezidal sem si vinski hram - <i>I have built myself a wine cellar</i>",
+        composer: 'Viktor Parma / narodna',
+        composer_en: 'Viktor Parma / folk song'
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/hHKQ622iA9o",
-        title_sl: "Fran Gerbič: Pojdem na prejo (besedilo Oton Župančič)",
-        title_en: "Fran Gerbič: Pojdem na prejo - <i>I'll Go To The Spinning-Room (text by Oton Župančič)</i>",
-      },{
+        title_sl: "Pojdem na prejo",
+        title_en: "Pojdem na prejo - <i>I'll Go To The Spinning-Room</i>",
+        composer: 'Fran Gerbič / Oton Župančič'
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/yNW6KHxQwr8",
-        title_sl: "Emil Adamič: Nocoj je pa svetla noč (narodna) <br> Josip Pavčič: Dedek samonog (besedilo Oton Župančič)",
-        title_en: "Emil Adamič: Nocoj je pa svetla noč (national) - <i>Tonight is a bright night</i> <br> Josip Pavčič: Dedek samonog - <i>Grandfather Alone-legged (text by Oton Župančič)</i>",
+        title_sl: "Nocoj je pa svetla noč",
+        title_en: "Nocoj je pa svetla noč - <br><i>Tonight Is A Luminous Night</i>",
+        author: 'Julij Betetto (1885-1963)',
+        composer: 'Emilio Adamič / narodna',
+        composer_en: 'Emilio Adamič / folk song'
+      },
+      {
+        youtube_url: "https://www.youtube.com/embed/yNW6KHxQwr8?start=93",
+        title_sl: "Dedek samonog",
+        title_en: "Dedek samonog - <br><i>Grandpa Single-Leg</i>",
+        author: 'Julij Betetto (1885-1963)',
+        composer: 'Josip Pavčič / Oton Župančič'
       }
     ],
     links: [
@@ -193,23 +229,23 @@ singers: [
       },
       {
         url: 'https://wikipedia.org/wiki/Julij_Betetto',
-        title: '🇸🇮 🇩🇪 Wikipedia'
+        title: '🇸🇮 🇩🇪 wikipedia'
       },
       {
         url: 'https://www.momus.si/spomenik-julija-betetta',
-        title: '🇸🇮 Momus'
+        title: '🇸🇮 momus'
       },
       {
         url: 'https://archiv.wiener-staatsoper.at/search/person/5804',
-        title: '🇩🇪 Wiener Staatsoper'
+        title: '🇩🇪 wiener staatsoper'
       },
       {
         url: 'https://www.dlib.si/results/?euapi=1&query=%27keywords%3djulij+betetto%27&sortDir=ASC&sort=date&pageSize=100&page=1',
-        title: '🇸🇮 digitalna knjižnica Slovenije'
+        title: '🇸🇮 digitalna knjižnica slovenije'
       },
       {
         url: 'https://www.rtvslo.si/mmc-priporoca/slovenci-in-nesrecni-oce-prodane-neveste-2-del/355520',
-        title: '🇸🇮 RTVSLO-MMC'
+        title: '🇸🇮 rtvslo-mmc'
       }
     ],
     playlist: {
@@ -237,23 +273,23 @@ singers: [
         path: 'betetto/2_Julij_Betetto_(slika_NUK).jpg',
         title_sl: 'Portret Julija Betetta iz leta 1930',
         title_en: 'A portrait of Julius Betetto in 1930',
-        source: 'dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        source: 'dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
         credits: 'MLA: Julius Betetto. Holdt, 1930 <http://www.dlib.si/?URN=URN:NBN:SI:IMG-MPFR9MFH>',
         source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-MPFR9MFH/?euapi=1&query=%27keywords%3djulij+betetto%27&sortDir=ASC&sort=date&pageSize=25 '
       },
       {
         path: 'betetto/3_Julij_Betetto_(slika_NUK).jpg',
-        title_sl: 'Julij Betetto v vlogi Hundinga (Wagner: Valkira) okrog leta 1930',
-        title_en: 'Julius Betetto as Hunding (Wagner: The Valkyrie)  in the 1930.',
+        title_sl: 'Julij Betetto v vlogi Hundinga (Wagner: Valkira), 193?',
+        title_en: 'Julius Betetto as Hunding (Wagner: The Valkyrie) in the 1930s',
         source: 'dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
         credits: 'MLA:Julius Betetto: als Hunding in "Walküre". Holdt, 193?. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-YEM6HLLI>',
         source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-YEM6HLLI/?euapi=1&query=%27keywords%3djulij+betetto%27&sortDir=ASC&sort=date&pageSize=25 '
       },
       {
         path: 'betetto/4_Julij_Betetto_(slika_NUK).jpg',
-        title_sl: 'Julij Betetto v vlogi Dalanda (Wagner:  Leteči Holandec) okrog leta 1930',
+        title_sl: 'Julij Betetto v vlogi Dalanda (Wagner: Leteči Holandec), 193?',
         title_en: 'Julius Betetto as Daland (Wagner: The Flying Dutchman) in the 1930s',
-        source: 'dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        source: 'dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
         credits: 'MLA: Julius Betetto (1885-1963) kot Daland v Flieg. Holländer. Holdt, 1930-1940. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-2BEAOSOF>',
         source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-2BEAOSOF?=&language=slo'
       },
@@ -266,10 +302,11 @@ singers: [
       },
       {
         path: 'betetto/6_Julij_URN_NBN_SI_IMG-909C1M9G.jpg',
-        title_sl: 'TODO',
-        title_en: 'TODO',
-        source: 'TODO',
-        source_link: 'TODO'
+        title_sl: 'Julij Betetto na snemanju, 193?',
+        title_en: 'Julius Betetto in a recording session, 1930s.',
+        source: 'dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
+        credits: 'MLA: Hibšer, Hugo. Julij Betetto. H. Hibšer, 193?. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-909C1M9G>',
+        source_link: 'http://www.dlib.si/details/URN:NBN:SI:IMG-909C1M9G?=&language=slo'
       }
     ]
   },
@@ -281,7 +318,7 @@ singers: [
     dates_en: '(October 20, 1865 - September or November 9, 1939)',
     full_name: 'franz_naval',
     biography_sl: "Franz Naval, s pravim imenom Franc Pogačnik, se je rodil 20. Oktobra 1865 v Ljubljani. Deloval je med letoma 1888-1913, in bil nedvomno eden najslavnejših pevcev tistega časa. Petja se je začel učiti pri Antonu Nedvědu, študiral pa je na Dunaju pri profesorju Josefu Gänsbacherju. Umetniško ime Naval si je nadel po nasvetu prijatelja. Debitiral je leta 1888 v olomuškem gledališču z vlogo Lyonela v operi Martha skladatelja Flotowa, takoj zatem pa bil povabljen v Frankfurt na Majni. Tam je ostal sedem let, nato pa bil angažiran v Dvorni operi v Berlinu. Leta 1897 je z vlogo Rodolfa nastopil tako na berlinski, kot tudi na dunajski premieri Puccinijeve opere La Bohème. Veliko je nastopal z Geraldine Farrar. Leta 1898 je prešel k dunajski Dvorni operi, vendar jo je leta 1902, zaradi nesoglasij z Gustavom Mahlerjem, zapustil. Pel je v največjih svetovnih opernih hišah - v Parizu, Londonu, Pragi, Chicagu, New Yorku itd. V sezoni 1903/04 je v Metropolitanski operi nastopal skupaj z Emmo Calvé, Johanno Gadski, Louise Homer, Polom Plançonom, Marcello Sembrich, Antoniom Scottijem, Enrico Caruso. Prve plošče je posnel že leta 1901. Med drugim je posnel tudi celotni Schubertov ciklus samospevov Lepa mlinarica. Leta 1909 je sodeloval pri prvem posnetku celotne Mascagnijeve opere Cavalleria Rusticana (posnetek je v nemškem jeziku). Kljub svetovni karieri je vseskozi ohranjal stik z domovino. Leta 1924 se je na Dunaju posvetil poučevanju. Umrl je leta 1939. ",
-    biography_en: "Franz Naval was born Franc Pogačnik on October 20, 1865, in Ljubljana.  His singing teacher Anton Nedvěd recognized his talent and urged him to pursue a musical career.  In 1886 he went to Vienna to study with Professor Josef Gänsbacher. He took the name Naval on the advice of a friend. His debut took place at the Olomouc Theater in the role of Lyonel (Flotow: Martha) in 1888. The success was such that he was invited to Frankfurt am Main at once. There he remained for seven years before his engagement in Berlin in 1895. In 1897 he performed the role of Rodolfo at the Berlin and Vienna premieres of Puccini's opera La Bohème. He often performed together with Geraldine Farrar. In 1898 Naval took an engagement at the Vienna Court Opera but left in 1902 due to disagreements with Gustav Mahler. In the 1903/04 season, he performed at the Metropolitan Opera. His colleagues there were Emma Calvé, Johanna Gadski, Louise Homer, Enrico Caruso, Pol Plançon, Marcella Sembrich, Antonio Scotti and others. His early records date to 1901. He recorded the entire cycle of songs Die schöne Müllerin by Schubert and participated in the first complete recording of Mascagni's opera Cavalleria Rusticana as Turiddu (sung in German) in 1909. Naval’s active singing career lasted from 1888 to 1913.   He kept ties with his homeland throughout his life. In 1924 he retired in Vienna and devoted himself to teaching. He died in 1939.",
+    biography_en: "Franz Naval was born Franc Pogačnik on October 20, 1865, in Ljubljana.  His singing teacher Anton Nedvěd recognized his talent and urged him to pursue a musical career.  In 1886 he went to Vienna to study with Professor Josef Gänsbacher. He took the name Naval on the advice of a friend. His debut took place at the Olomouc Theater in the role of Lyonel (Flotow: Martha) in 1888. The success was such that he was invited to Frankfurt am Main at once. There he remained for seven years before his engagement in Berlin in 1895. In 1897 he performed the role of Rodolfo at the Berlin and Vienna premieres of Puccini's opera La Bohème. In 1898 Naval took an engagement at the Vienna Court Opera but left in 1902 due to disagreements with Gustav Mahler. In the 1903/04 season, he performed at the Metropolitan Opera. His colleagues there were Emma Calvé, Johanna Gadski, Louise Homer, Enrico Caruso, Pol Plançon, Marcella Sembrich, Antonio Scotti and others. His early records date to 1901. He recorded the entire cycle of songs Die schöne Müllerin by Schubert and participated in the first complete recording of Mascagni's opera Cavalleria Rusticana as Turiddu (sung in German) in 1909. Naval’s active singing career lasted from 1888 to 1913.   He kept ties with his homeland throughout his life. In 1924 he retired in Vienna and devoted himself to teaching. He died in 1939.",
     names: 'Franc / Fran <br> Pogačnik / Naval-Pogačnik / Naval',
     roles_sl: "<li>Rodolfo (Puccini: La Bohème)</li>
       <li>Lyonel (Flotow: Marta)</li>
@@ -303,25 +340,27 @@ singers: [
       {
         youtube_url: "https://www.youtube.com/embed/LBUNmdd-JQ0",
         title_sl: "Ambroise Thomas: Arija Viljema iz opere Mignon (v nemškem jeziku)",
-        title_en: "Ambroise Thomas: Aria of William from Mignon (sung in German)",
-      },{
+        title_en: "Ambroise Thomas: Wilhelm's aria from Mignon (sung in German)",
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/rden1HJcPOw",
         title_sl: "Franz Schubert: <i>Die Nebensonnen</i> <br> iz cikulsa Zimsko popotovanje (D.911 št. 23). Za klavirjem August Pilz",
-        title_en: "Franz Schubert: Die Nebensonnen - <i> The Sun Mocks </i> <br> from the song cycle Winterreise (D.911 št. 23). Pianist - August Pilz",
-      },{
+        title_en: "Franz Schubert: Die Nebensonnen - <i> The Sun Mocks </i> <br> from the song cycle <i>Winterreise</i>  (D.911 No. 23). Piano August Pilz",
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/EFLOBko_VlM",
         title_sl: "Franz Schubert: Halt! <br> iz ciklusa Lepa mlinarica (Die schöne Müllerin D.795 No.15). Za klavirjem August Pilz",
-        title_en: "Franz Schubert: Halt! - <i>Stop!</i><br>From the song cycle <i>Die schöne Müllerin</i> (D.795 No.15). Pianist - August Pilz.",
+        title_en: "Franz Schubert: Halt! - <i>Stop!</i><br>From the song cycle <i>Die schöne Müllerin</i> (D.795 No.15). Piano August Pilz.",
       }
     ],
     links: [
       {
         url: 'https://www.slovenska-biografija.si/oseba/sbi442424/',
-        title: '🇸🇮 Slovenski biografski leksikon'
+        title: '🇸🇮 slovenski biografski leksikon'
       },
       {
         url: 'https://wikipedia.org/wiki/Franc_Poga%C4%8Dnik_-_Naval',
-        title: '🇸🇮 🇬🇧 🇩🇪 Wikipedia'
+        title: '🇸🇮 🇬🇧 🇩🇪 wikipedia'
       },
       {
         url: 'http://greatestoperasingers.blogspot.com/2014/02/franz-naval-tenor-laibach-slovenia-1865_11.html',
@@ -337,15 +376,15 @@ singers: [
       },
       {
         url: 'https://www.biographien.ac.at/oebl_8/150.pdf ',
-        title: '🇩🇪 Österreichisches Biographisches Lexikon'
+        title: '🇩🇪 österreichisches biographisches lexikon'
       },
       {
         url: 'https://www.operadis-opera-discography.org.uk/CLMCCAVA.HTM#2',
-        title: '🇬🇧 operadis'
+        title: '🇬🇧 opera-discography'
       },
       {
         url: 'https://www.dlib.si/results/?euapi=1&query=%27keywords%3dfran+naval-poga%C4%8Dnik%27&sortDir=ASC&sort=date&pageSize=25',
-        title: '🇸🇮  digitalna knjižnica Slovenije '
+        title: '🇸🇮  digitalna knjižnica slovenije'
       },
       {
         url: 'http://archives.metoperafamily.org/archives/frame.htm',
@@ -454,32 +493,35 @@ singers: [
         youtube_url: "https://www.youtube.com/embed/b61q-KzMxFM",
         title_sl: "Georges Bizet: Arija Micaele iz opere Carmen (v hrvaškem jeziku)",
         title_en: "Georges Bizet: Micaëla’s aria from Carmen (sung in Croatian)",
-      },{
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/tgn_VQ4DNVo",
         title_sl: "Richard Heuberger: Arija Angele iz operete Operni ples (v hrvaškem jeziku)",
         title_en: "Richard Heuberger: Angela’s aria from <i>Der Opernball</i> (sung in Croatian)",
-      },{
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/2aUNyZzfy34",
-        title_sl: "(najbrž) Anton Nedvĕd: Na tujih tleh (besedilo Anton Funtek)",
-        title_en: "(most probably) Anton Nedvĕd: Na tujih tleh - <i>In Foreign Lands</i> <br>lyrics by Anton Funtek (sung in Slovenian)",
+        title_sl: "ANa tujih tleh",
+        title_en: "Na tujih tleh - <i>In The Foreign Land</i>",
+        composer: 'Anton Nedvĕd / Anton Funtek'
       }
     ],
     links: [
       {
         url: 'https://www.slovenska-biografija.si/oseba/sbi445474/',
-        title: '🇸🇮 Slovenski biografski leksikon'
+        title: '🇸🇮 slovenski biografski leksikon'
       },
       {
         url: "http://opera.hr/index.php?p=article&id=49",
-        title: '🇭🇷 Opera.hr'
+        title: '🇭🇷 opera.hr'
       },
       {
         url: 'https://sl.wikipedia.org/wiki/Irma_Polak',
-        title: '🇸🇮 Wikipedia'
+        title: '🇸🇮 wikipedia'
       },
       {
         url: 'https://hr.wikipedia.org/wiki/Irma_Polak',
-        title: '🇭🇷 Wikipedia'
+        title: '🇭🇷 wikipedia'
       },
       {
         url: 'https://www.imdb.com/name/nm1280841/',
@@ -508,7 +550,7 @@ singers: [
         path: 'polak/1_Irma_Polak_(slika_NUK).jpg',
         title_sl: 'Irma Polak v vlogi Helene (Nedbal: Poljska kri) okrog leta 1914',
         title_en: 'Irma Polak as Helena (Nedbal: Poljačka krv) ca.1914',
-        source: 'dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        source: 'dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
         credits: 'MLA: Weinrich, S.. Irma Polak (1875-1931). S. Weinrich, 190?.<br><http://www.dlib.si/?URN=URN:NBN:SI:IMG-PNO074FM>',
         source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-PNO074FM/?euapi=1&query=%27keywords%3dirma+polak+(1875-1931)%27&sortDir=ASC&sort=date&pageSize=25'
       },
@@ -572,22 +614,25 @@ singers: [
     recordings: [
       {
         youtube_url: "https://www.youtube.com/embed/eRAt3GBjBHE",
-        title_sl: "Josip Pavčič: Pastirica (besedilo Dr. Ivan Robida)",
-        title_en: "Josip Pavčič: Pastirica - <i>A Shepherdess</i> (lyrics by Ivan Robida)",
-      },{
+        title_sl: "Pastirica",
+        title_en: "Pastirica - <i>The Shepherdess</i>",
+        composer: 'Josip Pavčič / Ivan Robida'
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/KJQppt42pAo",
-        title_sl: "Zvezda <br> Premenba (dve pesmi)",
-        title_en: "Zvezda - <i>A Star</i><br>Premenba - <i>A Metamorphosis</i> (two songs)",
-      },{
+        title_sl: "Zvezda <br> Premenba <br> (dve pesmi)",
+        title_en: "Zvezda - <i>A Star</i><br>Premenba - <i>Transformation</i><br>(two songs)",
+      },
+      {
         youtube_url: "https://www.youtube.com/embed/5E9mpUrbkUI",
-        title_sl: "Škrjanček poje <br> Ptičke po zraku letajo (dve ljudski pesmi)",
-        title_en: "Škrjanček poje - <i>The Lark Sings</i> <br> Ptičke po zraku letajo - <i>Birds Fly In The Air</i> (two folk songs)",
+        title_sl: "Škrjanček poje <br> Ptičke po zraku letajo <br> (dve ljudski pesmi)",
+        title_en: "Škrjanček poje - <i>The Lark Sings</i> <br> Ptičke po zraku letajo - <i>Birds Fly In The Air</i> <br> (two folk songs)",
       }
     ],
     links: [
       {
         url: 'https://www.slovenska-biografija.si/oseba/sbi335242/',
-        title: '🇸🇮 Slovenski biografski leksikon'
+        title: '🇸🇮 slovenski biografski leksikon'
       },
       {
         url: "https://sl.wikipedia.org/wiki/Pavla_Lov%C5%A1e_Bole",
@@ -595,15 +640,15 @@ singers: [
       },
       {
         url: 'https://commons.wikimedia.org/wiki/Category:Pavla_Lov%C5%A1e',
-        title: '🇸🇮 Wikimedia'
+        title: '🇸🇮 wikimedia'
       },
       {
         url: 'https://www.starerazglednice.si/post/168638106396/pavla-lov%C5%A1e-bole-1891-1964-pavla-lov%C5%A1e-je-bila',
-        title: '🇸🇮 Stare razglednice'
+        title: '🇸🇮 stare razglednice'
       },
       {
-        url: 'https://books.google.si/books?id=oFYdZ8JA5z4C&pg=PA254&lpg=PA254&dq=pavla+lov%C5%A1e+bole&source=bl&ots=Pawp19n-oD&sig=ACfU3U0sGssz8iSy0vxr4oE80Ip3qDGv4A&hl=sl&sa=X&ved=2ahUKEwipiqS00ariAhVOa1AKHQ19CR8Q6AEwC3oECAcQAQ#v=onepage&q=pavla%20lov%C5%A1e&f=false',
-        title: '🇸🇮 Pozabljena polovica'
+        url: 'http://www.zalozba-tuma.si/pozabljena_polovica.html',
+        title: '🇸🇮 Manica Špendal,...: Pozabljena Polovica'
       }
     ],
     pictures: [
@@ -676,7 +721,7 @@ singers: [
       <li>Leonora (Donizetti: Favoritinja)</li>
       <li>Brangäne (Wagner: Tristan in Izolda)</li>",
     roles_en: "<li>Cristina (Leoncavallo: Goffredo Mameli)</li>
-      <li>Azucena (Verdi:Il trovatore)</li>
+      <li>Azucena (Verdi: Il trovatore)</li>
       <li>Carmen (Bizet: Carmen)</li>
       <li>Ulrica (Verdi: Un ballo in maschera)</li>
       <li>Adalgisa (Bellini: Norma)</li>
@@ -695,7 +740,7 @@ singers: [
     links: [
       {
         url: 'https://www.slovenska-biografija.si/oseba/sbi1008740/',
-        title: '🇸🇮 Slovenski biografski leksikon'
+        title: '🇸🇮 slovenski biografski leksikon'
       },
       {
         url: "https://sl.wikipedia.org/wiki/Vida_Ferluga",
@@ -703,11 +748,11 @@ singers: [
       },
       {
         url: 'http://www.lavoceantica.it/Mezzosoprano/Ferluga%20Vida.htm',
-        title: '🇮🇹 La voce antica'
+        title: '🇮🇹 la voce antica'
       },
       {
         url: 'http://archiviostorico.teatrolafenice.it/scheda_nome.php?ID=4415',
-        title: '🇮🇹 Teatro La Fenice'
+        title: '🇮🇹 teatro la fenice'
       },
       {
         url: 'http://forgottenoperasingers.blogspot.com/2016/08/vida-ferluga-mezzo-soprano-opcine.html',
@@ -727,11 +772,11 @@ singers: [
       },
       {
         url: 'https://www.operadis-opera-discography.org.uk/CLVERIGO.HTM#3',
-        title: '🇬🇧 operadis'
+        title: '🇬🇧 opera-discography'
       },
       {
         url: 'https://archive.org/details/RIGOLETTOTheFernandoDeLuciaEditionCompleteOperaPhonotype191518',
-        title: '🇬🇧 Internet Archive'
+        title: '🇬🇧 internet archive'
       }
     ],
     pictures: [
@@ -746,10 +791,20 @@ singers: [
         path: 'ferluga/1_Vida_Ferluga_(image_forgottenoperasingers).jpg',
         title_sl: 'Vida Ferluga v vlogi Carmen (Bizet: Carmen) z avtogramom iz leta 1921',
         title_en: 'Vida Ferluga as Carmen (Bizet: Carmen) with autograph from 1921',
-        source: 'forgottenoperasingers',
+        source: 'forgotten opera singers',
         source_link: 'http://forgottenoperasingers.blogspot.com/2016/08/vida-ferluga-mezzo-soprano-opcine.html'
       }
-    ]
+    ],
+    letter: {
+      path: 'ferluga/letter.png',
+      introduction_sl: 'Pismo Vide Ferluga podjetniku, politiku in mecenu operne hiše La Scala senatorju Borlettiju.  Ta je pismo posredoval Angelu Scandianiju, takratnemu direktorju Scale, ki je bil tudi sam odličen pevec <a href="https://cylinders.library.ucsb.edu/search.php?queryType=@attr+1=1020&num=1&start=1&query=cylinder2290" target="_blank" rel="noopener">(čudovit posnetek Scandianija)</a>. Pismo je bilo napisano dva meseca pred njeno avdicijo pri maestru Toscaniniju, umrla je še istega leta.',
+      introduction_en: 'A letter by Vida Ferluga to Senatore Borletti, an important businessman, politician,  philanthropist, art collector and patron of Teatro alla Scala, written shortly before her audition there. He forwarded it to Angelo Scandiani, the general manager of the Scala and a very accomplished singer himself <a href="https://cylinders.library.ucsb.edu/search.php?queryType=@attr+1=1020&num=1&start=1&query=cylinder2290" target="_blank" rel="noopener">(wonderful Scandiani recording)</a>.',
+      owner_sl: 'Pismo je v lasti avtorice strani sloveniansingers.com, zasebna in neprofitna raba je dovoljena brez soglasja',
+      owner_en: 'The letter is owned by the author of sloveniansinger.com. Private and non-commercial use does not require consent.',
+      original_text: "Napoli 7.3.1924<br>Teatro San Carlo<br><br>Illustre Commendatore<br>in seguito alla Sua squisita gentilezza mi permetto inviarLe da Napoli mie notizie artistiche.<br>Ho debuttato come Brangania in Tristano, indi Margherita nella Dannazione e da ultimo mi sono presentata come Carmen. In tutte e tre le parti tanto disparate ho conseguito un sincero e schietto successo - fra poco eseguirò Azucena in Trovatore che è la parte mia prediletta e poi Etra nella Fedra, come pure con molta probabilità Dalila in Sansone.<br>Perseverando nello studio trovo sempre qualche miglioramento in me ed ho fede che colla guida della valorosa mia maestra Edvige Ghibaudo, tenuta in molta considerazione dal Maestro Toscanini, io possa fare una bella impressione al grande maestro al mio ritorno a Milano nei primissimi di maggio.<br>Una Sua parola può essermi di sommo giovamento per esser tenuta presente fra i candidati della futura stagione.<br>Unisco alcuni articoli dei giornali locali napoletani.<br>Col pensiero riconoscente rivolgo a Lei e gentilissima Signora i migliori saluti e distinti assegni.<br>devotíssima<br>Vida Ferluga<br><br><i>Trasmetto all'ingegnere Scandiani per notizia.<br>Senatore Borletti</i>",
+      translation_sl: 'Neapelj 7.3.1924<br>Teatro San Carlo<br><br>Spoštovani <i>Commendatore</i><br>v odgovor Vaši izjemni prijaznosti, si dovolim poslati nekaj svojih umetniških novic iz Neaplja.<br>Debitirala sem v vlogi Brangäne v Tristanu, zatem sem nastopila kot Margherita v <br>Prekletstvu [Berlioz: La damnation de Faust],  nazadnje pa sem se predstavila kot Carmen. V vseh treh med seboj zelo različnih vlogah sem dosegla resničen in gotov uspeh - kmalu bom pela Azuceno v Trubadurju, ki je moj najljubša vloga, zatem pa še Etro v Fedri [Pizzetti] in najverjetneje tudi Dalilo v Samsonu.<br>Ves čas se izpopolnjujem in tako pri sebi vedno znova najdem napredek. Verjamem, da lahko pod vodstvom moje spoštovane profesorice Edvige Ghibaudo, ​​ki jo ceni tudi maestro Toscanini,  ob moji vrnitvi v Milano prvih dneh meseca maja, naredim dober vtis na velikega maestra.<br>Hvaležna bi bila, če bi lahko zame dali dobro besedo, da me bo[do?] med izbiro kandidatov za prihodnjo sezono imel[i?] v mislih.<br>Prilagam tudi nekaj člankov iz neapeljskih časopisov.<br>Najlepše se Vam zahvaljujem, Vas pozdravljam in želim vse dobro Vam in milostljivi Gospe.<br>Z vdanostjo,<br>Vida Ferluga<br><br><i>Posredujem inženirju Scandianiju na znanje.<br>Senator Borletti</i>',
+      translation_en: 'Naples March 7, 1924<br>Teatro San Carlo<br><br>Distinguished <i>Commendatore</i><br>in response to Your exquisite kindness, I allow myself to send You my artistic news from Naples.<br>I made my debut as Brangäne in Tristan, followed by Margherita in the Damnation, most recently I have performed the role of Carmen. In all three parts, so diverse from one another, I achieved genuine and forthright success - soon I will be singing Azucena in Trovatore which is my favorite part, then Etra in Fedra and very likely Delilah in Samson.<br>With persevering study I  keep finding improvements in myself and I have faith that with the guidance of my esteemed teacher Edvige Ghibaudo,  who is held in high regard by Maestro Toscanini, I can make a good impression on the great Maestro on my return to Milan in the first days of May.<br>It would be most helpful if You could put in a good word for me, in order for me to be kept in mind among the candidates for the next season.<br>I’m sending some articles from the local Neapolitan newspapers as well.<br>With cherishing thoughts I send my best regards and wishes to You and Your kindest Lady.<br>Your devoted<br>Vida Ferluga<br><br><i>Forwarding to ingegnere Scandiani.<br>Senatore Borletti</i>'
+    }
   },
   {
     position: 2,
@@ -784,23 +839,26 @@ singers: [
       {
         audio_url: "http://media.slub-dresden.de/fon/snp/a/005182/fon_snp_a_005182_01.mp3",
         title_sl: "Giuseppe Verdi: Arija Aide iz istoimenske opere (v nemškem jeziku)",
-        title_en: "Giuseppe Verdi: Aida's Aria O patria mia (sung in German)"
+        title_en: "Giuseppe Verdi: Aida's Aria O patria mia (sung in German)",
+        credits: "Datensatz-Urheber: <a href='http://mediathek.slub-dresden.de/ton70926080.html' target='_blank' rel='nofollow'>SLUB/Mediathek</a><br>Datensatz-Nr.: 70926080"
       },
       {
         audio_url: 'http://media.slub-dresden.de/fon/snp/b/006560/fon_snp_b_006560_01.mp3',
         title_sl: "Ambroise Thomas: Arija Mignon iz istoimenske opere (v nemškem jeziku)",
-        title_en: "Ambroise Thomas: Mignon's Aria Connais-tu le pays (sung in German)"
+        title_en: "Ambroise Thomas: Mignon's Aria Connais-tu le pays (sung in German)",
+        credits: "Datensatz-Urheber: <a href='http://mediathek.slub-dresden.de/ton70913317.html' target='_blank' rel='nofollow'>SLUB/Mediathek</a><br>Datensatz-Nr.: 70913317"
       },
       {
         audio_url: 'http://media.slub-dresden.de/fon/snp/b/006560/fon_snp_b_006560_02.mp3',
         title_sl: 'Jacques Offenbach: Barkarola iz opere Hoffmannove pripovedke (v nemškem jeziku). Duet z altistko Margo Neisch',
-        title_en: "Jacques Offenbach: Barcarolle from Hoffmann's Tales (sung in German). A duet with Marga Neisch"
+        title_en: "Jacques Offenbach: Barcarolle from Hoffmann's Tales (sung in German). A duet with Marga Neisch",
+        credits: "Datensatz-Urheber: <a href='http://mediathek.slub-dresden.de/ton70913317.html' target='_blank' rel='nofollow'>SLUB/Mediathek</a><br>Datensatz-Nr.: 70913317"
       }
     ],
     links: [
       {
         url: 'https://www.slovenska-biografija.si/oseba/sbi775405/',
-        title: '🇸🇮 Slovenski biografski leksikon'
+        title: '🇸🇮 slovenski biografski leksikon'
       },
       {
         url: "https://web.operissimo.com/triboni/exec?method=com.operissimo.artist.webDisplay&xsl=webDisplay&id=ffcyoieagxaaaaabdxyw",
@@ -808,7 +866,7 @@ singers: [
       },
       {
         url: 'https://en.wikipedia.org/wiki/Fanchette_Verhunc',
-        title: '🇬🇧 🇩🇪 🇸🇮 Wikipedia'
+        title: '🇬🇧 🇩🇪 🇸🇮 wikipedia'
       },
       {
         url: 'http://greatestoperasingers.blogspot.com/2016/06/fanchette-verhunk-soprano-1874.html',
@@ -816,7 +874,7 @@ singers: [
       },
       {
         url: 'https://www.bmlo.uni-muenchen.de/v0044',
-        title: '🇩🇪 Bayerisches Musiker Lexikon Online'
+        title: '🇩🇪 bayerisches musiker lexikon'
       },
       {
         url: 'https://www.europeana.eu/en/item/221/URN_NBN_SI_DOC_Y96GT4KG',
@@ -839,7 +897,7 @@ singers: [
         path: 'verhunc/1_Franja_Verhunc_(slika_NUK).jpg',
         title_sl: 'Portret Franje Verhunc na razglednici okrog leta 1920',
         title_en: 'Fanchette Verhunk in 1896, in slovenian folk costume',
-        source: 'dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        source: 'dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
         credits: 'MLA: Franja Verhunc (1874-1944). 1896. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-LFH6PUDC>',
         source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-LFH6PUDC/?euapi=1&query=%27keywords%3dfranja+verhunc+(1874-1944)%27&sortDir=ASC&sort=date&pageSize=25'
       },
@@ -928,6 +986,10 @@ singers: [
         title: '🇭🇷 Marija Barbieri: A Josip Križaj Monograph (with Summary in English - p.308-311) 💚'
       },
       {
+        url: 'https://sl.wikipedia.org/wiki/Josip_Kri%C5%BEaj_(pevec)',
+        title: '🇸🇮 wikipedia'
+      },
+      {
         url: "http://forgottenoperasingers.blogspot.com/2018/05/",
         title: '🇬🇧 forgotten opera singers'
       }
@@ -937,7 +999,7 @@ singers: [
         path: 'krizaj/0_josip_krizaj_(image_NUK).jpg',
         title_sl: 'Portret Josipa Križaja iz leta 1915',
         title_en: 'A portrait of Josip Križaj in 1915',
-        source: 'dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        source: 'dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
         credits: 'MLA: Setečka, V.. Josip Križaj (1887-1968). V. Setečka, 1915. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-6MRAWA6U>',
         source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-6MRAWA6U/?euapi=1&query=%27keywords%3djosip+kri%c5%beaj+(1887-1968)%27&sortDir=ASC&sort=date&pageSize=100'
       },
@@ -973,7 +1035,7 @@ singers: [
         path: 'krizaj/5_josip_krizaj_(image_NUK).jpg',
         title_sl: 'Josip Križaj okrog leta 1920',
         title_en: 'Josip Križaj ca. 1920',
-        source: ' dlib.si (orig.source/rights: National and University Library of Slovenia)',
+        source: ' dlib.si (orig.source/rights: Narodna in univerzitetna knjižnica)',
         credits: 'MLA: Kunc, Viktor. Josip Križaj (1887-1968). V. Kunc, 192?. <http://www.dlib.si/?URN=URN:NBN:SI:IMG-4LYK3K0J>',
         source_link: 'https://www.dlib.si/details/URN:NBN:SI:IMG-4LYK3K0J/?euapi=1&query=%27keywords%3djosip+kri%c5%beaj+(1887-1968)%27&sortDir=ASC&sort=date&pageSize=25'
       }

@@ -91,7 +91,7 @@
       <% data.recordings.recordings.each do |recording| %>
         <div class="col-4 col-6-small isotope-grid-item <%= recording.tags %>">
           <% if recording.youtube_url.include?('www.dlib.si') %>
-            <audio controls src="<%= recording.youtube_url %>"></audio>
+            <audio controls src="<%= recording.youtube_url %>" style="width: 100%"></audio>
           <% else %>
             <iframe width="100%" src="<%= recording.youtube_url %>" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -100,7 +100,13 @@
           <% if recording.composer %>
             <h5><%= recording.send("composer_#{I18n.locale}") || recording.composer %></h5>
           <% end %>
-          <h4><%= recording.send("title_#{I18n.locale}") %></h4>
+          <% if recording.title_link %>
+            <a href='<%= recording.title_link %>' target="_blank" rel="nofollow">
+              <h4><%= recording.send("title_#{I18n.locale}") %></h4>
+            </a>
+          <% else %>
+            <h4><%= recording.send("title_#{I18n.locale}") %></h4>
+          <% end %>
           <h5><%= recording.send("author_#{I18n.locale}") || recording.author %></h5>
         </div>
       <% end %>
