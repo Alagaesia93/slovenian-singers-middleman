@@ -130,7 +130,7 @@ singers: [
         path: 'rijavec/5_Josip_Rijavec_Tosca_Teatro_Colon_1931_(slika_FB).jpg',
         title_sl: 'Program opere Tosca v Teatru Colón v Buenos Airesu leta 1931',
         title_en: 'Tosca playbill, Teatro Colón 1931',
-        source: 'opera.hr (orig.source/rights: Marija Barbieri, OPERA.hr)',
+        source: 'image source - facebook (orig.source/rights: Juan Vasle)',
         source_link: 'https://www.facebook.com/Juan-Vasle-127765707563069/photos/ms.c.eJwzNDQ1szC3NDcyNDa0MDYy0TOEChhCBEwBclwGtw~-~-.bps.a.1156879697984993/1156879711318325/'
       },
       {
@@ -220,7 +220,7 @@ singers: [
         title: '🇬🇧 Tina Bohak Adam: Artistic Career Of Bass Julij Betetto In Ljubljana Opera (🇸🇮 strani 15-16)'
       },
       {
-        url: 'https://wikipedia.org/wiki/Julij_Betetto',
+        url: 'hhttps://sl.wikipedia.org/wiki/Julij_Betetto',
         title: '🇸🇮 🇩🇪 wikipedia'
       },
       {
@@ -357,7 +357,7 @@ singers: [
       },
       {
         url: 'https://wikipedia.org/wiki/Franc_Poga%C4%8Dnik_-_Naval',
-        title: '🇸🇮 🇬🇧 🇩🇪 wikipedia'
+        title: '🇸🇮 🇩🇪 wikipedia'
       },
       {
         url: 'http://greatestoperasingers.blogspot.com/2014/02/franz-naval-tenor-laibach-slovenia-1865_11.html',
@@ -514,11 +514,7 @@ singers: [
       },
       {
         url: 'https://sl.wikipedia.org/wiki/Irma_Polak',
-        title: '🇸🇮 wikipedia'
-      },
-      {
-        url: 'https://hr.wikipedia.org/wiki/Irma_Polak',
-        title: '🇭🇷 wikipedia'
+        title: '🇸🇮 🇭🇷 wikipedia'
       },
       {
         url: 'https://www.imdb.com/name/nm1280841/',
@@ -706,7 +702,7 @@ singers: [
     dates_en: '(March 17, 1895 - (?) 1924)',
     full_name: 'vida_ferluga',
     biography_sl: "Mezzosopranistka Vida Ferluga, italijanska pevka slovenskega rodu, se je rodila 17. marca 1895 na Opčinah, kjer je obiskovala tudi osnovno šolo. Prve glasbene nauke je dobila pri očetu Štefanu Ferlugi, zborovodju in skladatelju. Petje je študirala na glasbenem konservatoriju v Pesaru. Nastopala je po vsej Italiji, ter v Španiji in na Portugalskem.  Skladatelj Leoncavallo jo je izbral za vlogo Cristine v premierni izvedbi opere <i>Goffredo Mameli</i> 27. aprila 1916 v operni hiši Carlo Felice v Genovi, kateri je sam dirigiral. Pela je skupaj z najbolj priznanimi italijanskimi pevci tistega časa, kot so Beniamino Gigli, Eugenia Burzio, Cesira Ferrani, Giuseppe De Luca, Giuseppe Danise itd. Italijanska revija Rivista Teatrale Melodrammatica je o koncertu, ki so ga leta 1923 izvedli Gigli, de Luca, Caterina Gobbi in Vida Ferluga, o nastopu le-te zapisala: <br><i>“/.../ Signorina Vida Ferluga je na oder stopila z belo vrtnico v roki. Ta imenitna pevka nam je poznana že nekaj časa. Ima občudovanja vredne glasovne zmožnosti, tako da lahko rečemo, da ji je kariera zagotovljena. Ko je odpela priljubljeno arijo iz opere Samson in Dalila in pripovedko iz Trubadurja, je občinstvo Ferlugi navdušeno ploskalo - tako je morala odpeti še nenačrtovano skladbo, izbrala je romanco maestra Pietra Cimarre, ki jo je zelo lepo spremljal na klavirju.”</i><br> Domnevno je najbolj uspela v vlogi Carmen skladatelja Bizeta. V Milanu je uspešno opravila avdicijo pri Arturu Toscaniniju in bila sprejeta v milansko operno hišo La Scala, toda žal je leta 1924 umrla za tifusom, preden bi lahko tam nastopila. Njen glas lahko poslušamo le na posnetkih Verdijevega Rigoletta, kjer je pela vlogi Maddalene in Grofice Ceprano. Posnetki so nastali med letoma 1915 in 1918.",
-    biography_en: "The Mezzo-soprano Vida Ferluga, an Italian singer of Slovenian descent, was born on March 17, 1895, in Opčine (it. Opicina). Her first music teacher was her father, Štefan Ferluga, a choirmaster and composer. She studied singing at the Pesaro Conservatory. In 1916 Leoncavallo chose her to perform in the premiere of his opera <i>Goffredo Mameli</i> on April 27 at the Teatro Carlo Felice in Genoa, which he himself conducted. Still very young, Ferluga performed all over Italy, as well as in Spain and Portugal. She sang with some of the most renowned Italian singers of the time, such as Beniamino Gigli, Eugenia Burzio, Cesira Ferrani, Giuseppe De Luca, Giuseppe Danise, Ester Mazzoleni etc. Here is an excerpt from an article that appeared in <i>Rivista Teatrale Melodrammatica</i> reporting on a concert performance given in 1923, where she shared the stage with Gigli, de Luca and Caterina Gobbi: <br><i>“/.../ Signorina Vida Ferluga entered the stage with a white rose in her hand. This distinguished singer has been known to us for some time. She possesses vocal means worthy of much regard - it can be thus safely said that a career is awaiting her. Upon singing the popular arioso from Samson and Delilah and the scene from Trovatore, the audience applauded Ferluga with true ardour. She was required to sing an unscheduled piece and chose a romance by maestro Pietro Cimarra, who accompanied her very well on the piano.”</i><br> Arguably, her most successful role was Carmen. In Milan, Ferluga auditioned for Arthur Toscanini and was to be engaged at the La Scala Opera House, however she died of typhus in 1924 before having the chance to perform there. We can hear her voice in excerpts from Verdi’s Rigoletto, where she sang the roles of Maddalena and the Countess of Ceprano (with Fernando de Lucia). The recordings were made between 1915 and 1918.",
+    biography_en: "The Mezzo-soprano Vida Ferluga, an Italian singer of Slovenian descent, was born on March 17, 1895, in Opčine (it. Opicina). Her first music teacher was her father, Štefan Ferluga, a choirmaster and composer. She studied singing at the Pesaro Conservatory. In 1916 Leoncavallo chose her to perform in the premiere of his opera <i>Goffredo Mameli</i> on April 27 at the Teatro Carlo Felice in Genoa, which he himself conducted. Still very young, Ferluga performed all over Italy, as well as in Spain and Portugal. She sang with some of the most renowned Italian singers of the time, such as Beniamino Gigli, Eugenia Burzio, Cesira Ferrani, Giuseppe De Luca, Giuseppe Danise, Ester Mazzoleni etc. Here is an excerpt from an article that appeared in <i>Rivista Teatrale Melodrammatica</i> reporting on a concert performance given in 1923, where she shared the stage with Gigli, de Luca and Caterina Gobbi: <br><i>“/.../ Signorina Vida Ferluga entered the stage with a white rose in her hand. This distinguished singer has been known to us for some time. She possesses vocal means worthy of much regard - it can be thus safely said that a career is awaiting her. Upon singing the popular arioso from Samson and Delilah and the scene from Trovatore, the audience applauded Ferluga with true ardour. She was required to sing an unscheduled piece and chose a romance by maestro Pietro Cimarra, who accompanied her very well on the piano.”</i><br> Arguably, her most successful role was Carmen. In Milan, Ferluga auditioned for Arthur Toscanini and was to be engaged at the La Scala Opera House, however she died of typhus in 1924 before having had the chance to perform there. We can hear her voice in excerpts from Verdi’s Rigoletto, where she sang the roles of Maddalena and the Countess of Ceprano (with Fernando de Lucia). The recordings were made between 1915 and 1918.",
     roles_sl: "<li>Cristina (Leoncavallo: Goffredo Mameli)</li>
       <li>Azucena (Verdi: Trubadur)</li>
       <li>Carmen (Bizet: Carmen)</li>
@@ -811,7 +807,7 @@ singers: [
     dates_en: '(August 8, 1875 - November 11, 1944)',
     full_name: 'franja_verhunk',
     biography_sl: "Franja Verhunc se je rodila 8. Avgusta 1875 v Ljubljani. Petje je študirala na Dunajskem konservatoriju pri profesorju Josefu Gänsbacherju. Njen učitelj na Dunaju je bil tudi Felice Mancio. Pred tem je obiskovala šolo Glasbene Matice v Ljubljani. V Sloveniji je nastopala le na začetku svoje umetniške poti, še kot študentka, a že tedaj dosegala lepe uspehe, med drugim kot solistka v Dvořákovem <i>Mrtvaškem ženinu</i> na koncertu Glasbene Matice leta 1895 v Ljubljani. Koncert je bil ponovljen leto kasneje na Dunaju pod vodstvom samega Dvořáka. O njenem nastopu so v tisku zapisali: <br><i>/.../ kako naraven in lahek, kako čist in gladek ji je tekel glas iz grla! Jakost pa in prirodna moč tega glasu se je mogočno razvijala na onih mesteh, kjer je trebalo pokazati ga nasproti združenim močem orkestra, zbora in nje nasprotnika, tenorista Lašeka /.../. /.../ je gospodična Verhunčeva dokazala, da nje grlo hrani še drug redki zaklad: poleg soprana divni alt. Ta alt je donel tako krepko, kot nekakov krepki moški glas.</i><br> Leta 1897 je bila angažirana v  Poznanu, naslednje leto pa postala članica opernega ansambla v Vroclavu, kjer je ostala do leta 1912. Na znamenitem festivalu Wagnerjeve opere v Bayreuthu leta 1901 je pela vlogo Freie v operi <i>Rensko zlato</i>. Z velikim uspehom je gostovala v operah na Dunaju, v Dresdnu in v Münchnu. Navdušila je še posebej z vlogo Salome skladatelja Richarda Straussa. Po predstavi v Vroclavu leta 1906 ji je čestital tudi sam skladatelj. Nastopila pa je tudi v prvi uprizoritvi te opere na Dunaju 15. maja 1907. Ko se je leta 1917 umaknila iz odra, se je posvetila poučevanju petja. Poročena je bila najprej s tenoristom Adalbertom Holzapflom, nato pa z dirigentom Juliusom Prüwerjem. Umrla je 11. Novembra 1944 na Golniku.",
-    biography_en: "Fanchette Verhunk was born Franja Vrhunc on August 8, 1875 in Ljubljana. After receiving a musical education at the Glasbena Matica school in Ljubljana, she studied singing at the Vienna Conservatory with Josef Gänsbacher and Felice Mancio. She only performed in her homeland at the beginning of her career. Although still a student, she was considered a great vocalist and artist. In 1896 she was the soprano soloist in Dvořák’s cantata Die Geisterbraut in a concert given in Vienna under the direction of Dvořák himself. A Slovenian press article reporting on the event reads as follows: <br><i>/.../ how natural and light, how clean and smooth the voice flowed from her throat! She was able to expand on the strength and the natural volume of her voice greatly in those places where it had to be present against the combined forces of the orchestra, the choir and her opponent, the tenor Lašek /.../. /.../ Miss Verhunc has demonstrated that her throat has another rare treasure in store: in addition to the soprano, a wonderful alto. The alto she has brought forth was as powerful as a strong male voice</i><br> Her first engagement was in Poznań in 1897, followed by an engagement at the Wrocław Opera, where she stayed until 1912. In Wrocław, she was highly esteemed and admired. At the 1901 Bayreuth Festival she sang the role of Freia in Wagner’s opera Das Rheingold. Guest performances led her to Vienna, Dresden, Munich, Amsterdam and Budapest.  The highlight of her career was the title role in Richard Strauss's opera Salome. The composer saw her as Salome in Wroclaw in 1906 and congratulated her on her performance. She sang Salome when the opera was given in Vienna for the first time on May 15, 1907. In 1917 she retired from the stage and devoted herself to teaching. She was married to the tenor Adalbert Holzapfel and later to the conductor Julius Prüwer. In 1944 she returned to Slovenia, where she died on November 11, 1944.",
+    biography_en: "Fanchette Verhunk was born Franja Vrhunc on August 8, 1875 in Ljubljana. After receiving a musical education at the Glasbena Matica school in Ljubljana, she studied singing at the Vienna Conservatory with Josef Gänsbacher and Felice Mancio. She only performed in her homeland at the beginning of her career. Although still a student, she was considered a great vocalist and artist. In 1896 she was the soprano soloist in Dvořák’s cantata Die Geisterbraut in a concert given in Vienna under the direction of Dvořák himself. A Slovenian press article reporting on the event reads as follows: <br><i>/.../ how natural and light, how clean and smooth the voice flowed from her throat! She was able to expand on the strength and the natural volume of her voice greatly in those places where it had to be present against the combined forces of the orchestra, the choir and her opponent, the tenor Lašek /.../. /.../ Miss Verhunc has demonstrated that her throat has another rare treasure in store: in addition to the soprano, a wonderful alto. The alto she has brought forth was as powerful as a strong male voice.</i><br> Her first engagement was in Poznań in 1897, followed by an engagement at the Wrocław Opera, where she stayed until 1912. In Wrocław, she was highly esteemed and admired. At the 1901 Bayreuth Festival she sang the role of Freia in Wagner’s opera Das Rheingold. Guest performances led her to Vienna, Dresden, Munich, Amsterdam and Budapest.  The highlight of her career was the title role in Richard Strauss's opera Salome. The composer saw her as Salome in Wroclaw in 1906 and congratulated her on her performance. She sang Salome when the opera was given in Vienna for the first time on May 15, 1907. In 1917 she retired from the stage and devoted herself to teaching. She was married to the tenor Adalbert Holzapfel and later to the conductor Julius Prüwer. In 1944 she returned to Slovenia, where she died on November 11, 1944.",
     names: 'Franja / Franica / Fanchette / Fandetta <br> Verhunc / Vrhunc / Verhunk / Verhunck / Holzapfel / Prüwer',
     roles_sl: "<li>Salome (Strauss: Salome)</li>
       <li>Mimi (Puccini: La Bohème)</li>
@@ -970,6 +966,14 @@ singers: [
         youtube_url: "https://www.youtube.com/embed/FfMLhCBeQqc",
         title_sl: "Puccini: Collinova pesem iz opere La Boheme (v hrvaškem jeziku)",
         title_en: "Puccini: Colline’s song from La Bohème (sung in Croatian)"
+      },
+      {
+        tags: 'samospev krizaj ipavec',
+        youtube_url: 'https://archive.org/embed/78_podoknica-iz-op-teharski-plemici',
+        title_sl: 'Podoknica iz opere Teharski plemiči',
+        title_en: 'Serenade from the opera <i>Teharski plemiči</i>',
+        title_link: 'https://archive.org/details/78_podoknica-iz-op-teharski-plemici',
+        composer: 'Benjamin Ipavec / Anton Funtek'
       },
       {
         youtube_url: 'https://www.youtube.com/embed/JOuIimab2uI',

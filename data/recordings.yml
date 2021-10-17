@@ -243,8 +243,8 @@ recordings: [
     title_sl: "Nocoj je pa svetla noč",
     title_en: "Nocoj je pa svetla noč - <br><i>Tonight Is A Luminous Night</i>",
     author: 'Julij Betetto (1885-1963)',
-    composer: 'Emilio Adamič / narodna',
-    composer_en: 'Emilio Adamič / folk song'
+    composer: 'Emil Adamič / narodna',
+    composer_en: 'Emil Adamič / folk song'
   },
   {
     tags: 'betetto pavcic samospev',
@@ -834,7 +834,7 @@ recordings: [
     title_sl: 'Moj mili kraj',
     title_en: 'Moj mili kraj - <i>My Beloved Homeland</i>', 
     title_link: https://www.dlib.si/details/URN:NBN:SI:SND-SHJ593L7',
-    author: 'Augusta Danilova',
+    author: 'Augusta Danilova (1869-1958)',
     composer: 'narodna',
     composer_en: 'folk song',
     blog: "true"
@@ -844,7 +844,7 @@ recordings: [
     title_sl: 'Slovo od ljubega',
     title_en: 'Slovo od ljubega - <i>Goodbye</i>', 
     title_link: 'https://archive.org/details/78_slovo-od-ljubega',
-    author: 'Augusta Danilova',
+    author: 'Augusta Danilova (1869-1958)',
     composer: 'narodna',
     composer_en: 'folk song',
     blog: "true"
@@ -864,7 +864,7 @@ recordings: [
     title_sl: "Sezidal sem si vinski hram",
     title_en: "Sezidal sem si vinski hram - <i>I've Built Myself A Wine Cellar</i>",
     title_link: "https://www.dlib.si/details/URN:NBN:SI:SND-DSJ09D9U",
-    author: "Milka Polancer Schneid",
+    author: "Milka Polancer Schneid (1874/79-1957)",
     composer: "Viktor Parma / narodna",
     composer_en: "Viktor Parma / folk song",
     blog: "true"
@@ -873,7 +873,7 @@ recordings: [
     youtube_url: 'https://www.youtube.com/embed/2VqdLs3xC9Y',
     title_sl: 'Domovini',
     title_en: 'Domovini - <i>To The Homeland</i>',
-    author: 'Milka Polancer Schneid',
+    author: 'Milka Polancer Schneid (1874/79-1957)',
     composer: 'Benjamin Ipavec / Radoslav Razlag',
     blog: "true"
   },
