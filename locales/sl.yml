@@ -8,8 +8,7 @@ sl:
   third_paragraph: "Poslušanja starih posnetkov se je mogoče privaditi - takrat si lahko približno predstavljamo, kako je posneta glasba v resnici zvenela in tako cenimo lepoto in kvaliteto glasov in izvedbe. Starosti posnetkov navkljub, ti polni in briljantni glasovi, delno izšolani še po tradiciji prejšnjih stoletij, očarajo z naravno barvo, globino, izenačenostjo zvoka v celotnem glasovnem obsegu, navidezno preprostostjo in muzikalno izvedbo."
   songs_page_title: 'Stari posnetki slovenskih pesmi'
   songs_page_description: 'V vednost: na več posnetkih si v originalnem linku sledita dve pesmi, vendar pa je tukajšnji izbor urejen tako, da se vsaka pod posnetkom navedena pesem predvaja neposredno (tudi če v originalnem linku le-ta ni na začetku). Nekaterim pesmim, tistim, ki so v originalu na začetku, tako sledi še naslednja.'
-  folk_singers_page_title: 'Ljudski pevci izseljenci v Ameriki'
-  folk_singers_page_description: 'TODO'
+  folk_singers_page_title: 'Nekaj posnetkov ljudskih pevcev izseljencev v Ameriki'
   all_songs: 'vse pesmi'
   folk_songs: 'ljudske pesmi'
   artsongs: 'samospevi'
@@ -30,6 +29,5 @@ sl:
   original_text: 'original v italijanščini'
   translated_text: 'prevod'
   songs_title: 'Stari posnetki slovenskih pesmi'
-  songs_description: 'TODO'
   button_songs: 'Več posnetkov opernih pevcev'
   button_folk_singers: 'Izbor posnetkov ljudskih pevcev'

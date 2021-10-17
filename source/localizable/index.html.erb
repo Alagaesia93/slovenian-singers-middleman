@@ -48,7 +48,7 @@
   <br>
   <div class="row align-center">
     <% data.recordings.recordings.select{|x| x.favourites }.each do |recording| %>
-      <div class="col-4 col-6-small">
+      <div class="col-4 col-12-small">
         <iframe width="100%" src="<%= recording.youtube_url %>" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen loading="lazy" title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
@@ -77,17 +77,16 @@
 </section>
 
 <section id="blog">
-  <h2><%= t(:blog) %></h2>
   <div class="row">
-    <% blog.articles.select{|b| b.lang == lang }[0...3].each do |article| %>
-      <div class="col-4">
+    <% blog.articles.select{|b| b.lang == lang }.each do |article| %>
+      <div class="col-3">
         <picture>
           <source type="image/webp" srcset="<%= url_for("images/blog/#{article.data.image}.webp") %>">
           <source type="image/jpeg" srcset="<%= url_for("images/blog/#{article.data.image}.jpg") %>">
           <img loading=lazy src="<%= url_for("images/blog/#{article.data.image}.jpg") %>" alt="<%= article.title %>" style="width: 100%">
         </picture>
       </div>
-      <div class="col-8">
+      <div class="col-9">
         <article>
           <h4>
             <a href="<%= article.url %>"><%= article.title %></a>

@@ -34,11 +34,11 @@
           <% else %>
             <audio src="<%= recording.audio_url %>" controls="true"></audio><br>
           <% end %>
-          <%= recording.credits %>
           <% if recording.composer %>
             <h5><%= recording.send("composer_#{I18n.locale}") || recording.composer %></h5>
           <% end %>
           <h3><%= recording.send("title_#{I18n.locale}") %></h3>
+          <h6><%= recording.credits %></h6>
         </article>
       <% end %>
       <% if singer.playlist.present? %>
