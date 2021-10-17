@@ -89,15 +89,18 @@
           <% singer.pictures.each do |pic| %>
             <div class="splide__slide">
               <div style="text-align: center;">
-                <a href="<%= image_path(pic.path) %>" target="_blank" rel="noopener">
-                  <%= image_tag(pic.path, style: 'height: 50vh') %>
-                </a>
-
-                <h2><%= pic.send("title_#{I18n.locale}") %></h2>
-                <h4>
+                <div>
+                  <a href="<%= image_path(pic.path) %>" target="_blank" rel="noopener">
+                    <%= image_tag(pic.path, style: 'height: 50vh') %>
+                  </a>
+                </div>
+                <h2 style="margin-top: 20px;">
+                  <%= pic.send("title_#{I18n.locale}") %>
+                </h2>
+                <h5>
                   <a href="<%= pic.source_link %>" target="_blank" rel="noopener"><%= pic.source %></a>
-                </h4>
-                <h5><%= pic.credit %></h5>
+                </h5>
+                <h6><%= pic.credit %></h6>
               </div>
             </div>
           <% end %>

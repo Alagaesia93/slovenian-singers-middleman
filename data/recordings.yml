@@ -1,5 +1,13 @@
 recordings: [
   {
+    tags: 'samospev naval nedved',
+    youtube_url: 'https://yalemusiclib.aviaryplatform.com/embed/media/71525',
+    title_sl: 'Pred durmi',
+    title_en: 'Pred durmi - <i>At The Door</i>',
+    author: 'Franc Pogačnik-Naval (1865-1939)',
+    composer: 'Anton Nedvĕd / Simon Jenko',
+  },
+  {
     tags: "folk flajsman rijavec",
     youtube_url: 'https://www.youtube.com/embed/Tkqo1uK--8Q',
     title_sl: 'En starček je živel',
