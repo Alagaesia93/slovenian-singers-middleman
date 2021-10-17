@@ -33,8 +33,8 @@
               title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
           <% else %>
             <audio src="<%= recording.audio_url %>" controls="true"></audio><br>
-            <%= recording.credits %>
           <% end %>
+          <%= recording.credits %>
           <% if recording.composer %>
             <h5><%= recording.send("composer_#{I18n.locale}") || recording.composer %></h5>
           <% end %>
@@ -100,7 +100,7 @@
                 <h5>
                   <a href="<%= pic.source_link %>" target="_blank" rel="noopener"><%= pic.source %></a>
                 </h5>
-                <h6><%= pic.credit %></h6>
+                <h6><%= pic.credits %></h6>
               </div>
             </div>
           <% end %>

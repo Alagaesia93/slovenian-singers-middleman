@@ -6,8 +6,10 @@ sl:
   first_paragraph: "Na tej strani lahko odkrijete čudovite glasove odličnih, vendar žal večinoma pozabljenih slovenskih pevcev, ki so v svojem času beležili izjemne uspehe doma in v tujini, ter izveste več o njih. Njihovo delovanje priča o bogati glasbeni kulturi in kvaliteti glasbenih institucij, ter glasbenega šolstva na Slovenskem.<br>Našli boste tudi obsežen izbor posnetkov slovenskih ljudskih pesmi in samospevov z začetka 20. stoletja v izvedbi tako slovenskih, kot tudi hrvaških in drugih tujih pevcev.<br>Posnetki so slovenska kulturna dediščina, pomembni tako iz zgodovinskega, kot tudi iz umetniškega vidika. Med njimi je več manj poznanih ljudskih pesmi, ki so dragocen del ljudskega izročila."
   second_paragraph: "Na začetku se bodo posnetki marsikomu zdeli nenavadni, tako zaradi slabe kvalitete zvoka in spremljajočega šuma, kot tudi zaradi drugačne rabe glasu, kot jo poznamo danes. Najstarejši glasbeni posnetki so bili posneti na voščene cilindre, te pa so kaj kmalu zamenjale plošče na 78 obratov na minuto. Prve posnetke za širši trg so začeli proizvajati v zadnjih letih 19. stoletja. Tehnike snemanja so bile še precej osnovne, povsem mehanične, tudi snemalni pogoji za izvajalce težki. Celotnega razpona zvoka na akustičnih posnetkih ni moč slišati - alikvotni toni so izgubljeni, prav tako dinamika, zvok je včasih popačen - kar slišimo je le bistvo zvoka, lahko bi se reklo ‘izvleček’. Kljub temu je v tem času nastalo ogromno posnetkov, predvsem petja, saj je glas, v primerjavi z instrumenti, zvenel bolje. Prve plošče so lahko shranile posnetke dolge približno štiri minute, zato je precej običajno, da je tempo izvedbe pospešen ali pesem skrajšana. Z izumom mikrofona so akustične posnetke v drugi polovici dvajsetih let 20. stoletja zamenjali električni."
   third_paragraph: "Poslušanja starih posnetkov se je mogoče privaditi - takrat si lahko približno predstavljamo, kako je posneta glasba v resnici zvenela in tako cenimo lepoto in kvaliteto glasov in izvedbe. Starosti posnetkov navkljub, ti polni in briljantni glasovi, delno izšolani še po tradiciji prejšnjih stoletij, očarajo z naravno barvo, globino, izenačenostjo zvoka v celotnem glasovnem obsegu, navidezno preprostostjo in muzikalno izvedbo."
-  songs_title: 'Stari posnetki slovenskih pesmi'
-  songs_description: 'V vednost: na več posnetkih si v originalnem linku sledita dve pesmi, vendar pa je tukajšnji izbor urejen tako, da se vsaka pod posnetkom navedena pesem predvaja neposredno (tudi če v originalnem linku le-ta ni na začetku). Nekaterim pesmim, tistim, ki so v originalu na začetku, tako sledi še naslednja.'
+  songs_page_title: 'Stari posnetki slovenskih pesmi'
+  songs_page_description: 'V vednost: na več posnetkih si v originalnem linku sledita dve pesmi, vendar pa je tukajšnji izbor urejen tako, da se vsaka pod posnetkom navedena pesem predvaja neposredno (tudi če v originalnem linku le-ta ni na začetku). Nekaterim pesmim, tistim, ki so v originalu na začetku, tako sledi še naslednja.'
+  folk_singers_page_title: 'Ljudski pevci izseljenci v Ameriki'
+  folk_singers_page_description: 'TODO'
   all_songs: 'vse pesmi'
   folk_songs: 'ljudske pesmi'
   artsongs: 'samospevi'
@@ -25,6 +27,9 @@ sl:
   names: 'Različice imena:'
   blog: 'Blog zanimivosti'
   others: 'ostali'
-  folk_singers: 'ljudski pevci'
   original_text: 'original v italijanščini'
   translated_text: 'prevod'
+  songs_title: 'Stari posnetki slovenskih pesmi'
+  songs_description: 'TODO'
+  button_songs: 'Več posnetkov opernih pevcev'
+  button_folk_singers: 'Izbor posnetkov ljudskih pevcev'

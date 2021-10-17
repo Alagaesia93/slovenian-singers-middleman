@@ -46,73 +46,34 @@
     <%= t(:songs_description) %>
   </p>
   <br>
-  <div class="button-group filters-button-group">
-    <button class="button is-checked" data-filter="*">
-      <%= t(:all_songs) %>
-    </button>
-    <button class="button" data-filter=".folk">
-      <%= t(:folk_songs) %>
-    </button>
-    <button class="button" data-filter=".samospev">
-      <%= t(:artsongs) %>
-    </button>
-    <br>
-    <br><%= t(:singers) %>
-    <br>
-    <button class="button" data-filter=".betetto">Betetto</button>
-    <button class="button" data-filter=".buksek">Bukšek</button>
-    <button class="button" data-filter=".vicar">Vičar</button>
-    <button class="button" data-filter=".lovse">Lovše</button>
-    <button class="button" data-filter=".polak">Polak</button>
-    <button class="button" data-filter=".rijavec">Rijavec</button>
-    <button class="button" data-filter=".lupsa">Lupša</button>
-    <button class="button" data-filter=".sekula">Sekula</button>
-    <button class="button" data-filter=".subelj">Šubelj</button>
-    <button class="button" data-filter=".jelacin">Jelacin</button>
-    <button class="button" data-filter=".folk_singers"><%= t(:folk_singers) %></button>
-    <button class="button" data-filter=".ostali"><%= t(:others) %></button>
-    <br>
-    <br><%= t(:composers) %>
-    <br>
-    <button class="button" data-filter=".parma">V.Parma</button>
-    <button class="button" data-filter=".nedved">A.Nedvĕd</button>
-    <button class="button" data-filter=".zupancic">O.Župančič</button>
-    <button class="button" data-filter=".adamic">E.Adamic</button>
-    <button class="button" data-filter=".pavcic">J.Pavčič</button>
-    <button class="button" data-filter=".volaric">H.Volarič</button>
-    <button class="button" data-filter=".foerster">A.Foerster</button>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
-  <div class="partially-collapsible-content">
-    <div class="row align-center isotope-grid">
-      <% data.recordings.recordings.each do |recording| %>
-        <div class="col-4 col-6-small isotope-grid-item <%= recording.tags %>">
-          <% if recording.youtube_url.include?('www.dlib.si') %>
-            <audio controls src="<%= recording.youtube_url %>" style="width: 100%"></audio>
-          <% else %>
-            <iframe width="100%" src="<%= recording.youtube_url %>" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen loading="lazy" title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
-          <% end %>
-          <% if recording.composer %>
-            <h5><%= recording.send("composer_#{I18n.locale}") || recording.composer %></h5>
-          <% end %>
-          <% if recording.title_link %>
-            <a href='<%= recording.title_link %>' target="_blank" rel="nofollow">
-              <h4><%= recording.send("title_#{I18n.locale}") %></h4>
-            </a>
-          <% else %>
+  <div class="row align-center">
+    <% data.recordings.recordings.select{|x| x.favourites }.each do |recording| %>
+      <div class="col-4 col-6-small">
+        <iframe width="100%" src="<%= recording.youtube_url %>" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen loading="lazy" title="<%= recording.send("title_#{I18n.locale}") %>"></iframe>
+        <% if recording.composer %>
+          <h5><%= recording.send("composer_#{I18n.locale}") || recording.composer %></h5>
+        <% end %>
+        <% if recording.title_link %>
+          <a href='<%= recording.title_link %>' target="_blank" rel="nofollow">
             <h4><%= recording.send("title_#{I18n.locale}") %></h4>
-          <% end %>
-          <h5><%= recording.send("author_#{I18n.locale}") || recording.author %></h5>
-        </div>
-      <% end %>
+          </a>
+        <% else %>
+          <h4><%= recording.send("title_#{I18n.locale}") %></h4>
+        <% end %>
+        <h5><%= recording.send("author_#{I18n.locale}") || recording.author %></h5>
+      </div>
+    <% end %>
+    <div style="margin: 20px auto;">
+      <a class="button" href="<%= "#{url_for('songs', locale: I18n.locale)}" %>.html">
+        <%= t(:button_songs, count: 132423) %>
+      </a>
+      <a class="button" href="<%= "#{url_for('folk_singers', locale: I18n.locale)}" %>.html">
+        <%= t(:button_folk_singers) %>
+      </a>
     </div>
   </div>
-  <button class="partially-collapsible-button button" style="display: block; margin: 10px auto;">▼</button>
 </section>
 
 <section id="blog">

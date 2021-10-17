@@ -1,0 +1,56 @@
+{
+  links: [
+    {
+      url: 'https://ojs.zrc-sazu.si/traditiones/article/viewFile/868/687',
+      title_en: '🇬🇧 Charles Debevec: Slovenian Recordings Made In America Prior To World War II',
+      title_sl: '🇬🇧 Charles Debevec: Slovenian Recordings Made In America Prior To World War II, kratek povzetek v slovenščini najdete na straneh 20-21.',
+    },
+    {
+      url: 'https://www.google.de/books/edition/Music_from_Both_Sides/MJiHDwAAQBAJ?hl=en&gbpv=0',
+      title_en: '🇬🇧 Drago Kunej, Rebeka Kunej: Music from Both Sides',
+      title_sl: '🇬🇧 Drago Kunej, Rebeka Kunej: Music from Both Sides'
+    },
+    {
+      url: 'https://sl.wikipedia.org/wiki/Avgusta_Danilova',
+      title_en: '🇸🇮 Wikipedia - Avgusta Danilova',
+      title_sl: '🇸🇮 Wikipedia - Avgusta Danilova'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=6bdu_eTTrjA',
+      title_en: '🇭🇷 youtube channel Nikola Zekić - Milka Polancer Schneid',
+      title_sl: '🇭🇷 youtube channel Nikola Zekić - Milka Polancer Schneid'
+    },
+    {
+      url: 'https://www.slovenska-biografija.si/oseba/sbi672698/',
+      title_en: '🇸🇮 slovenska biografija - Anton Šubelj',
+      title_sl: '🇸🇮 slovenska biografija - Anton Šubelj'
+    },
+    {
+      url: 'https://www.momus.si/commemorative-plaque-to-anton-subelj',
+      title_en: '🇬🇧 momus.si - Anton Šubelj',
+      title_sl: '🇬🇧 momus.si - Anton Šubelj'
+    }
+  ],
+  pics: [
+    {
+      title: 'Avgusta Danilova (1869-1958)',
+      link: 'http://www.dlib.si/details/URN:NBN:SI:IMG-3VPQGG4B',
+      credit: 'MLA: Kurucz, Stefan. Avgusta Cerar Danilova (1869-1958). S. Kurucz, 189?.<br><http://www.dlib.si/?URN=URN:NBN:SI:IMG-3VPQGG4B>',
+      path: 'folk_singers/avgusta_danilova_(image_NUK).jpg'
+    },
+    {
+      title: 'Milka Polancer Schneid (1874/79-1957) ',
+      path: 'folk_singers/milka_polancer_(image_c.debevec).jpg'
+    },
+    {
+      title: 'Josephine Lausche (1894–1990), Mary Udovich (1897–1965), William Lausche (1898–1967)',
+      path: 'folk_singers/Lausche_Udovich_(image_c.debevec).jpg'
+    },
+    {
+      title: 'Anton Šubelj (1899-1966)',
+      link: 'http://dlib.si/details/URN:NBN:SI:img-WAYAV4XD',
+      credit: 'MLA: Anton Šubelj (1899-1956). 1930. <http://www.dlib.si/?URN=URN:NBN:SI:img-WAYAV4XD>',
+      path: 'folk_singers/anton_subelj_(image_NUK).jpg'
+    }
+  ]
+}

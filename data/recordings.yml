@@ -95,15 +95,15 @@ recordings: [
     composer: 'narodna',
     composer_en: 'folk song'
   },
-  {
-    tags: "folk vicar",
-    youtube_url: "https://www.youtube.com/embed/xqvhGgx7cs",
-    title_sl: "Tam, kjer lunica",
-    title_en: "Tam, kjer lunica - <br><i>Where The Moon Goes Down</i>",
-    author: "Božidar Vičar (1894-1972)",
-    composer: 'narodna',
-    composer_en: 'folk song'
-  },
+  # {
+  #   tags: "folk vicar",
+  #   youtube_url: "https://www.youtube.com/embed/xqvhGgx7cs",
+  #   title_sl: "Tam, kjer lunica",
+  #   title_en: "Tam, kjer lunica - <br><i>Where The Moon Goes Down</i>",
+  #   author: "Božidar Vičar (1894-1972)",
+  #   composer: 'narodna',
+  #   composer_en: 'folk song'
+  # },
   {
     tags: 'folk vicar',
     youtube_url: "https:///www.dlib.si/stream/URN:NBN:SI:SND-IW6AIAET/3677cfa3-9da0-460b-9e65-77949bbbc355/AUDIO",
@@ -230,7 +230,7 @@ recordings: [
   },
   {
     tags: 'betetto gerbic samospev',
-    youtube_url: "https://www.youtube.com/embed/hHKQ622iA9o", # ERROR 1
+    youtube_url: "https://www.youtube.com/embed/hHKQ622iA9o",
     title_sl: "Pojdem na prejo",
     title_en: "Pojdem na prejo - <br><i>I'll Go To The Spinning-Room</i>",
     author: 'Julij Betetto (1885-1963)',
@@ -566,7 +566,7 @@ recordings: [
     composer: 'Fran Gerbič / Josip Vošnjak'
   },
   {
-    tags: 'samospev g.ipavec', 
+    tags: 'samospev ipavec', 
     youtube_url: 'https://archive.org/embed/78_vse-mine-kje-so-moje-rozice-all-things-pass-away',
     title_sl: 'Vse mine / Kje so moje rožice',
     title_en: 'Vse mine - <i>All Things Pass Away</i>',
@@ -707,7 +707,7 @@ recordings: [
     composer: 'Anton Nedvĕd / Luka Jeran'
   },
   {
-    tags: 'samospev b.ipavec', 
+    tags: 'samospev bipavec', 
     youtube_url: 'https://www.youtube.com/embed/-SXEZNzJ140',
     title_sl: 'Domovini',
     title_en: 'Domovini - <i>To The Homeland</i>',
