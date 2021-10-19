@@ -42,10 +42,6 @@
 <section id="songs">
   <h2><%= t(:songs_title) %></h2>
   <br>
-  <p style="text-align: justify">
-    <%= t(:songs_description) %>
-  </p>
-  <br>
   <div class="row align-center">
     <% data.recordings.recordings.select{|x| x.favourites }.each do |recording| %>
       <div class="col-4 col-12-small">

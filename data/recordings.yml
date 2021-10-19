@@ -95,15 +95,15 @@ recordings: [
     composer: 'narodna',
     composer_en: 'folk song'
   },
-  # {
-  #   tags: "folk vicar",
-  #   youtube_url: "https://www.youtube.com/embed/xqvhGgx7cs",
-  #   title_sl: "Tam, kjer lunica",
-  #   title_en: "Tam, kjer lunica - <br><i>Where The Moon Goes Down</i>",
-  #   author: "Božidar Vičar (1894-1972)",
-  #   composer: 'narodna',
-  #   composer_en: 'folk song'
-  # },
+  {
+    tags: "folk vicar",
+    youtube_url: "https://www.youtube.com/embed/-xqvhGgx7cs",
+    title_sl: "Tam, kjer lunica",
+    title_en: "Tam, kjer lunica - <br><i>Where The Moon Goes Down</i>",
+    author: "Božidar Vičar (1894-1972)",
+    composer: 'narodna',
+    composer_en: 'folk song'
+  },
   {
     tags: 'folk vicar',
     youtube_url: "https:///www.dlib.si/stream/URN:NBN:SI:SND-IW6AIAET/3677cfa3-9da0-460b-9e65-77949bbbc355/AUDIO",
@@ -211,6 +211,22 @@ recordings: [
     composer_en: 'folk song'
   },
   {
+    tags: 'polak nedved samospev',
+    youtube_url: "https://www.youtube.com/embed/2aUNyZzfy34",
+    title_sl: "Na tujih tleh",
+    title_en: "Na tujih tleh - <br><i>In The Foreign Land</i>",
+    author: 'Irma Polak (1875-1931)',
+    composer: 'Anton Nedvĕd / Anton Funtek'
+  },
+  {
+    tags: 'polak volaric samospev',
+    youtube_url: "https://www.youtube.com/embed/ibpn06hv2pA",
+    title_sl: "Pogled v nedolžno oko",
+    title_en: "Pogled v nedolžno oko - <br><i>Looking Into An Innocent Eye</i>",
+    author: 'Irma Polak (1875-1931)',
+    composer: 'Hrabroslav Volarič / Simon Gregorčič'
+  },
+  {
     tags: 'folk ostali',
     youtube_url: "https://www.youtube.com/embed/RLLklyQZgk0",
     title_sl: "Gor' čez izaro",
@@ -261,22 +277,6 @@ recordings: [
     title_en: "Noč je tožna - <br><i>The Night Is Sad</i>",
     author: 'Friderik Lupša (1908-1986)',
     composer: 'Emilio Adamič / Bunin / P.-Petruška'
-  },
-  {
-    tags: 'polak nedved samospev',
-    youtube_url: "https://www.youtube.com/embed/2aUNyZzfy34",
-    title_sl: "Na tujih tleh",
-    title_en: "Na tujih tleh - <br><i>In The Foreign Land</i>",
-    author: 'Irma Polak (1875-1931)',
-    composer: 'Anton Nedvĕd / Anton Funtek'
-  },
-  {
-    tags: 'polak volaric samospev',
-    youtube_url: "https://www.youtube.com/embed/ibpn06hv2pA",
-    title_sl: "Pogled v nedolžno oko",
-    title_en: "Pogled v nedolžno oko - <br><i>Looking Into An Innocent Eye</i>",
-    author: 'Irma Polak (1875-1931)',
-    composer: 'Hrabroslav Volarič / Simon Gregorčič'
   },
   {
     tags: 'ribic foerster ostali',
@@ -365,7 +365,7 @@ recordings: [
     author: 'Zvonimir Rogoz (1887-1988)'
   },
   {
-    tags: 'milanov kunc ostali pavcic samospev',
+    tags: 'milanov pavcic samospev',
     youtube_url: "https://www.youtube.com/embed/esFyHqKiJqo",
     title_sl: "Pastirica",
     title_en: "Pastirica - <i>The Shepherdess</i>",
@@ -374,7 +374,7 @@ recordings: [
     composer: 'Josip Pavčič / Ivan Robida'
   },
   {
-    tags: 'folk milanov ostali',
+    tags: 'folk milanov',
     youtube_url: "https://www.youtube.com/embed/4f1BPekQXsw",
     title_sl: "Gor' čez jezero",
     title_en: "Gor' čez jezero - <br><i>Up Over The Lake</i>",
@@ -383,7 +383,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: 'folk milanov ostali',
+    tags: 'folk milanov',
     youtube_url: "https://www.youtube.com/embed/i5RwHxaN1EE",
     title_sl: "Ko lani sem tam mimo šel",
     title_en: "Ko lani sem tam mimo šel - <br><i>When I Passed By Last Year</i>",
@@ -566,7 +566,7 @@ recordings: [
     composer: 'Fran Gerbič / Josip Vošnjak'
   },
   {
-    tags: 'samospev ipavec', 
+    tags: 'samospev gipavec ostali', 
     youtube_url: 'https://archive.org/embed/78_vse-mine-kje-so-moje-rozice-all-things-pass-away',
     title_sl: 'Vse mine / Kje so moje rožice',
     title_en: 'Vse mine - <i>All Things Pass Away</i>',
@@ -575,7 +575,7 @@ recordings: [
     composer: 'Gustav Ipavec / Valentin Orožen' 
   },
   {
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://archive.org/embed/78_zapoj-mi-pticica-glasno',
     title_sl: 'Zapoj mi ptičica glasno',
     title_en: 'Zapoj mi ptičica glasno - <i>Sing To Me My Bird</i>',
@@ -585,7 +585,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://archive.org/embed/78_pticka',
     title_sl: 'Ptička',
     title_en: 'Ptička - <i>Little Bird</i>',
@@ -595,7 +595,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://archive.org/embed/78_srcu',
     title_sl: 'Srcu',
     title_en: 'Srcu - <i>To The Heart</i>',
@@ -605,7 +605,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://archive.org/embed/78_rozmarin',
     title_sl: 'Rožmarin',
     title_en: 'Rožmarin - <i>Rosemary</i>',
@@ -633,7 +633,7 @@ recordings: [
     composer_en: 'Miroslav Vilhar (became a folk tune)'
   },
   {
-    tags: 'folk jelacin others',
+    tags: 'folk jelacin ostali',
     youtube_url: 'https://www.youtube.com/embed/g7PCYNKCdP0',
     title_sl: 'Kaj pa ti pobič',
     title_en: 'Kaj pa ti pobič - <i>Why Dear Boy</i>',
@@ -643,7 +643,7 @@ recordings: [
     favourites: true
   },
   {
-    tags: 'folk jelacin others',
+    tags: 'folk jelacin ostali',
     youtube_url: 'https://www.youtube.com/embed/AJI5oWIl8ak',
     title_sl: 'O ja, oj dekle moja',
     title_en: 'O ja, oj dekle moja - <i>Oh, My Girl</i>',
@@ -652,7 +652,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: 'folk jelacin others',
+    tags: 'folk jelacin ostali',
     youtube_url: 'https://www.dlib.si/stream/URN:NBN:SI:SND-8OLSUVZF/32f9b03d-7c7e-442a-b62f-717ec8e625b9/AUDIO',
     title_sl: "Ko sem k njej pr'šov",
     title_en: "Ko sem k njej pr'šov - <i>When I Came By</i>",
@@ -662,7 +662,7 @@ recordings: [
     composer_en: 'folk song' 
   },
   {
-    tags: 'folk jelacin others',
+    tags: 'folk jelacin ostali',
     youtube_url: https://www.dlib.si/stream/URN:NBN:SI:SND-LDS72V5G/8af198dd-fc67-4e9d-b69b-671fba810725/AUDIO,
     title_sl: "Mati zakliče",
     title_en: "Mati zakliče - <i>Mother Calls</i>",
@@ -672,7 +672,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: 'folk others', 
+    tags: 'folk ostali', 
     youtube_url: 'https://www.youtube.com/embed/UYKpEZzPFWk',
     title_sl: "Jaz 'mam pa konj'ča belega",
     title_en: "Jaz 'mam pa konj'ča belega - <i>I Have A White Horse</i>",
@@ -681,7 +681,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://www.youtube.com/embed/UYKpEZzPFWk?start=70',
     title_sl: 'Rože je na vrtu plela',
     title_en: 'Rože je na vrtu plela - <i>She Was Weeding Flowers In The Garden</i>',
@@ -690,7 +690,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {  
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://www.youtube.com/embed/UYKpEZzPFWk?start=151',
     title_sl: "Sva z lub'co na jarmak hodiva",
     title_en: "Sva z lub'co na jarmak hodiva - <i>We Went To The Fair, My Love</i>",
@@ -699,7 +699,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {  
-    tags: 'samospev nedved',
+    tags: 'samospev nedved ostali',
     youtube_url: 'https://www.youtube.com/embed/fNKoabb7M9k',
     title_sl: 'Tam, kjer beli so snežniki',
     title_en: 'Tam, kjer beli so snežniki - <i>Where There Are White Glaciers</i>',
@@ -707,7 +707,7 @@ recordings: [
     composer: 'Anton Nedvĕd / Luka Jeran'
   },
   {
-    tags: 'samospev bipavec', 
+    tags: 'samospev bipavec ostali', 
     youtube_url: 'https://www.youtube.com/embed/-SXEZNzJ140',
     title_sl: 'Domovini',
     title_en: 'Domovini - <i>To The Homeland</i>',
@@ -784,7 +784,7 @@ recordings: [
     composer: 'Fran Serafin Vilhar'
   },  
   {
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://www.youtube.com/embed/3czioeiVnNo',
     title_sl: 'Ponočni pozdrav',
     title_en: 'Ponočni pozdrav - <i>Night Greetings</i>',
@@ -793,7 +793,7 @@ recordings: [
     composer_en: 'folk song'
   },
     {
-    tags: "folk others",
+    tags: "folk ostali",
     youtube_url: 'https://www.youtube.com/embed/wAY0FKqeoiY',
     title_sl: "Gor' čez jezero",
     title_en: "Gor' čez jezero - <br><i>Up Over The Lake</i>",
@@ -802,7 +802,7 @@ recordings: [
     composer_en: 'folk song'
   },
   {
-    tags: "samospev flajsman others",
+    tags: "samospev flajsman ostali",
     youtube_url: 'https://www.youtube.com/embed/ssX18OJhUaU',
     title_sl: 'En starček je živel',
     title_en: 'En starček je živel - <br><i>There Lived An Old Man</i>',
@@ -811,7 +811,7 @@ recordings: [
     composer_en: 'Jurij Flajšman (became a folk tune)'
   },
   {
-    tags: 'folk others',
+    tags: 'folk ostali',
     youtube_url: 'https://archive.org/embed/78_vsi-so-prhajali',
     title_sl: 'Vsi so prihajali',
     title_en: 'Vsi so prihajali - <i>They All Came But Him</i>',
@@ -821,7 +821,7 @@ recordings: [
     composer_en: 'Jurij Flajšman (became a folk tune)' 
   },
   {
-    tags: 'samospev gerbic others',
+    tags: 'samospev gerbic ostali',
     youtube_url: 'https://archive.org/embed/78_pojdem-na-prejo',
     title_sl: 'Pojdem na prejo',
     title_en: "Pojdem na prejo - <i>I'll Go To The Spinning-Room</i>",
