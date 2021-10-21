@@ -333,6 +333,7 @@ singers: [
         youtube_url: 'https://yalemusiclib.aviaryplatform.com/embed/media/71525',
         title_sl: 'Pred durmi <br><h4>Posneto na Dunaju 1902.</h4>',
         title_en: 'Pred durmi - <i>At The Door</i><br><h4>Recorded 1902 in Vienna</h4>',
+        link: 'https://yalemusiclib.aviaryplatform.com/collections/213/collection_resources/12885',
         composer: 'Anton Nedvĕd / Simon Jenko'
       },
       {

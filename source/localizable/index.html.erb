@@ -62,10 +62,10 @@
       </div>
     <% end %>
     <div style="margin: 20px auto;">
-      <a class="button" href="<%= "#{url_for('songs', locale: I18n.locale)}" %>.html">
+      <a class="button" href="<%= "#{url_for('songs', locale: I18n.locale)}" %>.html" style="font-size: 20px;">
         <%= t(:button_songs, count: 132423) %>
       </a>
-      <a class="button" href="<%= "#{url_for('folk_singers', locale: I18n.locale)}" %>.html">
+      <a class="button" href="<%= "#{url_for('folk_singers', locale: I18n.locale)}" %>.html" style="font-size: 20px;">
         <%= t(:button_folk_singers) %>
       </a>
     </div>

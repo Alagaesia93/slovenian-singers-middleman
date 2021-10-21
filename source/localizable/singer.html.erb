@@ -37,7 +37,15 @@
           <% if recording.composer %>
             <h5><%= recording.send("composer_#{I18n.locale}") || recording.composer %></h5>
           <% end %>
-          <h3><%= recording.send("title_#{I18n.locale}") %></h3>
+          <h3>
+            <% if recording.link.present? %>
+              <a href="<%= recording.link %>" target="_blank" rel="noopener">
+                <%= recording.send("title_#{I18n.locale}") %>
+              </a>
+            <% else %>
+              <%= recording.send("title_#{I18n.locale}") %>
+            <% end %>
+          </h3>
           <h6><%= recording.credits %></h6>
         </article>
       <% end %>
