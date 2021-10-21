@@ -6,6 +6,12 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Slovenian singers" %></title>
+    <meta property="og:title" content="<%= current_page.data.title || "Slovenian singers" %>">
+    <meta property="og:description" content="<%= current_page.data.description %>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sloveniansingers.com/<%= current_page.path %>">
+    <meta property="og:image" content="<%= "https://sloveniansingers.com/images/#{current_page.data.image}" || image_path("bg.jpg") %>">
+    <meta property="og:locale" content="<%= I18n.locale %>">
     <%= stylesheet_link_tag "site" %>
     <%= stylesheet_link_tag "fontawesome-all.min" %>
 
