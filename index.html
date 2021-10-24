@@ -1,0 +1,7 @@
+<script type="text/javascript">
+  user_locale = navigator.language.split(/-|_/)[0]
+  if (!["sl", "en"].includes(user_locale)) {
+    user_locale = 'en'
+  }
+  window.location.replace(user_locale + '/index.html')
+</script>
